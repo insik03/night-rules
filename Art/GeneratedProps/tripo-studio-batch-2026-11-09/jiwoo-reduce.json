@@ -1,0 +1,10 @@
+{
+  "id": "jiwoo",
+  "task_id": "b09f582c-e646-47c1-b773-0a61a0337385",
+  "stage": "reduce",
+  "expected_credits": 35,
+  "balance_before": 2435,
+  "status": "submitted",
+  "at": "2026-11-09T12:43:38.4671809+09:00",
+  "balance_after": 2400
+}

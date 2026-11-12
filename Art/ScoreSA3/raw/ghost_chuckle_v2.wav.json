@@ -1,0 +1,31 @@
+{
+  "kind": "generate",
+  "title": "ghost_chuckle",
+  "original_idea": "",
+  "audio_type": "sfx",
+  "prompt": "",
+  "prompt_used": "TrackType: SFX, sinister old man, slow low chuckle, three or four breaths of laughter, deep raspy throat, dark hallway, a few metres away.",
+  "sound_fields": {
+    "source": "sinister old man",
+    "action": "slow low chuckle, three or four breaths of laughter",
+    "material": "deep raspy throat",
+    "space": "dark hallway, a few metres away"
+  },
+  "bpm": null,
+  "seconds": 3.0,
+  "negative_prompt": null,
+  "cfg": 1.0,
+  "steps": 8,
+  "variations": 2,
+  "seed": 971398911,
+  "candidate": 2,
+  "file": "ghost_chuckle_v2.wav",
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "created": "2026-11-05T23:16:46",
+  "backend": "sa3-torch",
+  "model": "medium + same-l",
+  "peak_dbfs": -1.61,
+  "raw_peak_dbfs": -1.61,
+  "ceiling_gain_db": 0.0
+}

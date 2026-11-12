@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-05",
+  "tripo_studio": {
+    "balance_before": 3200,
+    "balance_after": 3090,
+    "billed_total": 110,
+    "tasks": [
+      {
+        "id": "toolbox",
+        "task_id": "09867c5c-512f-42c4-96a0-a8f786a3296c",
+        "credits": 55,
+        "status": "applied to packaged game; NRArchitectureTest and NRInvestigationTest failures=0"
+      },
+      {
+        "id": "exterior",
+        "task_id": "8a808516-bf9e-474c-9be2-53710b50a02f",
+        "credits": 55,
+        "status": "downloaded; structural alignment pending"
+      }
+    ]
+  },
+  "meshy": [
+    {
+      "id": "washer",
+      "task_id": "01a1abbb-af0d-7280-ba90-2ed2f2f55aa1",
+      "status": "PENDING",
+      "estimated_credits": 30
+    },
+    {
+      "id": "cabinet",
+      "task_id": "01a1abbb-d991-71d0-8724-c0ae8960ae87",
+      "status": "PENDING",
+      "estimated_credits": 30
+    }
+  ],
+  "environment_direction": "Sparse dark Korean hillside neighborhood, scattered low-rise homes, retaining walls, stairs, vacant gaps; distant small city lights. Review image before new 3D spending.",
+  "runtime": {
+    "package": "Builds/Windows/NightRulesPrototype.exe",
+    "build": "success",
+    "tests": {
+      "NRArchitectureTest": 0,
+      "NRInvestigationTest": 0
+    },
+    "changes": [
+      "Tripo toolbox placed in storage at authored size",
+      "UV cartridge seated on actual toolbox surface",
+      "floor 2 and 3 lobby windows have real apertures"
+    ],
+    "exterior": "Tripo source and Blender preview downloaded; exact structural reconciliation and runtime integration outstanding",
+    "new_environment": "preview only; no new neighborhood 3D generation"
+  }
+}

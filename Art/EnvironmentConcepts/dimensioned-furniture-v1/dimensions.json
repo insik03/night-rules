@@ -1,0 +1,467 @@
+[
+  {
+    "asset": "의자42",
+    "expected_cm": [
+      42,
+      44,
+      80
+    ],
+    "measured_cm": [
+      42.0,
+      44.0,
+      80.0
+    ],
+    "within_0_1cm": true,
+    "kind": "chair"
+  },
+  {
+    "asset": "침구",
+    "expected_cm": [
+      88,
+      195,
+      18
+    ],
+    "measured_cm": [
+      88.0,
+      195.0,
+      18.0
+    ],
+    "within_0_1cm": true,
+    "kind": "bedding"
+  },
+  {
+    "asset": "싱크대",
+    "expected_cm": [
+      120,
+      60,
+      85
+    ],
+    "measured_cm": [
+      120.0,
+      60.0,
+      85.0
+    ],
+    "within_0_1cm": true,
+    "kind": "sink"
+  },
+  {
+    "asset": "샤워수전",
+    "expected_cm": [
+      25,
+      15,
+      110
+    ],
+    "measured_cm": [
+      25.0,
+      15.0,
+      110.0
+    ],
+    "within_0_1cm": true,
+    "kind": "shower"
+  },
+  {
+    "asset": "슬리퍼",
+    "expected_cm": [
+      24,
+      28,
+      10
+    ],
+    "measured_cm": [
+      24.0,
+      28.0,
+      10.0
+    ],
+    "within_0_1cm": true,
+    "kind": "slippers"
+  },
+  {
+    "asset": "책",
+    "expected_cm": [
+      30,
+      22,
+      25
+    ],
+    "measured_cm": [
+      30.0,
+      22.0,
+      25.0
+    ],
+    "within_0_1cm": true,
+    "kind": "books"
+  },
+  {
+    "asset": "관리실책상",
+    "expected_cm": [
+      264,
+      55,
+      75
+    ],
+    "measured_cm": [
+      264.0,
+      55.0,
+      75.0
+    ],
+    "within_0_1cm": true,
+    "kind": "desk"
+  },
+  {
+    "asset": "객실책상",
+    "expected_cm": [
+      106,
+      55,
+      75
+    ],
+    "measured_cm": [
+      106.0,
+      55.0,
+      75.0
+    ],
+    "within_0_1cm": true,
+    "kind": "desk"
+  },
+  {
+    "asset": "옷장",
+    "expected_cm": [
+      45,
+      45,
+      175
+    ],
+    "measured_cm": [
+      45.0,
+      45.0,
+      175.0
+    ],
+    "within_0_1cm": true,
+    "kind": "wardrobe"
+  },
+  {
+    "asset": "침대프레임",
+    "expected_cm": [
+      90,
+      200,
+      45
+    ],
+    "measured_cm": [
+      90.0,
+      200.0,
+      45.0
+    ],
+    "within_0_1cm": true,
+    "kind": "bed"
+  },
+  {
+    "asset": "식탁",
+    "expected_cm": [
+      200,
+      200,
+      75
+    ],
+    "measured_cm": [
+      200.0,
+      200.0,
+      75.0
+    ],
+    "within_0_1cm": true,
+    "kind": "table"
+  },
+  {
+    "asset": "총무의자",
+    "expected_cm": [
+      45,
+      45,
+      90
+    ],
+    "measured_cm": [
+      45.0,
+      45.0,
+      90.0
+    ],
+    "within_0_1cm": true,
+    "kind": "chair"
+  },
+  {
+    "asset": "작은 쓰레기통",
+    "expected_cm": [
+      20,
+      20,
+      28
+    ],
+    "measured_cm": [
+      20.0,
+      20.0,
+      28.0
+    ],
+    "within_0_1cm": true,
+    "kind": "placeholder"
+  },
+  {
+    "asset": "전화기",
+    "expected_cm": [
+      30,
+      21,
+      12
+    ],
+    "measured_cm": [
+      30.0,
+      21.0,
+      12.0
+    ],
+    "within_0_1cm": true,
+    "kind": "placeholder"
+  },
+  {
+    "asset": "입주자 PC",
+    "expected_cm": [
+      42,
+      20,
+      38
+    ],
+    "measured_cm": [
+      42.0,
+      20.0,
+      38.0
+    ],
+    "within_0_1cm": true,
+    "kind": "monitor"
+  },
+  {
+    "asset": "CCTV 모니터 하단",
+    "expected_cm": [
+      28,
+      27,
+      30
+    ],
+    "measured_cm": [
+      28.0,
+      27.0,
+      30.0
+    ],
+    "within_0_1cm": true,
+    "kind": "monitor"
+  },
+  {
+    "asset": "수납 선반",
+    "expected_cm": [
+      35,
+      80,
+      155
+    ],
+    "measured_cm": [
+      35.0,
+      80.0,
+      155.0
+    ],
+    "within_0_1cm": true,
+    "kind": "shelf"
+  },
+  {
+    "asset": "청소 선반",
+    "expected_cm": [
+      80,
+      35,
+      155
+    ],
+    "measured_cm": [
+      80.0,
+      35.0,
+      155.0
+    ],
+    "within_0_1cm": true,
+    "kind": "shelf"
+  },
+  {
+    "asset": "공구함",
+    "expected_cm": [
+      50,
+      30,
+      32
+    ],
+    "measured_cm": [
+      50.0,
+      30.0,
+      32.0
+    ],
+    "within_0_1cm": true,
+    "kind": "placeholder"
+  },
+  {
+    "asset": "청소도구",
+    "expected_cm": [
+      35,
+      70,
+      140
+    ],
+    "measured_cm": [
+      35.0,
+      70.0,
+      140.0
+    ],
+    "within_0_1cm": true,
+    "kind": "placeholder"
+  },
+  {
+    "asset": "조리대",
+    "expected_cm": [
+      240,
+      65,
+      88
+    ],
+    "measured_cm": [
+      240.0,
+      65.0,
+      88.0
+    ],
+    "within_0_1cm": true,
+    "kind": "placeholder"
+  },
+  {
+    "asset": "상부장",
+    "expected_cm": [
+      120,
+      30,
+      70
+    ],
+    "measured_cm": [
+      120.0,
+      30.0,
+      70.0
+    ],
+    "within_0_1cm": true,
+    "kind": "wardrobe"
+  },
+  {
+    "asset": "냉장고",
+    "expected_cm": [
+      70,
+      65,
+      165
+    ],
+    "measured_cm": [
+      70.0,
+      65.0,
+      165.0
+    ],
+    "within_0_1cm": true,
+    "kind": "fridge"
+  },
+  {
+    "asset": "세면대",
+    "expected_cm": [
+      55,
+      60,
+      85
+    ],
+    "measured_cm": [
+      55.0,
+      60.0,
+      85.0
+    ],
+    "within_0_1cm": true,
+    "kind": "placeholder"
+  },
+  {
+    "asset": "변기",
+    "expected_cm": [
+      42,
+      70,
+      75
+    ],
+    "measured_cm": [
+      42.0,
+      70.0,
+      75.0
+    ],
+    "within_0_1cm": true,
+    "kind": "placeholder"
+  },
+  {
+    "asset": "창고 선반",
+    "expected_cm": [
+      80,
+      35,
+      155
+    ],
+    "measured_cm": [
+      80.0,
+      35.0,
+      155.0
+    ],
+    "within_0_1cm": true,
+    "kind": "shelf"
+  },
+  {
+    "asset": "보관 상자",
+    "expected_cm": [
+      60,
+      40,
+      50
+    ],
+    "measured_cm": [
+      60.0,
+      40.0,
+      50.0
+    ],
+    "within_0_1cm": true,
+    "kind": "placeholder"
+  },
+  {
+    "asset": "세탁기",
+    "expected_cm": [
+      65,
+      70,
+      95
+    ],
+    "measured_cm": [
+      65.0,
+      70.0,
+      95.0
+    ],
+    "within_0_1cm": true,
+    "kind": "placeholder"
+  },
+  {
+    "asset": "세제 수납장",
+    "expected_cm": [
+      80,
+      40,
+      120
+    ],
+    "measured_cm": [
+      80.0,
+      40.0,
+      120.0
+    ],
+    "within_0_1cm": true,
+    "kind": "placeholder"
+  },
+  {
+    "asset": "널린 빨래",
+    "expected_cm": [
+      90,
+      8,
+      130
+    ],
+    "measured_cm": [
+      90.0,
+      8.0,
+      130.0
+    ],
+    "within_0_1cm": true,
+    "kind": "placeholder"
+  },
+  {
+    "asset": "접이식 건조대",
+    "expected_cm": [
+      150,
+      60,
+      110
+    ],
+    "measured_cm": [
+      150.0,
+      60.0,
+      110.0
+    ],
+    "within_0_1cm": true,
+    "kind": "placeholder"
+  }
+]

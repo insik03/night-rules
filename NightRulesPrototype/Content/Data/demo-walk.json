@@ -1,0 +1,988 @@
+{
+  "description": "Known-route keyboard traversal of the current single-corridor plan. W/E/number keys/Escape and Shift during pursuit only; no teleports or state grants.",
+  "steps": [
+    {
+      "kind": "call"
+    },
+    {
+      "kind": "use",
+      "id": "phone",
+      "evidence": "first_call"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        213,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        213,
+        -712,
+        90
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "complaint_log",
+      "evidence": "complaint_log"
+    },
+    {
+      "kind": "complaint_choice",
+      "step": 0,
+      "key": 1
+    },
+    {
+      "kind": "complaint_choice",
+      "step": 1,
+      "key": 1
+    },
+    {
+      "kind": "complaint_written",
+      "source": "first_call"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        170,
+        -712,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        170,
+        -650,
+        90
+      ]
+    },
+    {
+      "kind": "open",
+      "id": "drawer_4"
+    },
+    {
+      "kind": "use",
+      "id": "cart_start"
+    },
+    {
+      "kind": "move",
+      "at": [
+        170,
+        -712,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -712,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -675,
+        90
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "rules",
+      "evidence": "rules"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "use",
+      "id": "note",
+      "evidence": "note"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "use",
+      "id": "roster",
+      "evidence": "roster"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "use",
+      "id": "cctv",
+      "evidence": "cctv"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -560,
+        90
+      ]
+    },
+    {
+      "kind": "open",
+      "id": "door_office"
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -370,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3610,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3610,
+        -250,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3610,
+        -790,
+        250
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3790,
+        -790,
+        250
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3790,
+        -250,
+        410
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3790,
+        -135,
+        410
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        865,
+        -135,
+        410
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "door_203",
+      "evidence": "minseo"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        635,
+        -135,
+        410
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "door_202",
+      "evidence": "physical"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "open",
+      "id": "door_202"
+    },
+    {
+      "kind": "move",
+      "at": [
+        635,
+        50,
+        410
+      ]
+    },
+    {
+      "kind": "awakening"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "use",
+      "id": "wake_trace",
+      "evidence": "wake_trace"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -560,
+        90
+      ]
+    },
+    {
+      "kind": "open",
+      "id": "door_office"
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -370,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        1055,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "open",
+      "id": "door_arch_kitchen_0"
+    },
+    {
+      "kind": "move",
+      "at": [
+        1055,
+        -340,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        1055,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        950,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "spare_fuse",
+      "evidence": "spare_fuse"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        1055,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        1055,
+        -340,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        1055,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3340,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3340,
+        80,
+        90
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "breaker",
+      "evidence": "breaker_fixed"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        3340,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        -267.5,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        -267.5,
+        -370,
+        90
+      ]
+    },
+    {
+      "kind": "open",
+      "id": "door_arch_rear_0"
+    },
+    {
+      "kind": "move",
+      "at": [
+        -267.5,
+        -660,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        -380,
+        -660,
+        90
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "service_ledger",
+      "evidence": "service_ledger"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        -267.5,
+        -660,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        -267.5,
+        -370,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        -267.5,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        2115,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "open",
+      "id": "door_arch_toilet_0"
+    },
+    {
+      "kind": "move",
+      "at": [
+        2115,
+        -530,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        1845,
+        -530,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        1845,
+        -620,
+        90
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "lost_tag",
+      "evidence": "lost_tag"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        1845,
+        -530,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        2115,
+        -530,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        2115,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -370,
+        90
+      ]
+    },
+    {
+      "kind": "open",
+      "id": "door_office"
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -560,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -675,
+        90
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "roster",
+      "evidence": "night_report"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "use",
+      "id": "phone",
+      "evidence": "manager_call"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        213,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        213,
+        -712,
+        90
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "complaint_log",
+      "evidence": "complaint_log"
+    },
+    {
+      "kind": "investigation_plan",
+      "key": 1
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -712,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -675,
+        90
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "cctv_power",
+      "evidence": "cctv_off"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -560,
+        90
+      ]
+    },
+    {
+      "kind": "open",
+      "id": "door_office"
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -370,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        1325,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "door_105",
+      "evidence": "resident_105"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        3610,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3610,
+        -250,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3610,
+        -790,
+        250
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3790,
+        -790,
+        250
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3790,
+        -250,
+        410
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3790,
+        -135,
+        410
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        290,
+        -135,
+        410
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        -350,
+        -50,
+        410
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "sealed_panel",
+      "evidence": "sealed_panel"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "move",
+      "at": [
+        290,
+        -135,
+        410
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        865,
+        -135,
+        410
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "door_203",
+      "evidence": "resident_203"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "sprint",
+      "held": true
+    },
+    {
+      "kind": "move",
+      "at": [
+        3790,
+        -135,
+        410
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3790,
+        -250,
+        410
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3790,
+        -790,
+        250
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3610,
+        -790,
+        250
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3610,
+        -250,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        3610,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "sprint",
+      "held": false
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -135,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -370,
+        90
+      ]
+    },
+    {
+      "kind": "open",
+      "id": "door_office"
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -560,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        35,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -750,
+        90
+      ]
+    },
+    {
+      "kind": "move",
+      "at": [
+        355,
+        -675,
+        90
+      ]
+    },
+    {
+      "kind": "use",
+      "id": "cctv_power",
+      "evidence": "cctv_recovered"
+    },
+    {
+      "kind": "read"
+    },
+    {
+      "kind": "use",
+      "id": "roster",
+      "evidence": "round_complete"
+    },
+    {
+      "kind": "call"
+    },
+    {
+      "kind": "use",
+      "id": "phone",
+      "evidence": "final_call"
+    },
+    {
+      "kind": "end"
+    }
+  ]
+}

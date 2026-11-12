@@ -1,0 +1,31 @@
+{
+  "kind": "generate",
+  "title": "ghost_shriek",
+  "original_idea": "",
+  "audio_type": "sfx",
+  "prompt": "",
+  "prompt_used": "TrackType: SFX, inhuman ghost, sudden harsh raspy shriek, choked off abruptly, distorted torn voice, no clear pitch, indoor corridor, short reverb.",
+  "sound_fields": {
+    "source": "inhuman ghost",
+    "action": "sudden harsh raspy shriek, choked off abruptly",
+    "material": "distorted torn voice, no clear pitch",
+    "space": "indoor corridor, short reverb"
+  },
+  "bpm": null,
+  "seconds": 2.5,
+  "negative_prompt": null,
+  "cfg": 1.0,
+  "steps": 8,
+  "variations": 2,
+  "seed": 569795208,
+  "candidate": 2,
+  "file": "ghost_shriek_v2.wav",
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "created": "2026-11-05T23:16:42",
+  "backend": "sa3-torch",
+  "model": "medium + same-l",
+  "peak_dbfs": -2.58,
+  "raw_peak_dbfs": -2.58,
+  "ceiling_gain_db": 0.0
+}

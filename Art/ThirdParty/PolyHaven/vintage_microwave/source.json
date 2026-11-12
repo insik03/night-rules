@@ -1,0 +1,93 @@
+{
+  "asset": "vintage_microwave",
+  "info": {
+    "type": 2,
+    "name": "Vintage Microwave",
+    "categories": [
+      "collection: project_lighthouse",
+      "appliances",
+      "electronics"
+    ],
+    "category": "Electronics & Appliances/Home Appliances",
+    "tags": [
+      "vintage",
+      "retro",
+      "wooden",
+      "70s",
+      "oven",
+      "analog"
+    ],
+    "description": "Free 8K model of a vintage microwave with analog controls, boxy form, subtle wear, crisp details, clean geometry, and realistic materials.",
+    "authors": {
+      "Adam Nekola": "All"
+    },
+    "donated": true,
+    "category_id": "c22850c7-e037-5aa7-a9d1-0e932814e8e1",
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "polycount": 8120,
+    "files_hash": "f87772eb5c4a10e48b84c176c94f2a25f042accc",
+    "texel_density": 3934.3464879614276,
+    "dimensions": [
+      1073.7111568450928,
+      745.5552816390991,
+      525.8261561393738
+    ],
+    "date_published": 1783036800,
+    "staging": null,
+    "collections": [
+      "project_lighthouse"
+    ],
+    "attributes": {
+      "material": [
+        "steel",
+        "plastic",
+        "glass",
+        "rubber"
+      ],
+      "condition": [
+        "clean"
+      ]
+    },
+    "img_version": "4c3a59b2",
+    "download_count": 801,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/vintage_microwave.png?width=256&height=256&format=webp&v=4c3a59b2"
+  },
+  "files": {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/vintage_microwave/vintage_microwave_2k.blend",
+    "md5": "ec2a30000f5b0b0288fa8cd0f2aeb022",
+    "size": 325117,
+    "include": {
+      "textures/vintage_microwave_alpha_2k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/vintage_microwave/vintage_microwave_alpha_2k.png",
+        "md5": "88fa6233884c7fab482915050a550a90",
+        "size": 308469
+      },
+      "textures/vintage_microwave_diff_2k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_microwave/vintage_microwave_diff_2k.jpg",
+        "md5": "317fd604c3d406a573f5379ad7a0507f",
+        "size": 1699192
+      },
+      "textures/vintage_microwave_metal_2k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/vintage_microwave/vintage_microwave_metal_2k.exr",
+        "md5": "4e8c3afbf299a69dd9a70bc7c6b57c38",
+        "size": 551315
+      },
+      "textures/vintage_microwave_nor_gl_2k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/vintage_microwave/vintage_microwave_nor_gl_2k.exr",
+        "md5": "d37365b7be2bc97e61f4e60821e182fa",
+        "size": 2100010
+      },
+      "textures/vintage_microwave_rough_2k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/vintage_microwave/vintage_microwave_rough_2k.exr",
+        "md5": "751e401c9bb6573c06805a2e498cefa6",
+        "size": 2009245
+      }
+    }
+  },
+  "license": "CC0-1.0",
+  "license_url": "https://polyhaven.com/license",
+  "source_url": "https://polyhaven.com/a/vintage_microwave"
+}

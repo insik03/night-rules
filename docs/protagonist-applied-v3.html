@@ -1,0 +1,14 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>야간수칙 · 주인공 게임 적용</title>
+<style>body{margin:0;background:#171c1e;color:#eee9df;font:16px/1.7 system-ui,sans-serif}main{max-width:1150px;margin:auto;padding:36px 24px}h1{font-size:34px}h2{margin-top:36px;font-size:23px}p,small{color:#b7c2c5}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}figure{margin:0;background:#242d31;border-radius:10px;overflow:hidden}img{width:100%;display:block;object-fit:contain;min-height:240px}figcaption{padding:14px}a{color:#d5c19c}.facts{padding:20px;border-left:3px solid #cab48a;background:#232a2c}code{overflow-wrap:anywhere}@media(max-width:750px){.grid{grid-template-columns:1fr}}</style>
+<main><small>야간수칙 · 확정한 주인공 v2의 게임 적용</small><h1>최적화 · 리깅 · CCTV 몸체 교체</h1>
+<div class="facts">몸체 693,056 → 41,549삼각형 · 약 94% 감소<br>게임용 2K 텍스처 · 거리별 3단계 LOD · 키 176cm<br>추가 Meshy 비용: 최적화 5 + 리깅 5 = <b>10크레딧</b></div>
+<p>원본과 시안을 보존하고 승인한 모델에서 게임용 메시를 만들었다. 기존 CCTV 임시 도형을 실제 스킨 메시로 교체했다. 1인칭 카메라에는 몸통과 얼굴이 겹치지 않도록 CCTV 촬영에서만 표시한다.</p>
+<h2>실행 빌드의 CCTV 렌더</h2><p>아래는 Windows 실행 빌드에서 실제 CCTV 카메라로 렌더한 정지·걷기·달리기·앉기 자세다. 자세를 확인하기 위해 테스트 카메라를 가까이 배치했다.</p><div class="grid">
+<figure><img src="../Art/Previews/Protagonist-v3/player_idle.png" alt="게임 내 정지 자세"><figcaption>정지</figcaption></figure>
+<figure><img src="../Art/Previews/Protagonist-v3/player_walk.png" alt="게임 내 걷기 자세"><figcaption>걷기</figcaption></figure>
+<figure><img src="../Art/Previews/Protagonist-v3/player_run.png" alt="게임 내 달리기 자세"><figcaption>달리기</figcaption></figure>
+<figure><img src="../Art/Previews/Protagonist-v3/player_crouch.png" alt="게임 내 앉기 이동 자세"><figcaption>앉기 이동</figcaption></figure></div>
+<h2>관리실에서 보는 실제 화면</h2><figure><img src="../Art/Previews/Protagonist-v3/office-cctv.png" alt="관리실 CCTV 게임 화면"><figcaption>관리실 CCTV · 평소 배치와 화면</figcaption></figure>
+<h2>구현 범위</h2><p>걷기·달리기는 Meshy 기본 모션을 사용하고, 정지·앉기는 Blender에서 파생했다. 이동 속도와 앉기 상태에 따라 자세를 혼합한다. 뒤로 걸으면 모션도 역재생하며, 몸체를 옆걸음 방향으로 회전한다. CCTV 실시간 화면과 녹화 모두 같은 몸체를 사용한다.</p>
+<p>전용 1인칭 손과 손전등 잡기, 얼굴 표정은 이번 몸체 교체에 포함되지 않는다. 기존 손전등 조작은 유지된다. 머리카락 일부의 색 번짐은 원본에 남아 있으며, 앉기 때 무릎의 옷 변형은 추가 다듬기가 가능한 상태다.</p>
+<p><a href="../Art/Characters/Protagonist-v2/integration-provenance.json">작업 번호·추가 비용·검증 기록</a> · <a href="protagonist-meshy-v2.html">원본 상세 모델</a></p></main></html>

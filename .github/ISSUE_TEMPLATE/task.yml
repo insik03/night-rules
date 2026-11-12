@@ -1,0 +1,20 @@
+name: 개발 작업
+description: 작업 범위와 파일 담당 정하기
+title: "[작업] "
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 목표 / 완료 조건
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: 담당 파일 / 잠금이 필요한 에셋
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: 검증할 내용

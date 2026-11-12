@@ -1,0 +1,95 @@
+{
+  "asset": "vintage_electric_kettle",
+  "info": {
+    "type": 2,
+    "name": "Vintage Electric Kettle",
+    "categories": [
+      "collection: project_lighthouse",
+      "decorative",
+      "appliances"
+    ],
+    "tags": [
+      "old",
+      "vintage",
+      "antique",
+      "electric",
+      "gooseneck spout",
+      "metal",
+      "rusted",
+      "dirty",
+      "traditional"
+    ],
+    "description": "Free 4K vintage electric kettle with worn metal body, gooseneck spout, wood handle, and front thermometer gauge, detailed patina, dents, and brass fittings.",
+    "authors": {
+      "SV Garip": "All"
+    },
+    "donated": true,
+    "max_resolution": [
+      4096,
+      4096
+    ],
+    "polycount": 14838,
+    "files_hash": "6de2f0161fe1e0f8eb1138daf0985ee865511290",
+    "texel_density": 7291.063696812514,
+    "dimensions": [
+      320.89072465896606,
+      248.55303764343262,
+      304.7400116920471
+    ],
+    "date_published": 1781913600,
+    "staging": null,
+    "category_id": "e157d952-f5d4-52d6-a421-68e7872445a0",
+    "category": "Electronics & Appliances/Home Appliances/Kettles",
+    "collections": [
+      "project_lighthouse"
+    ],
+    "attributes": {
+      "condition": [
+        "rusted"
+      ],
+      "material": [
+        "metal",
+        "wood",
+        "brass"
+      ]
+    },
+    "img_version": "612e4db1",
+    "download_count": 561,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/vintage_electric_kettle.png?width=256&height=256&format=webp&v=612e4db1"
+  },
+  "files": {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/vintage_electric_kettle/vintage_electric_kettle_2k.blend",
+    "md5": "ad0ee8602bf61b75100e2b7275658171",
+    "size": 402843,
+    "include": {
+      "textures/vintage_electric_kettle_alpha_2k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/vintage_electric_kettle/vintage_electric_kettle_alpha_2k.png",
+        "md5": "577eabb3a62be781cc577964b6a22a69",
+        "size": 114164
+      },
+      "textures/vintage_electric_kettle_diff_2k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_electric_kettle/vintage_electric_kettle_diff_2k.jpg",
+        "md5": "3ae072e2844e79ca1f88023c471bacc7",
+        "size": 1995436
+      },
+      "textures/vintage_electric_kettle_metal_2k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/vintage_electric_kettle/vintage_electric_kettle_metal_2k.exr",
+        "md5": "5ad4139982f055419f0ec7e65d885cb1",
+        "size": 1704616
+      },
+      "textures/vintage_electric_kettle_nor_gl_2k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/vintage_electric_kettle/vintage_electric_kettle_nor_gl_2k.exr",
+        "md5": "2857fd3a4c5069282f231917ca51be00",
+        "size": 5589504
+      },
+      "textures/vintage_electric_kettle_rough_2k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/vintage_electric_kettle/vintage_electric_kettle_rough_2k.exr",
+        "md5": "80fd2b9c855b6f40eaf9f2208e201ddd",
+        "size": 2217099
+      }
+    }
+  },
+  "license": "CC0-1.0",
+  "license_url": "https://polyhaven.com/license",
+  "source_url": "https://polyhaven.com/a/vintage_electric_kettle"
+}

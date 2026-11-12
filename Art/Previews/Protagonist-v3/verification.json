@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": [
+    "NRProtagonistTest",
+    "NROfficeCCTVTest",
+    "NRInvestigationTest",
+    "NRFeedbackTest"
+  ],
+  "verified_at": "2026-10-13T02:18:51.5451548+09:00"
+}

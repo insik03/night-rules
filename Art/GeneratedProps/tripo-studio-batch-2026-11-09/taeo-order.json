@@ -1,0 +1,11 @@
+{
+  "id": "taeo",
+  "input": "C:/Users/dbdls/OneDrive/바탕 화면/AI작업/Game_pm/Art/Characters/Residents-Tripo-v1/inputs/taeo.png",
+  "input_sha256": "46EC710BAD0C2B3B1F616637979F3CF49DF7B72FF8C9FD238F476361E4479EA8",
+  "expected_credits": 55,
+  "balance_before": 2815,
+  "submitted_at": "2026-11-09T12:38:01.3843864+09:00",
+  "status": "submitted",
+  "url": "https://studio.tripo3d.ai/ko/workspace/generate/f46552c3-429c-445d-8308-68cfde2da74c",
+  "balance_after": 2760
+}

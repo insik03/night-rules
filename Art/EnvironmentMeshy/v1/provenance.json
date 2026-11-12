@@ -1,0 +1,38 @@
+[
+  {
+    "id": "A01",
+    "task_id": "01a12f9d-012a-7541-8c36-933a19e96365",
+    "resource": "image-to-3d",
+    "project": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\EnvironmentMeshy\\v1\\meshy_output\\20261012_191623_a01-door-wall_01a12f9d",
+    "consumed_credits": 30,
+    "status": "SUCCEEDED",
+    "source": "models/A01-door-wall/source.glb"
+  },
+  {
+    "id": "A02",
+    "task_id": "01a12f9d-2c5e-73d1-9dea-3b64fd5360b2",
+    "resource": "image-to-3d",
+    "project": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\EnvironmentMeshy\\v1\\meshy_output\\20261012_191634_a02-window-wall_01a12f9d",
+    "consumed_credits": 30,
+    "status": "SUCCEEDED",
+    "source": "models/A02-window-wall/source.glb"
+  },
+  {
+    "id": "A03",
+    "task_id": "01a12f9d-58ae-7162-a792-061eb06b02e5",
+    "resource": "image-to-3d",
+    "project": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\EnvironmentMeshy\\v1\\meshy_output\\20261012_191646_a03-tile-corner_01a12f9d",
+    "consumed_credits": 30,
+    "status": "SUCCEEDED",
+    "source": "models/A03-tile-corner/source.glb"
+  },
+  {
+    "id": "A04",
+    "task_id": "01a12f9d-8969-7286-8121-51a7f34facb0",
+    "resource": "image-to-3d",
+    "project": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\EnvironmentMeshy\\v1\\meshy_output\\20261012_191658_a04-fire-escape_01a12f9d",
+    "consumed_credits": 30,
+    "status": "SUCCEEDED",
+    "source": "models/A04-fire-escape/source.glb"
+  }
+]

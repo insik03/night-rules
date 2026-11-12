@@ -1,0 +1,38 @@
+[
+  {
+    "id": "toolbox",
+    "source_dimensions_m": [
+      0.981414794921875,
+      0.5878296494483948,
+      0.570831298828125
+    ],
+    "source_triangles": 1908586,
+    "triangles": 15998,
+    "uniform_factor": 0.5095274824385051,
+    "dimensions_cm": [
+      50.0,
+      29.952,
+      32.0
+    ],
+    "runtime_ready": true,
+    "note": "Plain side band height extended; hardware translated rigidly."
+  },
+  {
+    "id": "exterior",
+    "source_dimensions_m": [
+      0.980682373046875,
+      0.2559967041015625,
+      0.2978973090648651
+    ],
+    "source_triangles": 1981260,
+    "triangles": 80000,
+    "uniform_factor": 44.86619087395375,
+    "dimensions_cm": [
+      4400.0,
+      1148.656,
+      1336.32
+    ],
+    "runtime_ready": false,
+    "note": "Reference only: AI window positions and roof must be reconciled before integration."
+  }
+]

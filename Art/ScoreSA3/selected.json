@@ -1,0 +1,9 @@
+{
+  "bgm_night": "bgm_night_a.wav",
+  "bgm_chase": "bgm_chase_a.wav",
+  "bgm_blackout": "bgm_blackout_b.wav",
+  "ghost_shriek": "ghost_shriek_b.wav",
+  "ghost_breath": "ghost_breath_b.wav",
+  "ghost_catch": "ghost_catch_a.wav",
+  "heartbeat": "heartbeat_b.wav"
+}

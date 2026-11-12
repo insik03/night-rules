@@ -1,0 +1,31 @@
+{
+  "kind": "generate",
+  "title": "sting_chase",
+  "original_idea": "",
+  "audio_type": "sfx",
+  "prompt": "",
+  "prompt_used": "TrackType: SFX, horror film stinger, short reversed swell into a sudden loud dissonant brass and string hit, long decaying tail, harsh orchestral cluster, deep sub boom, cinematic, reverberant.",
+  "sound_fields": {
+    "source": "horror film stinger",
+    "action": "short reversed swell into a sudden loud dissonant brass and string hit, long decaying tail",
+    "material": "harsh orchestral cluster, deep sub boom",
+    "space": "cinematic, reverberant"
+  },
+  "bpm": null,
+  "seconds": 5.0,
+  "negative_prompt": null,
+  "cfg": 1.0,
+  "steps": 8,
+  "variations": 2,
+  "seed": 430178893,
+  "candidate": 1,
+  "file": "sting_chase_v1.wav",
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "created": "2026-11-05T23:16:39",
+  "backend": "sa3-torch",
+  "model": "medium + same-l",
+  "peak_dbfs": -1.0,
+  "raw_peak_dbfs": 0.0,
+  "ceiling_gain_db": -1.0
+}

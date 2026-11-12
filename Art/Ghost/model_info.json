@@ -1,0 +1,8 @@
+{
+  "height_m": 1.85,
+  "vertices": 5084,
+  "triangles": 9960,
+  "bones": 16,
+  "method": "locally authored geometry with reference-projected albedo; not Meshy or image-to-3D",
+  "animation": "GhostWalk 40-frame loop at 30fps"
+}

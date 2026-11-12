@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-13",
+  "generator": "Meshy CLI 0.4.0",
+  "resource": "image-to-3d",
+  "task_id": "01a130fa-2c20-740a-ba03-689c15e410e4",
+  "project_dir": "meshy_output/20261013_013807_protagonist-v2-detail_01a130fa",
+  "source_image": "reference.png",
+  "model_file": "protagonist.glb",
+  "consumed_credits": 35,
+  "settings": {
+    "model_type": "standard",
+    "ultra_mode": true,
+    "should_texture": true,
+    "enable_pbr": true,
+    "texture_resolution": "4k",
+    "pose_mode": "a-pose",
+    "image_enhancement": false,
+    "remove_lighting": true,
+    "target_formats": [
+      "glb"
+    ],
+    "texture_prompt": "Ordinary Korean male night caretaker. Refined semi-realistic game character. Natural warm skin with restrained pores, defined facial features, layered black hair, charcoal cotton zip jacket with seams and pockets, gray tee, dark trousers, worn gray sneakers without logos. Preserve garment construction, hand anatomy and material separation. No cartoon, no exaggerated stylization, no waxy skin or inflated clothing."
+  },
+  "verification": {
+    "tool": "Blender 5.2.2",
+    "body_triangles": 693056,
+    "texture_sizes": [
+      [
+        4096,
+        4096
+      ],
+      [
+        2048,
+        2048
+      ],
+      [
+        4096,
+        4096
+      ]
+    ],
+    "rigs": 0,
+    "animations": 0,
+    "rendered_views": [
+      "front",
+      "face",
+      "back"
+    ]
+  },
+  "observations": [
+    "Garment folds, zipper and facial forms read more clearly than v1 in matched lighting.",
+    "Skin-colored texture bleed is visible on some front hair strands.",
+    "Hair has thick sculpted strands that need refinement."
+  ],
+  "delivery_status": "Original model preserved; optimized and rigged derivative integrated into Windows game build. See integration-provenance.json.",
+  "integration_record": "integration-provenance.json",
+  "remaining": [
+    "Hair material and silhouette cleanup",
+    "Further crouch knee deformation polish",
+    "Dedicated first-person hand and facial animation if needed"
+  ],
+  "pricing_source": "https://docs.meshy.ai/en/api/pricing"
+}

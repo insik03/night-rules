@@ -1,0 +1,32 @@
+name: Repository checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  repository-checks:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          lfs: false
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Validate repository and game data
+        run: python tools/team/check_repository.py
+      - name: Parse team PowerShell scripts
+        shell: pwsh
+        run: |
+          $failed = $false
+          Get-ChildItem tools/team/*.ps1 | ForEach-Object {
+            $parseTokens = $null
+            $parseErrors = $null
+            [System.Management.Automation.Language.Parser]::ParseFile($_.FullName, [ref]$parseTokens, [ref]$parseErrors) | Out-Null
+            if ($parseErrors.Count) { $parseErrors | Write-Error; $failed = $true }
+          }
+          if ($failed) { exit 1 }

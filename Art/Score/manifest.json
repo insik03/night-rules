@@ -1,0 +1,112 @@
+[
+  {
+    "name": "bgm_night",
+    "loop": true,
+    "seconds": 64.0,
+    "peak": 0.194,
+    "rms_dbfs": -27.0,
+    "loop_seam_jump": 0.0016,
+    "sha256": "1226f3be4ccbaeb4d065a85956f7757e8c4ff339cba316bad9a7f572f6a2c320",
+    "source": "original synthesis, tools/create_score.py; no samples or recordings"
+  },
+  {
+    "name": "bgm_blackout",
+    "loop": true,
+    "seconds": 48.0,
+    "peak": 0.254,
+    "rms_dbfs": -25.0,
+    "loop_seam_jump": 0.002,
+    "sha256": "961b6baa07671fcb5e2f16a67d784b7fc1dcd3e0a07d28ba75fe373a17eafd83",
+    "source": "original synthesis, tools/create_score.py; no samples or recordings"
+  },
+  {
+    "name": "bgm_chase",
+    "loop": true,
+    "seconds": 24.0,
+    "peak": 0.688,
+    "rms_dbfs": -17.0,
+    "loop_seam_jump": 0.0158,
+    "sha256": "4c180fdc6612a2ce6f17506426a0083c83b00f5f96edb70c33c4e10d99e412c1",
+    "source": "original synthesis, tools/create_score.py; no samples or recordings"
+  },
+  {
+    "name": "sting_chase",
+    "loop": false,
+    "seconds": 5.0,
+    "peak": 0.95,
+    "rms_dbfs": -16.1,
+    "loop_seam_jump": null,
+    "sha256": "f46e987a49a2b4437efde244c36c2dea9b4c2f7dc47ad20e3e3c3b10733fdd9e",
+    "source": "original synthesis, tools/create_score.py; no samples or recordings"
+  },
+  {
+    "name": "heartbeat",
+    "loop": true,
+    "seconds": 1.5,
+    "peak": 0.829,
+    "rms_dbfs": -16.0,
+    "loop_seam_jump": 0.0316,
+    "sha256": "fe6dde234fe59ef5bb27fd36e0a0c1378e8f2755c48b3a377100712801bb6084",
+    "source": "original synthesis, tools/create_score.py; no samples or recordings"
+  },
+  {
+    "name": "ghost_breath",
+    "loop": true,
+    "seconds": 4.8,
+    "peak": 0.89,
+    "rms_dbfs": -18.1,
+    "loop_seam_jump": 0.0,
+    "sha256": "ad13d464967d3b447110437ecfac9532add1e832047c22b607c04ea580ad69d9",
+    "source": "original synthesis, tools/create_score.py; no samples or recordings"
+  },
+  {
+    "name": "ghost_shriek",
+    "loop": false,
+    "seconds": 1.6,
+    "peak": 0.95,
+    "rms_dbfs": -12.9,
+    "loop_seam_jump": null,
+    "sha256": "f5f33e55a439272ef69773ee8b8355d6e2d901a7e6046c645e26fc38a8436ccb",
+    "source": "original synthesis, tools/create_score.py; no samples or recordings"
+  },
+  {
+    "name": "ghost_catch",
+    "loop": false,
+    "seconds": 2.2,
+    "peak": 0.95,
+    "rms_dbfs": -16.1,
+    "loop_seam_jump": null,
+    "sha256": "487cc218ae5ab9b7867d41e31aaae9e49955873e5ad46c715c29bfd357d2f07d",
+    "source": "original synthesis, tools/create_score.py; no samples or recordings"
+  },
+  {
+    "name": "ghost_laugh",
+    "loop": false,
+    "seconds": 2.0,
+    "peak": 0.95,
+    "rms_dbfs": -16.9,
+    "loop_seam_jump": null,
+    "sha256": "f49ad9038815b4cc3de50bfa786ff11a616850f3ad3d7b4f2fcef36a5e995900",
+    "source": "original synthesis, tools/create_score.py; no samples or recordings"
+  },
+  {
+    "name": "ghost_chuckle",
+    "loop": false,
+    "seconds": 2.3,
+    "peak": 0.95,
+    "rms_dbfs": -16.8,
+    "loop_seam_jump": null,
+    "sha256": "804c1eab8f41d6c0a90fb7866ab0941f444457914f9560f862d162b4c6910970",
+    "source": "original synthesis, tools/create_score.py; no samples or recordings"
+  },
+  {
+    "name": "tinnitus",
+    "loop": false,
+    "seconds": 6.0,
+    "peak": 0.442,
+    "rms_dbfs": -24.0,
+    "loop_seam_jump": null,
+    "sha256": "fd65ea99b36cd050b27b845c824b0fb1a4dcd485b0e70d420b88f3f1b1e29a42",
+    "source": "original synthesis, tools/create_score.py; no samples or recordings"
+  }
+]

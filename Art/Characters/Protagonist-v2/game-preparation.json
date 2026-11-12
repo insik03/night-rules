@@ -1,0 +1,42 @@
+{
+  "triangles": 41549,
+  "height_m": 1.76,
+  "texture_size": 2048,
+  "clips": {
+    "A_PlayerWalk": {
+      "duration_s": 1.0333332667748134,
+      "frames": 32,
+      "in_place": true,
+      "crouched": false,
+      "minimum_bottom_before_fix_m": -0.00029952896875329316
+    },
+    "A_PlayerRun": {
+      "duration_s": 0.6333333303531011,
+      "frames": 20,
+      "in_place": true,
+      "crouched": false,
+      "minimum_bottom_before_fix_m": 0.01565827988088131
+    },
+    "A_PlayerIdle": {
+      "duration_s": 2,
+      "frames": 61,
+      "in_place": true,
+      "crouched": false,
+      "minimum_bottom_before_fix_m": 0.01860928162932396
+    },
+    "A_PlayerCrouchIdle": {
+      "duration_s": 2,
+      "frames": 61,
+      "in_place": true,
+      "crouched": true,
+      "minimum_bottom_before_fix_m": 0.028921419754624367
+    },
+    "A_PlayerCrouchWalk": {
+      "duration_s": 1.0333332667748134,
+      "frames": 32,
+      "in_place": true,
+      "crouched": true,
+      "minimum_bottom_before_fix_m": 0.013845652341842651
+    }
+  }
+}

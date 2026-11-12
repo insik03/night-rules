@@ -1,0 +1,18 @@
+Use case: sketch-to-render / architectural layout revision.
+Create ONE revised realistic ceiling-off 3D floorplan concept of the SECOND FLOOR of a modest Korean gosiwon.
+REFERENCE 1 is the NEW AUTHORITATIVE GEOMETRY AND FURNITURE PLAN. Follow it.
+REFERENCE 2 is the PREVIOUS RENDER for camera, materials, ordinary aged lived-in Korean appearance, and unchanged bedroom/corridor details ONLY. Its old kitchen/bath/lounge arrangement MUST be replaced.
+
+UNCHANGED: very long thin single-story footprint; top row of exactly twelve tiny 2.3x3m bedrooms; EXACTLY ONE narrow 1.3m corridor beneath them; tiny utility/storage cluster far left; exterior emergency stairs left; U-turn stairs far right. Same near overhead camera, no stacked floors, no wide hotel hallway. Upper bedroom doors and narrow hallway exactly like old image. No red hatched deleted zone from plan: it is OUTSIDE the building.
+
+CRITICAL NEW LOWER-HALF PLAN:
+- Remove the lounge entirely. NO lounge, NO sofa, NO coffee table, NO TV seating area anywhere on this second floor.
+- Reorganize lower half into TWO enclosed main rooms, from left to right: ONE LARGE CONTINUOUS KITCHEN + DINING ROOM spanning the former kitchen AND middle bathroom footprint and part of old lounge; then a SEPARATE bathroom at the far-right end, just LEFT of the U-shaped stair.
+- Large kitchen occupies approximate x430..2550 of a building x-500..3900; bathroom occupies x2600..3400; stairs x3500..3900. No divider wall inside the kitchen. Former middle bathroom is fully removed. The NEW bathroom must have toilets, shower cubicles and sinks and its own door to the top corridor, no entry through kitchen.
+- The large kitchen has EXACTLY THREE separate rectangular communal dining tables, arranged left to right across the broad dining area. Each seats SIX using plain individual chairs, three along each long side. Tables all same modest design. Total three clearly visible tables, 18 chairs, broad usable aisles.
+- KITCHEN ENTRANCE: a VERY CLEAR OPEN DOORWAY through the kitchen TOP WALL shared with the narrow corridor, near its horizontal center. The wall must have a real visible GAP wide enough to walk through, with an ordinary wooden door leaf hinged to the jamb and swung flush INSIDE the kitchen to the side. Show the continuous floor threshold so the route from corridor into kitchen is unmistakable.
+- Absolutely NOTHING occupies the doorway or its 1.5m deep entry clearance. No cabinet, fridge, table or chair behind the open door or in its swing.
+- REVERSE THE PREVIOUS COUNTER ORIENTATION: ALL main sink/counter/cooking equipment lies along the BOTTOM exterior wall of the kitchen, OPPOSITE the entrance. Lower foreground wall is cut short for visibility, so counters and sink can be seen along it. Refrigerator is at BOTTOM RIGHT corner of kitchen, also away from the corridor/door wall. Rice cooker, microwave, dish rack and kettle on bottom counter. NO countertops along the top entrance wall. Do not put a table immediately against the doorway; leave a visibly clear entry aisle before dining seats.
+- Keep useful windows on outer walls, restrained plain fixtures, beige wallpaper, worn green-gray hallway vinyl, pale kitchen tile, inexpensive timber tables and utilitarian chairs. Not a restaurant or luxurious cafeteria. No island counters mistaken for fourth table.
+
+ONE coherent near-overhead floor cutaway on charcoal background, high readability with neutral light, all walls and furniture visible, enough resolution to inspect the entrance. Follow reference1 floor geometry; reference2 only style and unchanged upper half. No people, no ghost, no labels/UI/legends, no exterior terrace, no second corridor. Concept art, not gameplay.

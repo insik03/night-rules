@@ -1,0 +1,29 @@
+{
+  "model": "Supertone/supertonic-2",
+  "voice": "F1 preset (no voice cloning)",
+  "language": "ko",
+  "license": "OpenRAIL-M",
+  "license_url": "https://huggingface.co/Supertone/supertonic-2/blob/main/LICENSE",
+  "use": "pre-generated first-phone-call audition",
+  "processing": "240Hz highpass, 3800Hz lowpass, peak 0.65",
+  "clips": [
+    {
+      "file": "minseo_first_01.wav",
+      "text": "옆방에서 계속 의자를 끌어요.",
+      "seconds": 2.845,
+      "sha256": "9e4670f9e836355bfa92747fd2f39e2b125679446d25898fdf25c2b6011b6ee2"
+    },
+    {
+      "file": "minseo_first_02.wav",
+      "text": "근데… 제가 전화하는 소리가 그 방에서도 나요.",
+      "seconds": 4.51,
+      "sha256": "69f5ef890c36c0c3c73fc61f04fea65d1c85bbd7cbf94a1a828289088a59e94c"
+    },
+    {
+      "file": "minseo_first_03.wav",
+      "text": "이백이호요. 공실이라면서요?",
+      "seconds": 2.837,
+      "sha256": "21e9f10edb8dd6413209da2385e6ee193322d414f04d029489a6ee936e0479de"
+    }
+  ]
+}

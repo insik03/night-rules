@@ -1,0 +1,69 @@
+{
+  "status": "pending_image_review",
+  "date": "2026-10-12",
+  "generator": "deterministic Pillow diagram; not an edited AI render",
+  "preserved_cm": {
+    "room_pitch": 230,
+    "room_depth": 300,
+    "nominal_hall_width": 130,
+    "office_width": 280,
+    "office_depth": 280,
+    "office_side_door": 87
+  },
+  "routes": [
+    "corridor -> kitchen",
+    "corridor -> toilets",
+    "corridor -> showers",
+    "corridor -> side approach -> management room -> adjacent storage",
+    "corridor -> side approach -> rear storage (dead end)"
+  ],
+  "office": "floor1 caretaker office; floors2/3 management storage, not new offices",
+  "third_floor": "renovated clean finishes; unchanged partition layout",
+  "occupied_rooms": {
+    "1": [
+      101,
+      102,
+      104,
+      105,
+      107
+    ],
+    "2": [
+      203,
+      204,
+      206,
+      208,
+      211
+    ],
+    "3": [
+      301,
+      303,
+      305,
+      308,
+      311
+    ]
+  },
+  "investigable_rooms": {
+    "1": [
+      103,
+      106,
+      109
+    ],
+    "2": [
+      201,
+      202,
+      209
+    ],
+    "3": [
+      302,
+      307,
+      310
+    ]
+  },
+  "images": {
+    "1": "proposed-1.png",
+    "2": "proposed-2.png",
+    "3": "proposed-3.png",
+    "4": "proposed-roof.png"
+  },
+  "game_changed": false
+}

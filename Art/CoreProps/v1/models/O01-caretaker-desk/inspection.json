@@ -1,0 +1,105 @@
+{
+  "source": "source.glb",
+  "triangles": 149566,
+  "meshes": [
+    {
+      "name": "Mesh_0",
+      "vertices": 84771,
+      "faces": 149566,
+      "dimensions": [
+        1.9028599262237549,
+        0.9551370143890381,
+        1.0611310005187988
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materials": [
+        "Material_0"
+      ]
+    }
+  ],
+  "rigs": [],
+  "actions": [],
+  "fps": 24,
+  "images": [
+    {
+      "name": "Image_0",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true
+    },
+    {
+      "name": "Image_1",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "Image_2",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material_0",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "name": "Principled BSDF",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "name": "Material Output",
+          "image": null
+        },
+        {
+          "type": "TEX_IMAGE",
+          "name": "Image Texture",
+          "image": "Image_0"
+        },
+        {
+          "type": "SEPARATE_COLOR",
+          "name": "Separate Color",
+          "image": null
+        },
+        {
+          "type": "TEX_IMAGE",
+          "name": "Image Texture.001",
+          "image": "Image_1"
+        },
+        {
+          "type": "NORMAL_MAP",
+          "name": "Normal Map",
+          "image": null
+        },
+        {
+          "type": "TEX_IMAGE",
+          "name": "Image Texture.002",
+          "image": "Image_2"
+        }
+      ]
+    }
+  ]
+}

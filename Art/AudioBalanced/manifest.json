@@ -1,0 +1,107 @@
+[
+  {
+    "name": "breath_near",
+    "source": "Art\\DemoAudio\\breath_near.wav",
+    "gain": 8,
+    "rms": 0.0374,
+    "loop": false
+  },
+  {
+    "name": "chair_drag",
+    "source": "Art\\DemoAudio\\chair_drag.wav",
+    "gain": 4.407,
+    "rms": 0.16,
+    "loop": false
+  },
+  {
+    "name": "chase_pulse",
+    "source": "Art\\DemoAudio\\chase_pulse.wav",
+    "gain": 3.532,
+    "rms": 0.11,
+    "loop": true
+  },
+  {
+    "name": "distant_steps",
+    "source": "Art\\DemoAudio\\distant_steps.wav",
+    "gain": 7.673,
+    "rms": 0.0577,
+    "loop": false
+  },
+  {
+    "name": "door_slam",
+    "source": "Art\\DemoAudio\\door_slam.wav",
+    "gain": 6.514,
+    "rms": 0.0971,
+    "loop": false
+  },
+  {
+    "name": "fluorescent_hum",
+    "source": "Art\\DemoAudio\\fluorescent_hum.wav",
+    "gain": 0.997,
+    "rms": 0.11,
+    "loop": true
+  },
+  {
+    "name": "metal_rattle",
+    "source": "Art\\DemoAudio\\metal_rattle.wav",
+    "gain": 4.654,
+    "rms": 0.0766,
+    "loop": false
+  },
+  {
+    "name": "pipe_knock",
+    "source": "Art\\DemoAudio\\pipe_knock.wav",
+    "gain": 2.453,
+    "rms": 0.0955,
+    "loop": false
+  },
+  {
+    "name": "power_return",
+    "source": "Art\\DemoAudio\\power_return.wav",
+    "gain": 2.559,
+    "rms": 0.16,
+    "loop": false
+  },
+  {
+    "name": "power_trip",
+    "source": "Art\\DemoAudio\\power_trip.wav",
+    "gain": 2.696,
+    "rms": 0.0746,
+    "loop": false
+  },
+  {
+    "name": "radio_static",
+    "source": "Art\\DemoAudio\\radio_static.wav",
+    "gain": 5.933,
+    "rms": 0.16,
+    "loop": false
+  },
+  {
+    "name": "room_tone",
+    "source": "Art\\DemoAudio\\room_tone.wav",
+    "gain": 3.283,
+    "rms": 0.11,
+    "loop": true
+  },
+  {
+    "name": "knock",
+    "source": "Art\\Generated\\knock.wav",
+    "gain": 2.749,
+    "rms": 0.1105,
+    "loop": false
+  },
+  {
+    "name": "phone_ring",
+    "source": "Art\\Generated\\phone_ring.wav",
+    "gain": 1.565,
+    "rms": 0.16,
+    "loop": false
+  },
+  {
+    "name": "step",
+    "source": "Art\\Generated\\step.wav",
+    "gain": 4.016,
+    "rms": 0.1293,
+    "loop": false
+  }
+]

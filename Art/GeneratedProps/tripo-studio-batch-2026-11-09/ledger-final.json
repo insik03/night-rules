@@ -1,0 +1,85 @@
+{
+  "service": "Tripo Studio web",
+  "date": "2026-11-09",
+  "balance_before": 3090,
+  "balance_after": 2265,
+  "spent": 825,
+  "verified": "Studio visible balance 2265 after all downloads",
+  "jobs": [
+    {
+      "id": "minseo",
+      "task_id": "dadede9d-2814-4d35-9210-40822b77e377",
+      "generation_credits": 55,
+      "retopology_credits": 35,
+      "rigging_credits": 20,
+      "status": "downloaded_imported",
+      "source_sha256": "81c95fdc7f1b9afccf4402773fd6868bc2b61e11a65f996dc9330f37185ed30b"
+    },
+    {
+      "id": "taeo",
+      "task_id": "f46552c3-429c-445d-8308-68cfde2da74c",
+      "generation_credits": 55,
+      "retopology_credits": 35,
+      "rigging_credits": 20,
+      "status": "downloaded_imported",
+      "source_sha256": "10466c7a03a057af49317e92a2c5dbe26888cff3ada04a44ea005be0a5aa6e2d"
+    },
+    {
+      "id": "jeongsuk",
+      "task_id": "61092442-27a9-4725-ad85-55ecfae4f9ea",
+      "generation_credits": 55,
+      "retopology_credits": 35,
+      "rigging_credits": 20,
+      "status": "downloaded_imported",
+      "source_sha256": "4cba85d3f0230eec8c55448a9476080deefee89e4db96330d7b703c42fd28366"
+    },
+    {
+      "id": "junho",
+      "task_id": "bb91aeee-dbcd-44ee-ac12-8b9aa323d005",
+      "generation_credits": 55,
+      "retopology_credits": 35,
+      "rigging_credits": 20,
+      "status": "downloaded_imported",
+      "source_sha256": "681cb269c10b5601650d265575307129cc56bfb6de6e6b3bde6d4033ee7cad57"
+    },
+    {
+      "id": "jiwoo",
+      "task_id": "b09f582c-e646-47c1-b773-0a61a0337385",
+      "generation_credits": 55,
+      "retopology_credits": 35,
+      "rigging_credits": 20,
+      "status": "downloaded_imported",
+      "source_sha256": "ced1ae8e048b3f7bb287af7b9d711762bbcdc93409c0a050c1a6f095d75355ef"
+    },
+    {
+      "id": "arun",
+      "task_id": "d58cac76-6c66-4d60-b863-ab3f6cf6b0d4",
+      "generation_credits": 55,
+      "retopology_credits": 35,
+      "rigging_credits": 20,
+      "status": "downloaded_imported",
+      "source_sha256": "2e9485bc4049af8dd5af2ac6199d748dc15c66d8ae9590ace50a1aa9f831dc03"
+    },
+    {
+      "id": "toilet",
+      "task_id": "cecc6841-660e-467e-ab20-e68440840b3d",
+      "generation_credits": 55,
+      "status": "downloaded_prepared_dimension_review",
+      "source_sha256": "e8b2e27139a9a34702af00d20d88200a3dbbcf7cce2611664d3941515b6a10b6"
+    },
+    {
+      "id": "washbasin",
+      "task_id": "8de41d0e-bcb1-4e28-a589-d4a63307560d",
+      "generation_credits": 55,
+      "status": "downloaded_prepared_dimension_review",
+      "source_sha256": "b144176ede30c24fed96685015145c9e03f8ea0465ff351978892a1a7092b892"
+    },
+    {
+      "id": "rice-cooker",
+      "task_id": "bc918264-d4ba-49ea-8212-d372ccd55762",
+      "generation_credits": 55,
+      "status": "downloaded_prepared_dimension_review",
+      "source_sha256": "3672f2c3a4147b89f8606994f36880589816384092ed78dcf155d88bc3d20769"
+    }
+  ]
+}

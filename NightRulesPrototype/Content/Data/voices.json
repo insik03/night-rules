@@ -1,0 +1,1587 @@
+{
+  "physical": [
+    {
+      "asset": "",
+      "subtitle": "금속판 가장자리가 휘어 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "나사 둘레에 밝은 긁힘이 여러 겹 나 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "uv": [
+    {
+      "asset": "",
+      "subtitle": "비스듬한 세 줄. 가운데 선이 끊겨 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "minseo": [
+    {
+      "asset": "",
+      "subtitle": "문 안쪽에서 걸쇠를 확인하는 소리가 난다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "vo_minseo_02",
+      "subtitle": "‘총무님이죠? 죄송한데 문은 안 열게요.’",
+      "spoken_text": "총무님이죠? 죄송한데 문은 안 열게요.",
+      "voice": "F1",
+      "seconds": 3.379,
+      "sha256": "4307f42231c4e427e6bbc134f85bfe85716cad63e52f246c86b8b97ec9a7e4cf"
+    },
+    {
+      "asset": "vo_minseo_03",
+      "subtitle": "‘202호에서 제 말을 따라 해요. 제가 입을 다물면 거기도 조용해져요.’",
+      "spoken_text": "이백이호에서 제 말을 따라 해요. 제가 입을 다물면 거기도 조용해져요.",
+      "voice": "F1",
+      "seconds": 5.713,
+      "sha256": "8958f9eeb8ebc1b627f95e1bb784f4125230434cd9968ae8ecef228d1713d6f4"
+    },
+    {
+      "asset": "vo_minseo_04",
+      "subtitle": "‘지금은 의자 소리만 들리는데… 손잡이 쪽을 한번 봐주세요.’",
+      "spoken_text": "지금은 의자 소리만 들리는데… 손잡이 쪽을 한번 봐주세요.",
+      "voice": "F1",
+      "seconds": 5.334,
+      "sha256": "39041a51832dbc8f6b5d28d54049c88f77cc5f8a8656f2618e1229f05631d177"
+    }
+  ],
+  "chair": [
+    {
+      "asset": "",
+      "subtitle": "방 한가운데 의자가 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "바닥에는 문 쪽으로 길게 끌린 자국이 남아 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "벽 너머에서 전화 통화가 들리지만 사람은 보이지 않는다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "first_call": [
+    {
+      "asset": "vo_first_call_01",
+      "subtitle": "‘옆방에서 계속 의자를 끌어요.’",
+      "spoken_text": "옆방에서 계속 의자를 끌어요.",
+      "voice": "F1",
+      "seconds": 2.671,
+      "sha256": "b9e1423ac176ee948ad379e8310c2d5f8e06faa25d40e4f7529ddfc33b3cd4d0"
+    },
+    {
+      "asset": "vo_first_call_02",
+      "subtitle": "‘근데… 제가 전화하는 소리가 그 방에서도 나요.’",
+      "spoken_text": "근데… 제가 전화하는 소리가 그 방에서도 나요.",
+      "voice": "F1",
+      "seconds": 4.234,
+      "sha256": "90f50bf69d108358940fad19ea672a861861cb3b8e19fe09da12c827e670f076"
+    },
+    {
+      "asset": "vo_first_call_03",
+      "subtitle": "‘202호요. 공실이라면서요?’",
+      "spoken_text": "이백이호요. 공실이라면서요?",
+      "voice": "F1",
+      "seconds": 2.663,
+      "sha256": "cf4f680006f7525ba4b12e58d1b009a10b5145919a02e9574e0167bd3f0cadac"
+    }
+  ],
+  "second_call": [
+    {
+      "asset": "vo_second_call_01",
+      "subtitle": "‘총무님, 거기 계세요?’",
+      "spoken_text": "총무님, 거기 계세요?",
+      "voice": "F1",
+      "seconds": 2.377,
+      "sha256": "ca50fa215afe86289315be6b7b165cc4f844ea6101958f589f5b37687bc0bd08"
+    },
+    {
+      "asset": "vo_second_call_02",
+      "subtitle": "‘아무도 안 오셔서… 제가 202호 문을 열어 봤어요.’",
+      "spoken_text": "아무도 안 오셔서… 제가 이백이호 문을 열어 봤어요.",
+      "voice": "F1",
+      "seconds": 4.634,
+      "sha256": "f19c6c2d8380d771d1350f0c64661c4d7b959707d523509bc4459a148c135790"
+    },
+    {
+      "asset": "vo_second_call_03",
+      "subtitle": "‘안은 비어 있었는데, 문이 닫히기 직전에 안에서 제 이름을 불렀어요.’",
+      "spoken_text": "안은 비어 있었는데, 문이 닫히기 직전에 안에서 제 이름을 불렀어요.",
+      "voice": "F1",
+      "seconds": 5.86,
+      "sha256": "ccbdd0a6ab69b2b0c453df4eb3bed513114017fc52741f044196d63d54313305"
+    },
+    {
+      "asset": "vo_second_call_04",
+      "subtitle": "‘이제 제 방에 있을게요. 다시 확인해 주세요.’",
+      "spoken_text": "이제 제 방에 있을게요. 다시 확인해 주세요.",
+      "voice": "F1",
+      "seconds": 3.67,
+      "sha256": "67a031fd8d6bfcade0eb9ecfab5139b52d6e9fb91b9268c7d6f1e28285f80db1"
+    }
+  ],
+  "final_call": [
+    {
+      "asset": "vo_final_call_01",
+      "subtitle": "‘이번에는 문 좀 열어주세요.’",
+      "spoken_text": "이번에는 문 좀 열어주세요.",
+      "voice": "F3",
+      "seconds": 2.74,
+      "sha256": "dc783206d4e3163b1c44ce7b11df99543cf0ea15c23bb3ab633471c29127e7df"
+    },
+    {
+      "asset": "",
+      "subtitle": "수화기 너머에서 세 번의 노크가 들린다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "관리실 문밖에서도 같은 소리가 난다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "blackout": [
+    {
+      "asset": "",
+      "subtitle": "형광등이 꺼지자 위층 발소리도 함께 멎었다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "관리실 인수인계에는 1층 복도 끝, 계단 맞은편에 분전함이 있다고 적혀 있었다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "주방 조리대에 예비 퓨즈를 두었다고도 했다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "손전등의 일반광은 계속 사용할 수 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "spare_fuse": [
+    {
+      "asset": "",
+      "subtitle": "종이띠에 전임 총무의 글씨가 남아 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "‘차단기가 다시 떨어지면 퓨즈를 갈아. 한 번만.’",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "‘불이 돌아와도 소리가 먼저 돌아왔는지 확인해.’",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "종이 끝이 젖어 있지만 주방 바닥은 말라 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "breaker_before": [
+    {
+      "asset": "",
+      "subtitle": "복도 조명과 공용공간 전원이 연결되어 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "덮개에 붙은 인수인계: ‘예비 퓨즈는 공용주방 조리대.’",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "잠금장치 옆에는 새로 긁힌 자국이 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "breaker_missing": [
+    {
+      "asset": "",
+      "subtitle": "유리 퓨즈가 안쪽에서 검게 탔다. 차단기를 올려도 다시 떨어진다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "덮개의 인수인계에는 예비품이 공용주방 조리대에 있다고 적혀 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "breaker_fixed": [
+    {
+      "asset": "",
+      "subtitle": "불이 켜지기 직전, 복도 끝에서 의자를 끄는 소리가 났다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "퓨즈함 안쪽에 접힌 쪽지가 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "‘관리실 옆 창고 선반의 점검 장부를 명단과 맞춰 봐. 공용 세면대의 열쇠표도.’",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "‘둘 다 확인한 뒤 관리실 PC에 보고를 남겨. 방에 사람이 있다는 말은 쓰지 마.’",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "service_ledger": [
+    {
+      "asset": "",
+      "subtitle": "과거 점검 기록 — 이전 근무 날짜",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "02:11 / 202호 공실 확인. 손잡이 파손.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "02:13 / 203호 민원 접수. 이름은 민서.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "02:16 / 202호 안에서 같은 민원을 들음. 녹음기 없음.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "02:19 / 307호 열쇠 반납. 반납한 사람은 203호라고 말함.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "다음 줄은 여러 번 지워졌다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "‘목소리로 방을 확인하지 말 것. 열쇠표의 날짜부터 확인.’",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "lost_tag": [
+    {
+      "asset": "",
+      "subtitle": "호수는 307. 열쇠는 없고 오래된 플라스틱 표만 남았다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "뒷면: ‘2015. 3. 14. 화재 후 반납.’ 그 아래 새 글씨: ‘재확인 — 한도윤.’",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "오늘의 입주자 명단에는 307호가 공실이다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "오늘 새로 반납된 열쇠라면 이 낡은 화재 기록과 맞지 않는다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "세면대 아래에서 물방울 소리가 들리지만 수도관은 차갑고 말라 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "night_report": [
+    {
+      "asset": "",
+      "subtitle": "202호: 입실 후 관리실에서 각성. 책상에 금속 조각이 놓여 있었음.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "내 민원 장부에서 옮긴 접수 내용:",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "{{complaints}}",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "307호: 열쇠표와 점검 장부의 날짜를 기록함.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "복도: 퓨즈 교체 완료.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "manager_call": [
+    {
+      "asset": "vo_manager_call_01",
+      "subtitle": "‘보고서는 봤어요. 307호는 없으니까 그 항목은 지워요.’",
+      "spoken_text": "보고서는 봤어요. 삼백칠호는 없으니까 그 항목은 지워요.",
+      "voice": "M2",
+      "seconds": 4.692,
+      "sha256": "9542ffbd98dbe31a1dafa3f4a8f94f4543090236ec54f2aae0ec57c474d454b9"
+    },
+    {
+      "asset": "vo_manager_call_02",
+      "subtitle": "‘뭐가 들렸든 확인된 사람만 적으세요.’",
+      "spoken_text": "뭐가 들렸든 확인된 사람만 적으세요.",
+      "voice": "M2",
+      "seconds": 3.305,
+      "sha256": "0f420973d8ab95aac760db8966776d6cf493b86640ff3f94c5be2b3eab908b46"
+    },
+    {
+      "asset": "vo_manager_call_03",
+      "subtitle": "‘CCTV 시계가 멈췄으면 모니터 옆 스위치로 전원을 끄고, 03:14 수칙에 적힌 것처럼 1분 뒤 켜요.’",
+      "spoken_text": "씨씨티비 시계가 멈췄으면 모니터 옆 스위치로 전원을 끄고, 03:14 수칙에 적힌 것처럼 1분 뒤 켜요.",
+      "voice": "M2",
+      "seconds": 9.213,
+      "sha256": "f8db2b61af6a91bab278e4a01eaddfe400f801a80449532588c5b5187d5a5fe2"
+    },
+    {
+      "asset": "vo_manager_call_04",
+      "subtitle": "‘기다리는 동안 1층 105호 정숙 씨와 2층 203호 민서 씨 재실 확인해요.’",
+      "spoken_text": "기다리는 동안 1층 백오호 정숙 씨와 2층 이백삼호 민서 씨 재실 확인해요.",
+      "voice": "M2",
+      "seconds": 6.878,
+      "sha256": "9f619a2511a57bae3c769517b10a1fa505ab1c5ed5f2f28d11142e2230723df3"
+    },
+    {
+      "asset": "vo_manager_call_05",
+      "subtitle": "‘2층 서쪽(왼쪽) 비상문 옆 봉인된 점검구도 눈으로만 확인하고요. 절대로 뜯지 말아요.’",
+      "spoken_text": "2층 서쪽(왼쪽) 비상문 옆 봉인된 점검구도 눈으로만 확인하고요. 절대로 뜯지 말아요.",
+      "voice": "M2",
+      "seconds": 7.415,
+      "sha256": "f3125915c198f98f6ea6d342fa3dd664755fd70445dac2744c06da7e123ab32e"
+    },
+    {
+      "asset": "",
+      "subtitle": "관리자는 통화를 끊기 전에 아주 작게 덧붙인다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "vo_manager_call_07",
+      "subtitle": "‘문 너머에서 답을 해도 이름을 먼저 말하지 마세요.’",
+      "spoken_text": "문 너머에서 답을 해도 이름을 먼저 말하지 마세요.",
+      "voice": "M2",
+      "seconds": 4.181,
+      "sha256": "9cdb9934c96dfd2216ddfda794df9aab29f08437814e74eff1a69d0165bad623"
+    },
+    {
+      "asset": "",
+      "subtitle": "관리자의 요청을 그대로 따를지, 먼저 녹화와 설비를 조사할지 민원 장부에 방침을 남길 수 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "cctv_off": [
+    {
+      "asset": "",
+      "subtitle": "팬 소리가 멈췄다. 수칙에는 1분 뒤 다시 켜라고 적혀 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "민원 장부의 방침대로 조사하며 기다릴 수 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "장비가 꺼져도 손전등은 사용할 수 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "cctv_wait": [
+    {
+      "asset": "",
+      "subtitle": "아직 1분이 지나지 않았다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "민원 장부에 적은 조사나 주변 탐색을 계속할 수 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "cctv_recovered": [
+    {
+      "asset": "",
+      "subtitle": "수신 화면이 복구됐다. 근무 시계는 계속 흐르고 있었다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "마지막 감지 기록: {{freeze_time}} / CAM 04 · 2층 복도.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "다음 기록: {{freeze_time}} / CAM 01 · 관리실.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "층이 다른데 시각과 사람의 윤곽이 같다. 같은 장면을 복사한 것처럼 보인다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "그 시각 관리실 화면의 의자는 비어 있다. 나는 그때 어디에 있었지?",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "민원 장부의 방침에 따라 직접 확인한 내용만 PC에 남기자.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "resident_105": [
+    {
+      "asset": "vo_resident_105_01",
+      "subtitle": "‘민서? 아까 내려와서 세면대에 뭘 놓고 갔지.’",
+      "spoken_text": "민서? 아까 내려와서 세면대에 뭘 놓고 갔지.",
+      "voice": "F2",
+      "seconds": 4.186,
+      "sha256": "e5d4d2838a999c9e086411f0d477e93489f9b8a2081d69b858bb9fb4afe59adc"
+    },
+    {
+      "asset": "vo_resident_105_02",
+      "subtitle": "‘발이 젖어 있었어. 그런데 발소리는 안 났어.’",
+      "spoken_text": "발이 젖어 있었어. 그런데 발소리는 안 났어.",
+      "voice": "F2",
+      "seconds": 3.955,
+      "sha256": "7e57649f6bdd9fd6be15ab0f1b0b71e3a8b5ee396ee942fe9cafcf25d66e377a"
+    },
+    {
+      "asset": "",
+      "subtitle": "복도에서 의자 끄는 소리가 나자 정숙이 말을 멈춘다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "vo_resident_105_04",
+      "subtitle": "‘총무님. 지금 내 문 앞에 두 사람이 서 있어?’",
+      "spoken_text": "총무님. 지금 내 문 앞에 두 사람이 서 있어?",
+      "voice": "F2",
+      "seconds": 3.936,
+      "sha256": "ace1602eef1e342ea7324dcfd97a8c01ba8e563ae0122f4e882c9d5371610666"
+    },
+    {
+      "asset": "",
+      "subtitle": "혼자라고 대답하기 전에 잠금쇠가 걸린다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "vo_resident_105_06",
+      "subtitle": "‘그럼 대답하지 마. 다른 사람이 먼저 대답할 거야.’",
+      "spoken_text": "그럼 대답하지 마. 다른 사람이 먼저 대답할 거야.",
+      "voice": "F2",
+      "seconds": 4.332,
+      "sha256": "fe9f5ebc53815a5e008d593004d294a511e6458655b96fbf45be7b9ea0a582bb"
+    }
+  ],
+  "resident_203": [
+    {
+      "asset": "vo_resident_203_01",
+      "subtitle": "“아까는 왜 문 안에서 두드리셨어요?”",
+      "spoken_text": "아까는 왜 문 안에서 두드리셨어요?",
+      "voice": "F1",
+      "seconds": 3.061,
+      "sha256": "064b675782f7933ea1a24847e642454f22283ecfde0bd885e373ef33b0585399"
+    },
+    {
+      "asset": "vo_resident_203_02",
+      "subtitle": "“총무님이 202호 안에서 문 열어달라고…”",
+      "spoken_text": "총무님이 이백이호 안에서 문 열어달라고…",
+      "voice": "F1",
+      "seconds": 3.661,
+      "sha256": "8d94c4b3948ceef808a0dca50e293fd25d649626d58cd026b684875bb2359d0a"
+    },
+    {
+      "asset": "",
+      "subtitle": "민서가 말을 멈춘다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "vo_resident_203_04",
+      "subtitle": "“지금 복도 걷는 소리… 총무님은 가만히 계시죠?”",
+      "spoken_text": "지금 복도 걷는 소리… 총무님은 가만히 계시죠?",
+      "voice": "F1",
+      "seconds": 4.453,
+      "sha256": "8b311c1ffab8503aaf7626082463eab35bc47c738073b9aeef646cf0667139e2"
+    },
+    {
+      "asset": "",
+      "subtitle": "문 안쪽 걸쇠가 한 번 더 잠긴다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "panel_early": [
+    {
+      "asset": "",
+      "subtitle": "덮개에 교차한 테이프가 붙어 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "sealed_panel": [
+    {
+      "asset": "",
+      "subtitle": "교차한 테이프와 금속 덮개.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "안쪽에서 문고리 소리가 났다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "round_pending": [
+    {
+      "asset": "",
+      "subtitle": "민원 장부에 적은 방침의 조사를 마치지 않았다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "증언 대조: 105호·203호 재확인.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "CCTV·설비 조사: 2층 녹화 되감기·서쪽(왼쪽) 비상문 옆 점검구 확인.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "둘 다 확인: 위 두 조사 모두.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "CCTV 전원 복구도 필요하다. 방침은 책상의 민원 장부에서 [4]로 수정할 수 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "round_complete": [
+    {
+      "asset": "",
+      "subtitle": "내 민원 장부에서 옮긴 접수 내용:",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "{{complaints}}",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "이번에 직접 확인한 항목:",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "{{investigation}}",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "확인하지 않은 항목은 미확인으로 남겼다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "전화기에 없던 호수가 켜진다. 307.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "resident_105_early": [
+    {
+      "asset": "vo_resident_105_early_01",
+      "subtitle": "‘새로 온 총무님? 늦었으니 문은 닫고 얘기할게요.’",
+      "spoken_text": "새로 온 총무님? 늦었으니 문은 닫고 얘기할게요.",
+      "voice": "F2",
+      "seconds": 4.143,
+      "sha256": "9d25e65aaf2dc13bb3547925beefe46cf9c661e53cf42b1955bad0209f44ff9b"
+    },
+    {
+      "asset": "vo_resident_105_early_02",
+      "subtitle": "‘주방은 뒤편이에요. 전자레인지 쓰고 나면 문 좀 열어 두고요.’",
+      "spoken_text": "주방은 뒤편이에요. 전자레인지 쓰고 나면 문 좀 열어 두고요.",
+      "voice": "F2",
+      "seconds": 5.0,
+      "sha256": "9669fa653cf2c913d4f2dc980fb8099046c76728b6fe001daa72ff8b3f51bdf0"
+    },
+    {
+      "asset": "vo_resident_105_early_03",
+      "subtitle": "‘위층 소음 때문에 왔으면 먼저 민서한테 물어봐요. 203호.’",
+      "spoken_text": "위층 소음 때문에 왔으면 먼저 민서한테 물어봐요. 이백삼호.",
+      "voice": "F2",
+      "seconds": 5.038,
+      "sha256": "83aaf8e90d88d60a0cd1f31139fef595c6cc1c42a162979185e02c3a6c0d6cc6"
+    }
+  ],
+  "resident_104": [
+    {
+      "asset": "",
+      "subtitle": "낮게 켜 둔 TV 소리가 잦아든다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "vo_resident_104_02",
+      "subtitle": "‘내일 일찍 나가야 해서요. 무슨 일 생긴 건 아니죠?’",
+      "spoken_text": "내일 일찍 나가야 해서요. 무슨 일 생긴 건 아니죠?",
+      "voice": "M3",
+      "seconds": 3.769,
+      "sha256": "659d0db4266bb1e9b72881c9e6fd3b06b61e78cbff78c00b1665b9269930a0d1"
+    },
+    {
+      "asset": "vo_resident_104_03",
+      "subtitle": "‘복도 불 좀 확인해 주세요. 아까부터 계속 깜빡여서요.’",
+      "spoken_text": "복도 불 좀 확인해 주세요. 아까부터 계속 깜빡여서요.",
+      "voice": "M3",
+      "seconds": 4.234,
+      "sha256": "298d76f4172ecea8f2afc1b2e356c1e440cd90368bfb6606b73e8573e485fd02"
+    }
+  ],
+  "resident_quiet": [
+    {
+      "asset": "",
+      "subtitle": "가볍게 노크했지만 대답은 없다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "입주민의 방을 임의로 열 수는 없다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "encounter_prelude": [
+    {
+      "asset": "",
+      "subtitle": "의자 끄는 소리가 뚝 멎었다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "문밖에서, 방금 203호에서 들었던 목소리가 내 말을 따라 한다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "복도 쪽에서 느린 발소리가 다가온다. 문에서 물러서자.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "dream_locked": [
+    {
+      "asset": "",
+      "subtitle": "등 뒤에서 문이 닫혔다. 안쪽 손잡이가 없다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "문밖에서 누군가 조심스럽게 두드린다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "dream_voice": [
+    {
+      "asset": "vo_dream_voice_01",
+      "subtitle": "“총무님, 거기 계세요?”",
+      "spoken_text": "총무님, 거기 계세요?",
+      "voice": "M1",
+      "seconds": 2.483,
+      "sha256": "98162f365cdedfd228e81da42463d23faaa9686aaf8b574aac133fdf0e6888b7"
+    },
+    {
+      "asset": "",
+      "subtitle": "민서의 목소리가 아니다. 방금 내가 했던 말, 내 목소리다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "dream_wake": [
+    {
+      "asset": "",
+      "subtitle": "책상에 엎드려 있었나. 형광등 소리만 들린다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "분명 202호에 있었는데… 잠깐 졸았던 걸까?",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "손바닥이 따갑다. 책상 위에 없던 금속 조각이 놓여 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "wake_trace": [
+    {
+      "asset": "",
+      "subtitle": "검은 도료가 남은 금속 조각. 한쪽 끝이 거칠다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "uv_fragment": [
+    {
+      "asset": "",
+      "subtitle": "표면에 세 줄이 보인다. 가운데 선이 끊겨 있다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "202_avoided": [
+    {
+      "asset": "",
+      "subtitle": "입실하지 않음.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "문을 열지 않고 202호 앞을 떠났다. 안에서 잠금쇠와 노크 소리를 들었다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "202_safe_report": [
+    {
+      "asset": "",
+      "subtitle": "문틀 금속판 마모. 내부 진입하지 않음. 재실 여부 미확인.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "내 민원 장부에서 옮긴 접수 내용:",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "{{complaints}}",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "보고를 저장했다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "night_report_safe": [
+    {
+      "asset": "",
+      "subtitle": "202호: 입실하지 않음. 내부 인원 미확인.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "내 민원 장부에서 옮긴 접수 내용:",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "{{complaints}}",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "307호: 열쇠표와 점검 장부의 날짜를 기록함.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "복도: 퓨즈 교체 완료.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "resident_203_safe": [
+    {
+      "asset": "vo_resident_203_01",
+      "subtitle": "“아까는 왜 문 안에서 두드리셨어요?”",
+      "spoken_text": "아까는 왜 문 안에서 두드리셨어요?",
+      "voice": "F1",
+      "seconds": 3.061,
+      "sha256": "064b675782f7933ea1a24847e642454f22283ecfde0bd885e373ef33b0585399"
+    },
+    {
+      "asset": "vo_resident_203_02",
+      "subtitle": "“총무님이 202호 안에서 문 열어달라고…”",
+      "spoken_text": "총무님이 이백이호 안에서 문 열어달라고…",
+      "voice": "F1",
+      "seconds": 3.661,
+      "sha256": "8d94c4b3948ceef808a0dca50e293fd25d649626d58cd026b684875bb2359d0a"
+    },
+    {
+      "asset": "",
+      "subtitle": "나는 202호에 들어가지 않았다. 민서가 들은 목소리는 내 것이 아니다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "문 안에서 걸쇠가 잠긴다. 복도의 발소리는 다가오지 않고 멀어진다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_rooms_first_call": [
+    {
+      "asset": "",
+      "subtitle": "202호(소리 난 곳)",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "모름",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_contents_first_call": [
+    {
+      "asset": "",
+      "subtitle": "내 목소리가 들림",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "확인 불가",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_rooms_second_call": [
+    {
+      "asset": "",
+      "subtitle": "202호(열어 본 방)",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "모름",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_contents_second_call": [
+    {
+      "asset": "",
+      "subtitle": "방 안에서 이름을 부름",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "확인 불가",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_rooms_manager_call": [
+    {
+      "asset": "",
+      "subtitle": "105호(확인 요청)",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "203호(확인 요청)",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_contents_manager_call": [
+    {
+      "asset": "",
+      "subtitle": "CCTV 전원 및 재실 확인 요청",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "확인 불가",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_rooms_minseo": [
+    {
+      "asset": "",
+      "subtitle": "202호(소리 난 곳)",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "모름",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_contents_minseo": [
+    {
+      "asset": "",
+      "subtitle": "의자 소리와 손잡이 확인 요청",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "확인 불가",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_rooms_resident_104": [
+    {
+      "asset": "",
+      "subtitle": "모름",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "104호 앞 복도",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_contents_resident_104": [
+    {
+      "asset": "",
+      "subtitle": "내일 이른 출근",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "확인 불가",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_rooms_resident_105_early": [
+    {
+      "asset": "",
+      "subtitle": "203호(확인 요청)",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "모름",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_contents_resident_105_early": [
+    {
+      "asset": "",
+      "subtitle": "전자레인지 사용 뒤 문 열기 요청",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "확인 불가",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_rooms_resident_105": [
+    {
+      "asset": "",
+      "subtitle": "203호(목격 증언)",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "모름",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_contents_resident_105": [
+    {
+      "asset": "",
+      "subtitle": "문 앞에 두 사람이 있는지 물음",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "확인 불가",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_rooms_resident_203": [
+    {
+      "asset": "",
+      "subtitle": "202호(증언 속 장소)",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "모름",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_contents_resident_203": [
+    {
+      "asset": "",
+      "subtitle": "복도 발소리가 들림",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "확인 불가",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_rooms_resident_203_safe": [
+    {
+      "asset": "",
+      "subtitle": "202호(증언 속 장소)",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "모름",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_contents_resident_203_safe": [
+    {
+      "asset": "",
+      "subtitle": "복도 발소리가 들림",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "확인 불가",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "complaint_anomaly_entered": [],
+  "complaint_anomaly_avoided": [],
+  "uv_hand": [
+    {
+      "asset": "",
+      "subtitle": "덮개 표면에 손 모양의 흔적이 드러났다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "uv_guide": [
+    {
+      "asset": "",
+      "subtitle": "카트리지를 장착하면",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "일반광과 UV를 전환할 수 있습니다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "T   카트리지 장착",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "Q   일반광 / UV 전환",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "F   손전등 켜기 / 끄기",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "켜진 UV만 잔량을 소모합니다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "흔적 가까이에서 빛을 비추세요.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "예비품 보관",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "책상 왼쪽 위 서랍",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "청소용품 선반 · 공구함",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "log_plan_choices": [
+    {
+      "asset": "",
+      "subtitle": "[1] 입주민 증언 대조 — 105호와 203호를 다시 찾아가 진술을 비교한다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "[2] CCTV·설비 조사 — 2층 녹화를 되감고 서쪽(왼쪽) 비상문 옆 점검구를 확인한다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "[3] 둘 다 확인 — 증언과 녹화·설비를 함께 조사한다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "방침에 따라 두 번째 순찰의 보고 조건이 달라진다. PC 최종 보고 전에는 이 장부에서 수정할 수 있다. 다른 장소를 조사하는 것도 가능하다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "service_ledger_new": [
+    {
+      "asset": "",
+      "subtitle": "오늘 / {{time}} / 203호 민원 접수. 이름은 민서.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "이 장부의 마지막 페이지 필체가 내 민원 장부와 같다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "minseo_second_call": [
+    {
+      "asset": "",
+      "subtitle": "문 안쪽에서 걸쇠를 확인하는 소리가 난다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "vo_minseo_02",
+      "subtitle": "‘총무님이죠? 죄송한데 문은 안 열게요.’",
+      "spoken_text": "총무님이죠? 죄송한데 문은 안 열게요.",
+      "voice": "F1",
+      "seconds": 3.379,
+      "sha256": "4307f42231c4e427e6bbc134f85bfe85716cad63e52f246c86b8b97ec9a7e4cf"
+    },
+    {
+      "asset": "vo_minseo_second_call_03",
+      "subtitle": "“전화요? 저 관리실에 전화한 적 없는데요. 202호 문도 안 열었어요.”",
+      "spoken_text": "전화요? 저 관리실에 전화한 적 없는데요. 이백이호 문도 안 열었어요.",
+      "voice": "F1",
+      "seconds": 5.6,
+      "sha256": "2d9122faa726857eaafb5a87b3ab45466648b273573246adafa45e858e0dc8ba"
+    },
+    {
+      "asset": "vo_minseo_03",
+      "subtitle": "‘202호에서 제 말을 따라 해요. 제가 입을 다물면 거기도 조용해져요.’",
+      "spoken_text": "이백이호에서 제 말을 따라 해요. 제가 입을 다물면 거기도 조용해져요.",
+      "voice": "F1",
+      "seconds": 5.713,
+      "sha256": "8958f9eeb8ebc1b627f95e1bb784f4125230434cd9968ae8ecef228d1713d6f4"
+    },
+    {
+      "asset": "vo_minseo_04",
+      "subtitle": "‘지금은 의자 소리만 들리는데… 손잡이 쪽을 한번 봐주세요.’",
+      "spoken_text": "지금은 의자 소리만 들리는데… 손잡이 쪽을 한번 봐주세요.",
+      "voice": "F1",
+      "seconds": 5.334,
+      "sha256": "39041a51832dbc8f6b5d28d54049c88f77cc5f8a8656f2618e1229f05631d177"
+    }
+  ],
+  "resident_203_second_call": [
+    {
+      "asset": "vo_resident_203_01",
+      "subtitle": "“아까는 왜 문 안에서 두드리셨어요?”",
+      "spoken_text": "아까는 왜 문 안에서 두드리셨어요?",
+      "voice": "F1",
+      "seconds": 3.061,
+      "sha256": "064b675782f7933ea1a24847e642454f22283ecfde0bd885e373ef33b0585399"
+    },
+    {
+      "asset": "vo_resident_203_02",
+      "subtitle": "“총무님이 202호 안에서 문 열어달라고…”",
+      "spoken_text": "총무님이 이백이호 안에서 문 열어달라고…",
+      "voice": "F1",
+      "seconds": 3.661,
+      "sha256": "8d94c4b3948ceef808a0dca50e293fd25d649626d58cd026b684875bb2359d0a"
+    },
+    {
+      "asset": "vo_resident_203_second_call_03",
+      "subtitle": "“전화요? 저 관리실에 전화한 적 없는데요. 202호 문도 안 열었어요.”",
+      "spoken_text": "전화요? 저 관리실에 전화한 적 없는데요. 이백이호 문도 안 열었어요.",
+      "voice": "F1",
+      "seconds": 5.6,
+      "sha256": "2d9122faa726857eaafb5a87b3ab45466648b273573246adafa45e858e0dc8ba"
+    },
+    {
+      "asset": "",
+      "subtitle": "민서가 말을 멈춘다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "vo_resident_203_04",
+      "subtitle": "“지금 복도 걷는 소리… 총무님은 가만히 계시죠?”",
+      "spoken_text": "지금 복도 걷는 소리… 총무님은 가만히 계시죠?",
+      "voice": "F1",
+      "seconds": 4.453,
+      "sha256": "8b311c1ffab8503aaf7626082463eab35bc47c738073b9aeef646cf0667139e2"
+    },
+    {
+      "asset": "",
+      "subtitle": "문 안쪽 걸쇠가 한 번 더 잠긴다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ],
+  "resident_203_safe_second_call": [
+    {
+      "asset": "vo_resident_203_01",
+      "subtitle": "“아까는 왜 문 안에서 두드리셨어요?”",
+      "spoken_text": "아까는 왜 문 안에서 두드리셨어요?",
+      "voice": "F1",
+      "seconds": 3.061,
+      "sha256": "064b675782f7933ea1a24847e642454f22283ecfde0bd885e373ef33b0585399"
+    },
+    {
+      "asset": "vo_resident_203_02",
+      "subtitle": "“총무님이 202호 안에서 문 열어달라고…”",
+      "spoken_text": "총무님이 이백이호 안에서 문 열어달라고…",
+      "voice": "F1",
+      "seconds": 3.661,
+      "sha256": "8d94c4b3948ceef808a0dca50e293fd25d649626d58cd026b684875bb2359d0a"
+    },
+    {
+      "asset": "vo_resident_203_safe_second_call_03",
+      "subtitle": "“전화요? 저 관리실에 전화한 적 없는데요. 202호 문도 안 열었어요.”",
+      "spoken_text": "전화요? 저 관리실에 전화한 적 없는데요. 이백이호 문도 안 열었어요.",
+      "voice": "F1",
+      "seconds": 5.6,
+      "sha256": "2d9122faa726857eaafb5a87b3ab45466648b273573246adafa45e858e0dc8ba"
+    },
+    {
+      "asset": "",
+      "subtitle": "나는 202호에 들어가지 않았다. 민서가 들은 목소리는 내 것이 아니다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    },
+    {
+      "asset": "",
+      "subtitle": "문 안에서 걸쇠가 잠긴다. 복도의 발소리는 다가오지 않고 멀어진다.",
+      "spoken_text": "",
+      "voice": "",
+      "seconds": 0
+    }
+  ]
+}

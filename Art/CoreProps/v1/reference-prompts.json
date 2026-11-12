@@ -1,0 +1,72 @@
+[
+  {
+    "id": "O01",
+    "slug": "caretaker-desk",
+    "reference": "C:/Users/dbdls/OneDrive/바탕 화면/Game_pm/Art/AssetConcepts/v1/01-office.png",
+    "prompt": "Use case: precise-object-edit. Input is the APPROVED game prop catalog. Isolate and faithfully re-render ONLY the specified object from the specified cell as a SINGLE clean Meshy image-to-3D reference. Preserve its approved design, aged materials, palette and construction. Do not include the sheet grid, labels, titles, other props, duplicate object, alternate views, exploded view or supporting panels. One object centered, entire silhouette clearly visible with ample margins, plain light gray studio background, neutral even soft lighting with extremely light contact shadow, no dramatic darkness, no pedestal. Photorealistic game prop, not cartoon, no branding or invented text. Three-quarter front view exposing top and right side unless otherwise stated; show all legs and lowest edge. No redesign. Source cell: O01 top left. Subject: compact brown laminate caretaker desk with right-hand pedestal and THREE closed drawers, knee space on the left. Match the big primary desk in reference; every drawer CLOSED, no secondary desk, no drawer inset. One coherent full object. Back and sides plausible. Width 100cm height75cm depth55cm.",
+    "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-e2ab688d-ebf5-49a1-bdbd-2f17aa56bf74.png"
+  },
+  {
+    "id": "O03",
+    "slug": "telephone",
+    "reference": "C:/Users/dbdls/OneDrive/바탕 화면/Game_pm/Art/AssetConcepts/v1/01-office.png",
+    "prompt": "Use case: precise-object-edit. Input is the APPROVED game prop catalog. Isolate and faithfully re-render ONLY the specified object from the specified cell as a SINGLE clean Meshy image-to-3D reference. Preserve its approved design, aged materials, palette and construction. Do not include the sheet grid, labels, titles, other props, duplicate object, alternate views, exploded view or supporting panels. One object centered, entire silhouette clearly visible with ample margins, plain light gray studio background, neutral even soft lighting with extremely light contact shadow, no dramatic darkness, no pedestal. Photorealistic game prop, not cartoon, no branding or invented text. Three-quarter front view exposing top and right side unless otherwise stated; show all legs and lowest edge. No redesign. Source cell: O03 top right. Subject: old ivory corded push-button telephone. Put the matching handset properly seated in cradle on the left side, coiled cord retained. One complete telephone only, no separate duplicate handset.",
+    "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-2c41c348-6e98-44bb-b63a-b4f1dda30e0b.png"
+  },
+  {
+    "id": "O05",
+    "slug": "cctv-monitor",
+    "reference": "C:/Users/dbdls/OneDrive/바탕 화면/Game_pm/Art/AssetConcepts/v1/01-office.png",
+    "prompt": "Use case: precise-object-edit. Input is the APPROVED game prop catalog. Isolate and faithfully re-render ONLY the specified object from the specified cell as a SINGLE clean Meshy image-to-3D reference. Preserve its approved design, aged materials, palette and construction. Do not include the sheet grid, labels, titles, other props, duplicate object, alternate views, exploded view or supporting panels. One object centered, entire silhouette clearly visible with ample margins, plain light gray studio background, neutral even soft lighting with extremely light contact shadow, no dramatic darkness, no pedestal. Photorealistic game prop, not cartoon, no branding or invented text. Three-quarter front view exposing top and right side unless otherwise stated; show all legs and lowest edge. No redesign. Source cell: O05 center. Subject: black aged small CRT security monitor. One whole object, blank dark gray curved screen with NO camera scene, NO text, modest physical buttons retained. Maintain reference shape.",
+    "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-504b3305-cd3b-41b5-9f20-a6c735e40443.png"
+  },
+  {
+    "id": "I01",
+    "slug": "flashlight",
+    "reference": "C:/Users/dbdls/OneDrive/바탕 화면/Game_pm/Art/AssetConcepts/v1/02-investigation.png",
+    "prompt": "Use case: precise-object-edit. Input is the APPROVED game prop catalog. Isolate and faithfully re-render ONLY the specified object from the specified cell as a SINGLE clean Meshy image-to-3D reference. Preserve its approved design, aged materials, palette and construction. Do not include the sheet grid, labels, titles, other props, duplicate object, alternate views, exploded view or supporting panels. One object centered, entire silhouette clearly visible with ample margins, plain light gray studio background, neutral even soft lighting with extremely light contact shadow, no dramatic darkness, no pedestal. Photorealistic game prop, not cartoon, no branding or invented text. Three-quarter front view exposing top and right side unless otherwise stated; show all legs and lowest edge. No redesign. Source cell: I01 top left. Subject: one intact black cylindrical normal/UV flashlight, fully assembled, exactly one closed flashlight with front reflector and grip. No spare modules or exploded view. Simple practical cylindrical geometry.",
+    "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-bbbc2186-7ebf-42fe-a4a7-2750d77a3209.png"
+  },
+  {
+    "id": "I02",
+    "slug": "uv-cartridge",
+    "reference": "C:/Users/dbdls/OneDrive/바탕 화면/Game_pm/Art/AssetConcepts/v1/02-investigation.png",
+    "prompt": "Use case: precise-object-edit. Input is the APPROVED game prop catalog. Isolate and faithfully re-render ONLY the specified object from the specified cell as a SINGLE clean Meshy image-to-3D reference. Preserve its approved design, aged materials, palette and construction. Do not include the sheet grid, labels, titles, other props, duplicate object, alternate views, exploded view or supporting panels. One object centered, entire silhouette clearly visible with ample margins, plain light gray studio background, neutral even soft lighting with extremely light contact shadow, no dramatic darkness, no pedestal. Photorealistic game prop, not cartoon, no branding or invented text. Three-quarter front view exposing top and right side unless otherwise stated; show all legs and lowest edge. No redesign. Source cell: I02 top middle. Subject: one short black UV cartridge module with recessed violet LED lens and metal electrical contacts as shown. NO loose protective cap, no other parts. One intact short cylindrical module.",
+    "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-11cda65f-8699-4776-b27a-0a1aa2ec129c.png"
+  },
+  {
+    "id": "B01",
+    "slug": "room-door",
+    "reference": "C:/Users/dbdls/OneDrive/바탕 화면/Game_pm/Art/AssetConcepts/v1/06-building.png",
+    "prompt": "Use case: precise-object-edit. Input is the APPROVED game prop catalog. Isolate and faithfully re-render ONLY the specified object from the specified cell as a SINGLE clean Meshy image-to-3D reference. Preserve its approved design, aged materials, palette and construction. Do not include the sheet grid, labels, titles, other props, duplicate object, alternate views, exploded view or supporting panels. One object centered, entire silhouette clearly visible with ample margins, plain light gray studio background, neutral even soft lighting with extremely light contact shadow, no dramatic darkness, no pedestal. Photorealistic game prop, not cartoon, no branding or invented text. Three-quarter front view exposing top and right side unless otherwise stated; show all legs and lowest edge. No redesign. Source cell: B01 top left. Subject: one CLOSED narrow brown wood veneer ROOM DOOR LEAF ONLY, with plain silver lever handle and small peephole; remove surrounding frame so only the rectangular 80cm wide by205cm tall by4cm thick door slab is present, bottom fully in view. Closed slab, no room, no wall or dark gap. Frame and chain made separately later.",
+    "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-b4913ca1-ce2b-44c3-bb26-24b74c77239f.png"
+  },
+  {
+    "id": "K01",
+    "slug": "refrigerator",
+    "reference": "C:/Users/dbdls/OneDrive/바탕 화면/Game_pm/Art/AssetConcepts/v1/03-kitchen.png",
+    "prompt": "Use case: precise-object-edit. Input is the APPROVED game prop catalog. Isolate and faithfully re-render ONLY the specified object from the specified cell as a SINGLE clean Meshy image-to-3D reference. Preserve its approved design, aged materials, palette and construction. Do not include the sheet grid, labels, titles, other props, duplicate object, alternate views, exploded view or supporting panels. One object centered, entire silhouette clearly visible with ample margins, plain light gray studio background, neutral even soft lighting with extremely light contact shadow, no dramatic darkness, no pedestal. Photorealistic game prop, not cartoon, no branding or invented text. Three-quarter front view exposing top and right side unless otherwise stated; show all legs and lowest edge. No redesign. Source cell: K01 top left. Subject: one closed old ivory narrow two-door top-freezer refrigerator matching reference, lower large fridge door and upper freezer door, both CLOSED, separate seam clear, left-side handles. No alternate open view.",
+    "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-5ac268cc-3aa9-4cc7-a923-96ef759d4855.png"
+  },
+  {
+    "id": "K06",
+    "slug": "round-table",
+    "reference": "C:/Users/dbdls/OneDrive/바탕 화면/Game_pm/Art/AssetConcepts/v1/03-kitchen.png",
+    "prompt": "Use case: precise-object-edit. Input is the APPROVED game prop catalog. Isolate and faithfully re-render ONLY the specified object from the specified cell as a SINGLE clean Meshy image-to-3D reference. Preserve its approved design, aged materials, palette and construction. Do not include the sheet grid, labels, titles, other props, duplicate object, alternate views, exploded view or supporting panels. One object centered, entire silhouette clearly visible with ample margins, plain light gray studio background, neutral even soft lighting with extremely light contact shadow, no dramatic darkness, no pedestal. Photorealistic game prop, not cartoon, no branding or invented text. Three-quarter front view exposing top and right side unless otherwise stated; show all legs and lowest edge. No redesign. Source cell: K06 center right. Subject: one ROUND modest brown wooden dining table with circular top and sturdy four square legs with bracing exactly like reference. NO chairs, no dishes. Full silhouette, circular 150cm top,75cm height, natural aged wood.",
+    "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-16bc092b-1e41-4b3d-bfc7-e71ebf50626c.png"
+  },
+  {
+    "id": "R01",
+    "slug": "bare-bed-frame",
+    "reference": "C:/Users/dbdls/OneDrive/바탕 화면/Game_pm/Art/AssetConcepts/v1/04-rooms.png",
+    "prompt": "Use case: precise-object-edit. Input is the APPROVED game prop catalog. Isolate and faithfully re-render ONLY the specified object from the specified cell as a SINGLE clean Meshy image-to-3D reference. Preserve its approved design, aged materials, palette and construction. Do not include the sheet grid, labels, titles, other props, duplicate object, alternate views, exploded view or supporting panels. One object centered, entire silhouette clearly visible with ample margins, plain light gray studio background, neutral even soft lighting with extremely light contact shadow, no dramatic darkness, no pedestal. Photorealistic game prop, not cartoon, no branding or invented text. Three-quarter front view exposing top and right side unless otherwise stated; show all legs and lowest edge. No redesign. Source cell: R01 top left. Subject: one narrow single bed frame with worn brown wood head and foot boards and gray metal slats matching reference. NO mattress or pillows or bedding. Interior support slats clearly visible, 80cm wide and195cm long.",
+    "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-9c7b02f1-3f41-4e6e-8e50-a23722e06a85.png"
+  },
+  {
+    "id": "R04",
+    "slug": "wardrobe",
+    "reference": "C:/Users/dbdls/OneDrive/바탕 화면/Game_pm/Art/AssetConcepts/v1/04-rooms.png",
+    "prompt": "Use case: precise-object-edit. Input is the APPROVED game prop catalog. Isolate and faithfully re-render ONLY the specified object from the specified cell as a SINGLE clean Meshy image-to-3D reference. Preserve its approved design, aged materials, palette and construction. Do not include the sheet grid, labels, titles, other props, duplicate object, alternate views, exploded view or supporting panels. One object centered, entire silhouette clearly visible with ample margins, plain light gray studio background, neutral even soft lighting with extremely light contact shadow, no dramatic darkness, no pedestal. Photorealistic game prop, not cartoon, no branding or invented text. Three-quarter front view exposing top and right side unless otherwise stated; show all legs and lowest edge. No redesign. Source cell: R04 center left. Subject: one narrow single-door brown laminate wardrobe, CLOSED door with small plain handle near left edge, hinges on right. Match reference width and material, no open duplicate or inset, hollow interior will be built later.",
+    "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-8272fb46-9cb5-4d73-9e58-1b955e39a907.png"
+  }
+]

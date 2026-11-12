@@ -1,0 +1,10 @@
+{
+  "id": "junho",
+  "task_id": "bb91aeee-dbcd-44ee-ac12-8b9aa323d005",
+  "stage": "reduce",
+  "expected_credits": 35,
+  "balance_before": 2470,
+  "status": "submitted",
+  "at": "2026-11-09T12:43:15.2596797+09:00",
+  "balance_after": 2435
+}

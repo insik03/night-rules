@@ -1,0 +1,52 @@
+[
+  {
+    "name": "chair",
+    "source_triangles": 192426,
+    "note": "Uniform scale only; original proportions retained.",
+    "parts": [
+      "SM_GP_Chair"
+    ]
+  },
+  {
+    "name": "bedding",
+    "source_triangles": 723018,
+    "note": "Uniform width 88cm; plain centre sheet extended to 195cm. Pillow/quilt ends translated rigidly, not stretched.",
+    "parts": [
+      "SM_GP_Bedding"
+    ]
+  },
+  {
+    "name": "sink",
+    "source_triangles": 128516,
+    "note": "Uniform width120cm; countertop plane 0.740m; pedestal lift 0.110m. Doors split, interior lining added.",
+    "parts": [
+      "SM_GP_SinkBody",
+      "SM_GP_SinkLeft",
+      "SM_GP_SinkRight"
+    ]
+  },
+  {
+    "name": "shower",
+    "source_triangles": 528492,
+    "note": "Uniform scale only; original proportions retained.",
+    "parts": [
+      "SM_GP_Shower"
+    ]
+  },
+  {
+    "name": "slippers",
+    "source_triangles": 500020,
+    "note": "Uniform scale only; original proportions retained.",
+    "parts": [
+      "SM_GP_Slippers"
+    ]
+  },
+  {
+    "name": "books",
+    "source_triangles": 854027,
+    "note": "Uniform scale only; original proportions retained.",
+    "parts": [
+      "SM_GP_Books"
+    ]
+  }
+]

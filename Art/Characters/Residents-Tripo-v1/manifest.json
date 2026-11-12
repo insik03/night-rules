@@ -1,0 +1,112 @@
+{
+  "service": "Tripo Studio web",
+  "date": "2026-11-09",
+  "residents": [
+    {
+      "id": "minseo",
+      "name": "김민서",
+      "room": 203,
+      "height_cm": 163,
+      "height_status": "temporary presentation scale",
+      "task_id": "dadede9d-2814-4d35-9210-40822b77e377",
+      "source_file": "tripo_convert_a85fdcf2-954d-4959-83a9-977ea758a219.glb",
+      "credits": {
+        "base": 55,
+        "retopology": 35,
+        "rigging": 20
+      },
+      "animation": [
+        "idle"
+      ]
+    },
+    {
+      "id": "taeo",
+      "name": "이태오",
+      "room": 301,
+      "height_cm": 175,
+      "height_status": "temporary presentation scale",
+      "task_id": "f46552c3-429c-445d-8308-68cfde2da74c",
+      "source_file": "tripo_convert_6f1c0d43-a237-410d-a93d-3a0d18ea6584.glb",
+      "credits": {
+        "base": 55,
+        "retopology": 35,
+        "rigging": 20
+      },
+      "animation": [
+        "idle"
+      ]
+    },
+    {
+      "id": "jeongsuk",
+      "name": "오정숙",
+      "room": 105,
+      "height_cm": 158,
+      "height_status": "temporary presentation scale",
+      "task_id": "61092442-27a9-4725-ad85-55ecfae4f9ea",
+      "source_file": "tripo_convert_52b4e46b-b4cb-4428-9e62-90f025995a2b.glb",
+      "credits": {
+        "base": 55,
+        "retopology": 35,
+        "rigging": 20
+      },
+      "animation": [
+        "wait"
+      ]
+    },
+    {
+      "id": "junho",
+      "name": "박준호",
+      "room": 204,
+      "height_cm": 176,
+      "height_status": "temporary presentation scale",
+      "task_id": "bb91aeee-dbcd-44ee-ac12-8b9aa323d005",
+      "source_file": "tripo_convert_09090f34-d0f2-4c77-9ab8-4ba8783afa9b.glb",
+      "credits": {
+        "base": 55,
+        "retopology": 35,
+        "rigging": 20
+      },
+      "animation": [
+        "wait"
+      ]
+    },
+    {
+      "id": "jiwoo",
+      "name": "윤지우",
+      "room": 208,
+      "height_cm": 162,
+      "height_status": "temporary presentation scale",
+      "task_id": "b09f582c-e646-47c1-b773-0a61a0337385",
+      "source_file": "tripo_convert_00dce6a4-8d80-4f88-a64d-cb1fe19f2612.glb",
+      "credits": {
+        "base": 55,
+        "retopology": 35,
+        "rigging": 20
+      },
+      "animation": [
+        "wait"
+      ]
+    },
+    {
+      "id": "arun",
+      "name": "아룬",
+      "room": 104,
+      "height_cm": 172,
+      "height_status": "temporary presentation scale",
+      "task_id": "d58cac76-6c66-4d60-b863-ab3f6cf6b0d4",
+      "source_file": "tripo_convert_1aea4d4a-6df6-416d-9c77-19203d22da62.glb",
+      "credits": {
+        "base": 55,
+        "retopology": 35,
+        "rigging": 20
+      },
+      "animation": [
+        "wait"
+      ]
+    }
+  ],
+  "credits_residents": 660,
+  "credit_batch_total": 825,
+  "balance_before": 3090,
+  "balance_after": 2265
+}

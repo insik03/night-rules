@@ -1,0 +1,37 @@
+[
+  {
+    "id": "APToolbox",
+    "mesh": "SM_AP_Toolbox",
+    "materials": [
+      {
+        "name": "M_AP_Toolbox_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_APToolbox_base.png",
+          "normal": "T_CP_APToolbox_normal.png",
+          "orm": "T_CP_APToolbox_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 15998,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      50.0,
+      29.952,
+      32.0
+    ]
+  }
+]

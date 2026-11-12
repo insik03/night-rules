@@ -1,0 +1,7 @@
+{
+  "source_faces": 714682,
+  "optimized_faces": 89999,
+  "height_m": 2.15,
+  "method": "Blender collapse decimation, existing UV and PBR textures retained",
+  "meshy_additional_credits": 0
+}

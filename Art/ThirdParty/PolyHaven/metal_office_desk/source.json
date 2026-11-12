@@ -1,0 +1,88 @@
+{
+  "asset": "metal_office_desk",
+  "info": {
+    "type": 2,
+    "name": "Metal Office Desk",
+    "categories": [
+      "collection: project_lighthouse",
+      "furniture",
+      "table",
+      "office"
+    ],
+    "tags": [
+      "old",
+      "vintage",
+      "metal",
+      "dirty",
+      "scratched",
+      "industrial",
+      "rectangular"
+    ],
+    "authors": {
+      "Ulan Cabanilla": "All"
+    },
+    "donated": true,
+    "polycount": 6898,
+    "dimensions": [
+      2000.0003576278687,
+      947.2135305404663,
+      787.5000089406967
+    ],
+    "date_published": 1774015468,
+    "staging": null,
+    "social_post_pending": false,
+    "description": "Free 8k metal office desk model with worn grey finish, dual pedestal drawers, chrome handles and tapered legs - sturdy industrial mid-century look.",
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "687c6d374d4674adb8d065aa3480b04f4f56f2b0",
+    "texel_density": 1864.3240979271923,
+    "category_id": "b37015ec-f872-5354-be8f-7a25172f366c",
+    "category": "Furniture/Tables/Desks",
+    "collections": [
+      "project_lighthouse"
+    ],
+    "attributes": {
+      "condition": [
+        "worn"
+      ],
+      "material": [
+        "metal"
+      ]
+    },
+    "img_version": "fd98b58d",
+    "download_count": 9498,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/metal_office_desk.png?width=256&height=256&format=webp&v=fd98b58d"
+  },
+  "files": {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/metal_office_desk/metal_office_desk_2k.blend",
+    "md5": "dccf56aa1961e0165226d83bc2ee0aa4",
+    "size": 233807,
+    "include": {
+      "textures/metal_office_desk_diff_2k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_office_desk/metal_office_desk_diff_2k.jpg",
+        "md5": "62e40035b94716516bd932f83e76ba0c",
+        "size": 1787420
+      },
+      "textures/metal_office_desk_metal_2k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/metal_office_desk/metal_office_desk_metal_2k.exr",
+        "md5": "061f60911c7e9ba7b5910ed23223e628",
+        "size": 282466
+      },
+      "textures/metal_office_desk_nor_gl_2k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/metal_office_desk/metal_office_desk_nor_gl_2k.exr",
+        "md5": "65b2de988b9360721c12fe7c61ddb9c8",
+        "size": 809769
+      },
+      "textures/metal_office_desk_rough_2k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/metal_office_desk/metal_office_desk_rough_2k.exr",
+        "md5": "4aba8bbdc37b2a5e2a2bdaf7580894d2",
+        "size": 2877588
+      }
+    }
+  },
+  "license": "CC0-1.0",
+  "license_url": "https://polyhaven.com/license",
+  "source_url": "https://polyhaven.com/a/metal_office_desk"
+}

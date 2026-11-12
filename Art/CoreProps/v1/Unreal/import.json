@@ -1,0 +1,702 @@
+[
+  {
+    "id": "B01",
+    "mesh": "SM_CP_Door",
+    "materials": [
+      {
+        "name": "M_CP_B01_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_B01_base.png",
+          "normal": "T_CP_B01_normal.png",
+          "orm": "T_CP_B01_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 37346,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      78.0,
+      7.5,
+      200.0
+    ]
+  },
+  {
+    "id": "I01",
+    "mesh": "SM_CP_Flashlight",
+    "materials": [
+      {
+        "name": "M_CP_I01_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_I01_base.png",
+          "normal": "T_CP_I01_normal.png",
+          "orm": "T_CP_I01_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 14000,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      25.0,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "id": "I02",
+    "mesh": "SM_CP_Cartridge",
+    "materials": [
+      {
+        "name": "M_CP_I02_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_I02_base.png",
+          "normal": "T_CP_I02_normal.png",
+          "orm": "T_CP_I02_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 6000,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      7.5,
+      4.0,
+      4.0
+    ]
+  },
+  {
+    "id": "K06",
+    "mesh": "SM_CP_RoundTable",
+    "materials": [
+      {
+        "name": "M_CP_K06_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_K06_base.png",
+          "normal": "T_CP_K06_normal.png",
+          "orm": "T_CP_K06_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 14000,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      150.0,
+      150.0,
+      75.0
+    ]
+  },
+  {
+    "id": "O03",
+    "mesh": "SM_CP_Phone",
+    "materials": [
+      {
+        "name": "M_CP_O03_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_O03_base.png",
+          "normal": "T_CP_O03_normal.png",
+          "orm": "T_CP_O03_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 13999,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      32.0,
+      26.0,
+      14.0
+    ]
+  },
+  {
+    "id": "O05",
+    "mesh": "SM_CP_CRT",
+    "materials": [
+      {
+        "name": "M_CP_O05_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_O05_base.png",
+          "normal": "T_CP_O05_normal.png",
+          "orm": "T_CP_O05_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 14000,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      32.0,
+      30.0,
+      30.0
+    ]
+  },
+  {
+    "id": "K01",
+    "mesh": "SM_CP_FridgeBody",
+    "materials": [
+      {
+        "name": "M_CP_K01_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_K01_base.png",
+          "normal": "T_CP_K01_normal.png",
+          "orm": "T_CP_K01_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_CP_InteriorIvory",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.5600000023841858,
+            0.550000011920929,
+            0.4699999988079071
+          ],
+          "rough": 0.6499999761581421,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 3491,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      62.0,
+      59.5,
+      169.927
+    ]
+  },
+  {
+    "id": "K01",
+    "mesh": "SM_CP_FridgeDoor",
+    "materials": [
+      {
+        "name": "M_CP_K01_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_K01_base.png",
+          "normal": "T_CP_K01_normal.png",
+          "orm": "T_CP_K01_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_CP_InteriorIvory",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.5600000023841858,
+            0.550000011920929,
+            0.4699999988079071
+          ],
+          "rough": 0.6499999761581421,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 7855,
+    "pivot_m": [
+      0.2919999957084656,
+      -0.1899999976158142,
+      0.0
+    ],
+    "dimensions_cm": [
+      61.974,
+      13.75,
+      116.5
+    ]
+  },
+  {
+    "id": "K01",
+    "mesh": "SM_CP_FreezerDoor",
+    "materials": [
+      {
+        "name": "M_CP_K01_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_K01_base.png",
+          "normal": "T_CP_K01_normal.png",
+          "orm": "T_CP_K01_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_CP_InteriorIvory",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.5600000023841858,
+            0.550000011920929,
+            0.4699999988079071
+          ],
+          "rough": 0.6499999761581421,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 2109,
+    "pivot_m": [
+      0.2919999957084656,
+      -0.1899999976158142,
+      0.0
+    ],
+    "dimensions_cm": [
+      61.983,
+      13.702,
+      50.5
+    ]
+  },
+  {
+    "id": "R01",
+    "mesh": "SM_CP_BedFrame",
+    "materials": [
+      {
+        "name": "M_CP_R01_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_R01_base.png",
+          "normal": "T_CP_R01_normal.png",
+          "orm": "T_CP_R01_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 18000,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      80.0,
+      195.0,
+      70.0
+    ]
+  },
+  {
+    "id": "R04",
+    "mesh": "SM_CP_WardrobeBody",
+    "materials": [
+      {
+        "name": "M_CP_R04_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_R04_base.png",
+          "normal": "T_CP_R04_normal.png",
+          "orm": "T_CP_R04_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_CP_InteriorWood",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.09000000357627869,
+            0.054999999701976776,
+            0.02500000037252903
+          ],
+          "rough": 0.6499999761581421,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_CP_InteriorSteel",
+        "slot": 2,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.17000000178813934,
+            0.18000000715255737,
+            0.17000000178813934
+          ],
+          "rough": 0.4000000059604645,
+          "metal": 0.699999988079071
+        }
+      }
+    ],
+    "triangles": 1258,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      45.0,
+      39.5,
+      174.977
+    ]
+  },
+  {
+    "id": "R04",
+    "mesh": "SM_CP_WardrobeDoor",
+    "materials": [
+      {
+        "name": "M_CP_R04_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_R04_base.png",
+          "normal": "T_CP_R04_normal.png",
+          "orm": "T_CP_R04_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_CP_InteriorWood",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.09000000357627869,
+            0.054999999701976776,
+            0.02500000037252903
+          ],
+          "rough": 0.6499999761581421,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 10565,
+    "pivot_m": [
+      0.2070000022649765,
+      -0.14499999582767487,
+      0.0
+    ],
+    "dimensions_cm": [
+      44.991,
+      8.25,
+      169.9
+    ]
+  },
+  {
+    "id": "O01",
+    "mesh": "SM_CP_DeskBody",
+    "materials": [
+      {
+        "name": "M_CP_O01_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_O01_base.png",
+          "normal": "T_CP_O01_normal.png",
+          "orm": "T_CP_O01_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_CP_InteriorWood",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.09000000357627869,
+            0.054999999701976776,
+            0.02500000037252903
+          ],
+          "rough": 0.6499999761581421,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 18642,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      264.0,
+      55.0,
+      75.0
+    ]
+  },
+  {
+    "id": "O01",
+    "mesh": "SM_CP_Drawer1",
+    "materials": [
+      {
+        "name": "M_CP_O01_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_O01_base.png",
+          "normal": "T_CP_O01_normal.png",
+          "orm": "T_CP_O01_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_CP_InteriorWood",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.09000000357627869,
+            0.054999999701976776,
+            0.02500000037252903
+          ],
+          "rough": 0.6499999761581421,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 1524,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      33.55,
+      47.343,
+      31.4
+    ]
+  },
+  {
+    "id": "O01",
+    "mesh": "SM_CP_Drawer2",
+    "materials": [
+      {
+        "name": "M_CP_O01_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_O01_base.png",
+          "normal": "T_CP_O01_normal.png",
+          "orm": "T_CP_O01_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_CP_InteriorWood",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.09000000357627869,
+            0.054999999701976776,
+            0.02500000037252903
+          ],
+          "rough": 0.6499999761581421,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 1287,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      33.55,
+      47.319,
+      16.1
+    ]
+  },
+  {
+    "id": "O01",
+    "mesh": "SM_CP_Drawer3",
+    "materials": [
+      {
+        "name": "M_CP_O01_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_O01_base.png",
+          "normal": "T_CP_O01_normal.png",
+          "orm": "T_CP_O01_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_CP_InteriorWood",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.09000000357627869,
+            0.054999999701976776,
+            0.02500000037252903
+          ],
+          "rough": 0.6499999761581421,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 1612,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      33.55,
+      47.345,
+      16.5
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "minseo",
+    "mesh": "/Game/PrototypeAssets/ResidentsV1/Minseo/SK_Minseo.SK_Minseo",
+    "idle": "/Game/PrototypeAssets/ResidentsV1/Minseo/A_Minseo_Idle.A_Minseo_Idle",
+    "height_cm": 163.0000001490116,
+    "idle_seconds": 15.333333015441895,
+    "lod_levels": 3,
+    "source_triangles": 19057,
+    "materials_assigned": 1
+  },
+  {
+    "id": "taeo",
+    "mesh": "/Game/PrototypeAssets/ResidentsV1/Taeo/SK_Taeo.SK_Taeo",
+    "idle": "/Game/PrototypeAssets/ResidentsV1/Taeo/A_Taeo_Idle.A_Taeo_Idle",
+    "height_cm": 175.0000044107437,
+    "idle_seconds": 15.333333015441895,
+    "lod_levels": 3,
+    "source_triangles": 18142,
+    "materials_assigned": 1
+  },
+  {
+    "id": "jeongsuk",
+    "mesh": "/Game/PrototypeAssets/ResidentsV1/Jeongsuk/SK_Jeongsuk.SK_Jeongsuk",
+    "idle": "/Game/PrototypeAssets/ResidentsV1/Jeongsuk/A_Jeongsuk_Idle.A_Jeongsuk_Idle",
+    "height_cm": 157.9999806880951,
+    "idle_seconds": 6.0,
+    "lod_levels": 3,
+    "source_triangles": 18620,
+    "materials_assigned": 1
+  },
+  {
+    "id": "junho",
+    "mesh": "/Game/PrototypeAssets/ResidentsV1/Junho/SK_Junho.SK_Junho",
+    "idle": "/Game/PrototypeAssets/ResidentsV1/Junho/A_Junho_Idle.A_Junho_Idle",
+    "height_cm": 176.00000393390656,
+    "idle_seconds": 6.0,
+    "lod_levels": 3,
+    "source_triangles": 18753,
+    "materials_assigned": 1
+  },
+  {
+    "id": "jiwoo",
+    "mesh": "/Game/PrototypeAssets/ResidentsV1/Jiwoo/SK_Jiwoo.SK_Jiwoo",
+    "idle": "/Game/PrototypeAssets/ResidentsV1/Jiwoo/A_Jiwoo_Idle.A_Jiwoo_Idle",
+    "height_cm": 162.0000095963478,
+    "idle_seconds": 6.0,
+    "lod_levels": 3,
+    "source_triangles": 18633,
+    "materials_assigned": 1
+  },
+  {
+    "id": "arun",
+    "mesh": "/Game/PrototypeAssets/ResidentsV1/Arun/SK_Arun.SK_Arun",
+    "idle": "/Game/PrototypeAssets/ResidentsV1/Arun/A_Arun_Idle.A_Arun_Idle",
+    "height_cm": 171.9999796152115,
+    "idle_seconds": 6.0,
+    "lod_levels": 3,
+    "source_triangles": 18924,
+    "materials_assigned": 1
+  }
+]

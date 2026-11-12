@@ -1,0 +1,88 @@
+[
+  {
+    "id": "B01",
+    "source_triangles": 37346,
+    "prepared_triangles": 37346,
+    "parts": [
+      "SM_CP_Door"
+    ]
+  },
+  {
+    "id": "I01",
+    "source_triangles": 2597140,
+    "prepared_triangles": 14000,
+    "parts": [
+      "SM_CP_Flashlight"
+    ]
+  },
+  {
+    "id": "I02",
+    "source_triangles": 467730,
+    "prepared_triangles": 6000,
+    "parts": [
+      "SM_CP_Cartridge"
+    ]
+  },
+  {
+    "id": "K06",
+    "source_triangles": 597144,
+    "prepared_triangles": 14000,
+    "parts": [
+      "SM_CP_RoundTable"
+    ]
+  },
+  {
+    "id": "O03",
+    "source_triangles": 581528,
+    "prepared_triangles": 13999,
+    "parts": [
+      "SM_CP_Phone"
+    ]
+  },
+  {
+    "id": "O05",
+    "source_triangles": 620234,
+    "prepared_triangles": 14000,
+    "parts": [
+      "SM_CP_CRT"
+    ]
+  },
+  {
+    "id": "K01",
+    "source_triangles": 84964,
+    "prepared_triangles": 13455,
+    "parts": [
+      "SM_CP_FridgeBody",
+      "SM_CP_FridgeDoor",
+      "SM_CP_FreezerDoor"
+    ]
+  },
+  {
+    "id": "R01",
+    "source_triangles": 429104,
+    "prepared_triangles": 18000,
+    "parts": [
+      "SM_CP_BedFrame"
+    ]
+  },
+  {
+    "id": "R04",
+    "source_triangles": 59314,
+    "prepared_triangles": 11823,
+    "parts": [
+      "SM_CP_WardrobeBody",
+      "SM_CP_WardrobeDoor"
+    ]
+  },
+  {
+    "id": "O01",
+    "source_triangles": 149566,
+    "prepared_triangles": 23065,
+    "parts": [
+      "SM_CP_DeskBody",
+      "SM_CP_Drawer1",
+      "SM_CP_Drawer2",
+      "SM_CP_Drawer3"
+    ]
+  }
+]

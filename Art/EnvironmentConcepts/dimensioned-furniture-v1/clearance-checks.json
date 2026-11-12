@@ -1,0 +1,530 @@
+[
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 1,
+    "x": 425,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 1,
+    "x": 655,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 1,
+    "x": 1115,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 1,
+    "x": 1345,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 1,
+    "x": 1805,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 2,
+    "x": 885,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 2,
+    "x": 1115,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 2,
+    "x": 1575,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 2,
+    "x": 2035,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 2,
+    "x": 2725,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 3,
+    "x": 425,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 3,
+    "x": 885,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 3,
+    "x": 1345,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 3,
+    "x": 2035,
+    "pass_check": true
+  },
+  {
+    "check": "객실 의자 30cm 인출과 옷장 비중첩",
+    "floor": 3,
+    "x": 2725,
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 101,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 102,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 103,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 104,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 105,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 106,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 107,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 108,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 109,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 110,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 111,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 112,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 201,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 202,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 203,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 204,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 205,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 206,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 207,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 208,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 209,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 210,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 211,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 212,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 301,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 302,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 303,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 304,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 305,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 306,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 307,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 308,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 309,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 310,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 311,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "객실 문 87cm 회전 구역",
+    "room": 312,
+    "blocked_by": [],
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 1,
+    "x": 504.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 1,
+    "x": 551.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 1,
+    "x": 734.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 1,
+    "x": 781.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 1,
+    "x": 1194.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 1,
+    "x": 1241.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 1,
+    "x": 1424.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 1,
+    "x": 1471.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 1,
+    "x": 1884.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 1,
+    "x": 1931.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 2,
+    "x": 964.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 2,
+    "x": 1011.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 2,
+    "x": 1194.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 2,
+    "x": 1241.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 2,
+    "x": 1654.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 2,
+    "x": 1701.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 2,
+    "x": 2114.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 2,
+    "x": 2161.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 2,
+    "x": 2804.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 2,
+    "x": 2851.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 3,
+    "x": 504.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 3,
+    "x": 551.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 3,
+    "x": 964.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 3,
+    "x": 1011.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 3,
+    "x": 1424.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 3,
+    "x": 1471.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 3,
+    "x": 2114.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 3,
+    "x": 2161.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 3,
+    "x": 2804.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "발치 옷장과 침대 비중첩",
+    "floor": 3,
+    "x": 2851.5,
+    "clearance_cm": 39.5,
+    "pass_check": true
+  },
+  {
+    "check": "옷장 문 90도 개방 시 통로",
+    "clearance_cm": 39.5,
+    "pass_check": false,
+    "note": "발치와 옷장 사이39.5cm. 폭44cm 문은 90도 열면 침대와 겹침. 개방각 약60도 제한 또는 문 방식 변경을 게임 반영 시 검토."
+  },
+  {
+    "check": "관리실 출입구와 책상 측면",
+    "clearance_cm": 59.5,
+    "pass_check": true,
+    "note": "문 오른쪽 끝 X78.5, 책상 왼쪽 X138; 복도 유효폭을 뜻하지 않음."
+  }
+]

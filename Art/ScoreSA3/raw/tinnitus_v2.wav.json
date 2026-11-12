@@ -1,0 +1,31 @@
+{
+  "kind": "generate",
+  "title": "tinnitus",
+  "original_idea": "",
+  "audio_type": "sfx",
+  "prompt": "",
+  "prompt_used": "TrackType: SFX, aftermath of a blow to the head, muffled low rumble and soft ear ringing slowly fading out, dull, muted, no siren, no alarm, inside the head.",
+  "sound_fields": {
+    "source": "aftermath of a blow to the head",
+    "action": "muffled low rumble and soft ear ringing slowly fading out",
+    "material": "dull, muted, no siren, no alarm",
+    "space": "inside the head"
+  },
+  "bpm": null,
+  "seconds": 6.0,
+  "negative_prompt": null,
+  "cfg": 1.0,
+  "steps": 8,
+  "variations": 2,
+  "seed": 1534818793,
+  "candidate": 2,
+  "file": "tinnitus_v2.wav",
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "created": "2026-11-05T23:16:48",
+  "backend": "sa3-torch",
+  "model": "medium + same-l",
+  "peak_dbfs": -24.17,
+  "raw_peak_dbfs": -24.17,
+  "ceiling_gain_db": 0.0
+}

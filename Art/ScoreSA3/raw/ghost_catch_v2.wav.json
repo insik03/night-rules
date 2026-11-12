@@ -1,0 +1,31 @@
+{
+  "kind": "generate",
+  "title": "ghost_catch",
+  "original_idea": "",
+  "audio_type": "sfx",
+  "prompt": "",
+  "prompt_used": "TrackType: SFX, monster grabbing its victim, sharp inhale right next to the ear, then a guttural roar and a heavy body impact, wet throat, low growl, thud, extremely close, intimate.",
+  "sound_fields": {
+    "source": "monster grabbing its victim",
+    "action": "sharp inhale right next to the ear, then a guttural roar and a heavy body impact",
+    "material": "wet throat, low growl, thud",
+    "space": "extremely close, intimate"
+  },
+  "bpm": null,
+  "seconds": 2.5,
+  "negative_prompt": null,
+  "cfg": 1.0,
+  "steps": 8,
+  "variations": 2,
+  "seed": 1865103796,
+  "candidate": 2,
+  "file": "ghost_catch_v2.wav",
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "created": "2026-11-05T23:16:43",
+  "backend": "sa3-torch",
+  "model": "medium + same-l",
+  "peak_dbfs": -1.0,
+  "raw_peak_dbfs": 0.0,
+  "ceiling_gain_db": -1.0
+}

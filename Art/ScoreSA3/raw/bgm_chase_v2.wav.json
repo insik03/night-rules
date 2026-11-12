@@ -1,0 +1,31 @@
+{
+  "kind": "generate",
+  "title": "bgm_chase",
+  "original_idea": "",
+  "audio_type": "music",
+  "prompt": "Intense psychological horror chase cue. Pounding low taiko and kick like a racing heartbeat, dissonant tremolo strings, metallic scrapes, rising panic. Cinematic, no vocals.",
+  "prompt_used": "TrackType: Music, VocalType: Instrumental, Intense psychological horror chase cue. Pounding low taiko and kick like a racing heartbeat, dissonant tremolo strings, metallic scrapes, rising panic. Cinematic, no vocals. BPM: 120.",
+  "sound_fields": {
+    "source": "",
+    "action": "",
+    "material": "",
+    "space": ""
+  },
+  "bpm": 120,
+  "seconds": 32.0,
+  "negative_prompt": null,
+  "cfg": 1.0,
+  "steps": 8,
+  "variations": 2,
+  "seed": 1141437641,
+  "candidate": 2,
+  "file": "bgm_chase_v2.wav",
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "created": "2026-11-05T23:16:36",
+  "backend": "sa3-torch",
+  "model": "medium + same-l",
+  "peak_dbfs": -1.0,
+  "raw_peak_dbfs": -0.08,
+  "ceiling_gain_db": -0.92
+}

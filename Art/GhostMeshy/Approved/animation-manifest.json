@@ -1,0 +1,32 @@
+{
+  "height_m": 2.15,
+  "triangles": 89999,
+  "clips": {
+    "A_CaretakerWalk": {
+      "duration_s": 1.0333332667748134,
+      "frames": 32,
+      "source_root_drift_m": [
+        1.847744002247964e-08,
+        -4.76837147544984e-09,
+        -7.629394360719743e-08
+      ],
+      "head_tilt_degrees": 12,
+      "in_place": true,
+      "leg_motion": "Meshy walking",
+      "stride_factor": 1
+    },
+    "A_CaretakerRun": {
+      "duration_s": 0.6333333303531011,
+      "frames": 20,
+      "source_root_drift_m": [
+        2.5033950024067053e-08,
+        -2.384185648907078e-08,
+        2.288818308215923e-07
+      ],
+      "head_tilt_degrees": 26,
+      "in_place": true,
+      "leg_motion": "Meshy footfall timing, two-bone IK stride compression",
+      "stride_factor": 0.56
+    }
+  }
+}

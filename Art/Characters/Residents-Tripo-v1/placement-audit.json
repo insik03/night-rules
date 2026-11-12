@@ -1,0 +1,170 @@
+[
+  {
+    "id": "minseo",
+    "room": 203,
+    "placement_cm": [
+      855.0,
+      15.0,
+      320.5
+    ],
+    "sample_stride_frames": 4,
+    "animated_bounds_cm": [
+      [
+        828.276611328125,
+        -4.015871047973633,
+        320.4821472167969
+      ],
+      [
+        904.715087890625,
+        36.434234619140625,
+        483.9205322265625
+      ]
+    ],
+    "side_wall_clearance_cm": 13.276611328125,
+    "door_closed_plane_clearance_cm": 55.98412895202637,
+    "bed_nominal_clearance_cm": 33.284912109375,
+    "wardrobe_nominal_y_clearance_cm": 26.065765380859375,
+    "floor_clearance_cm": 0.482147216796875,
+    "method": "Blender animation AABB against existing C++ nominal furniture extents; not runtime collision QA"
+  },
+  {
+    "id": "taeo",
+    "room": 301,
+    "placement_cm": [
+      395.0,
+      15.0,
+      640.5
+    ],
+    "sample_stride_frames": 4,
+    "animated_bounds_cm": [
+      [
+        362.92138671875,
+        -7.64177131652832,
+        640.4865112304688
+      ],
+      [
+        449.01202392578125,
+        45.55559158325195,
+        816.4144897460938
+      ]
+    ],
+    "side_wall_clearance_cm": 7.92138671875,
+    "door_closed_plane_clearance_cm": 52.35822868347168,
+    "bed_nominal_clearance_cm": 28.98797607421875,
+    "wardrobe_nominal_y_clearance_cm": 16.944408416748047,
+    "floor_clearance_cm": 0.48651123046875,
+    "method": "Blender animation AABB against existing C++ nominal furniture extents; not runtime collision QA"
+  },
+  {
+    "id": "jeongsuk",
+    "room": 105,
+    "placement_cm": [
+      1315.0,
+      15.0,
+      0.5
+    ],
+    "sample_stride_frames": 4,
+    "animated_bounds_cm": [
+      [
+        1279.246826171875,
+        -15.087345123291016,
+        0.5
+      ],
+      [
+        1339.3565673828125,
+        36.80683135986328,
+        159.42489624023438
+      ]
+    ],
+    "side_wall_clearance_cm": 4.246826171875,
+    "door_closed_plane_clearance_cm": 44.912654876708984,
+    "bed_nominal_clearance_cm": 58.6434326171875,
+    "wardrobe_nominal_y_clearance_cm": 25.69316864013672,
+    "floor_clearance_cm": 0.5,
+    "method": "Blender animation AABB against existing C++ nominal furniture extents; not runtime collision QA"
+  },
+  {
+    "id": "junho",
+    "room": 204,
+    "placement_cm": [
+      1093.0,
+      15.0,
+      320.5
+    ],
+    "sample_stride_frames": 4,
+    "animated_bounds_cm": [
+      [
+        1050.959228515625,
+        -19.27178192138672,
+        320.5
+      ],
+      [
+        1123.2161865234375,
+        39.387351989746094,
+        495.097412109375
+      ]
+    ],
+    "side_wall_clearance_cm": 5.959228515625,
+    "door_closed_plane_clearance_cm": 40.72821807861328,
+    "bed_nominal_clearance_cm": 44.7838134765625,
+    "wardrobe_nominal_y_clearance_cm": 23.112648010253906,
+    "floor_clearance_cm": 0.5,
+    "method": "Blender animation AABB against existing C++ nominal furniture extents; not runtime collision QA"
+  },
+  {
+    "id": "jiwoo",
+    "room": 208,
+    "placement_cm": [
+      2005.0,
+      15.0,
+      320.5
+    ],
+    "sample_stride_frames": 4,
+    "animated_bounds_cm": [
+      [
+        1970.7813720703125,
+        -15.582296371459961,
+        320.5
+      ],
+      [
+        2027.5675048828125,
+        34.4088134765625,
+        480.6929016113281
+      ]
+    ],
+    "side_wall_clearance_cm": 5.7813720703125,
+    "door_closed_plane_clearance_cm": 44.41770362854004,
+    "bed_nominal_clearance_cm": 60.4324951171875,
+    "wardrobe_nominal_y_clearance_cm": 28.0911865234375,
+    "floor_clearance_cm": 0.5,
+    "method": "Blender animation AABB against existing C++ nominal furniture extents; not runtime collision QA"
+  },
+  {
+    "id": "arun",
+    "room": 104,
+    "placement_cm": [
+      1093.0,
+      15.0,
+      0.5
+    ],
+    "sample_stride_frames": 4,
+    "animated_bounds_cm": [
+      [
+        1052.772705078125,
+        -21.081581115722656,
+        0.5
+      ],
+      [
+        1120.892578125,
+        41.271461486816406,
+        172.49435424804688
+      ]
+    ],
+    "side_wall_clearance_cm": 7.772705078125,
+    "door_closed_plane_clearance_cm": 38.918418884277344,
+    "bed_nominal_clearance_cm": 47.107421875,
+    "wardrobe_nominal_y_clearance_cm": 21.228538513183594,
+    "floor_clearance_cm": 0.5,
+    "method": "Blender animation AABB against existing C++ nominal furniture extents; not runtime collision QA"
+  }
+]

@@ -1,0 +1,12 @@
+Create a single realistic near-overhead ceiling-off architectural rendering faithfully based ONLY on the provided FLOOR ONE floorplan. This is the ground floor of an old modest Korean gosiwon. Do not improvise any walls. Maintain the exact scaled locations from the drawing, including the unequal widths of kitchen, WC, shower. Background charcoal, entire elongated rectangle, pale old cream walls, green-gray worn hallway vinyl, practical tile in shared rooms. No labels or UI. No characters.
+
+IMPORTANT footprint x=-500..3900. Bottom row room geometry, do NOT shift:
+Small caretaker office front left (-140..140), side door and half-wall/upper-glass toward the front entrance. Storage below.
+Kitchen x430..1300 (8.7m wide), with TWO small dining tables and counter along BOTTOM wall; this kitchen is NOT oversized and must occupy ONLY 20% of the overall building horizontal width. Clear open corridor doorway.
+Toilet/washroom x1350..2150 (8m wide), NO showers, toilet stalls right wall, sinks left wall.
+Dedicated shower room x2200..3400 (12m wide), must be noticeably WIDER than the kitchen (about1.4x its width). Four private shower stalls along bottom wall, changing/towel space near corridor door. No lounge or sofas.
+U-turn stair x3500..3900 on far right. Every common room separately accesses corridor. NO internal shower in the toilet room.
+
+Top row EXACTLY12 small bedroom modules each2.3x3m. Five occupied furnished bedrooms numbered by their position from LEFT 1,2,4,5,7; positions3,6,9 have a BARE bed FRAME with no mattress and a tiny desk. Positions8,10,11,12 completely empty. Do not increase room count. Exactly ONE narrow1.3m horizontal corridor below the bedroom row.
+Upper-right former enclosed end bay directly opposite stairs has its bottom internal wall REMOVED ENTIRELY, continuous open floor from corridor into end bay. Outer walls and bedroom12 partition preserved. Only end widens; main corridor remains narrow. Ground entrance top-left, tiny office with front lower solid wall and upper glazing, desk/chair, side door, no toilet in office. External narrow escape stair at left as diagram.
+The RED HATCHED LOWER STRIP is removed from building, NEVER render it as rear corridor or terrace. Use full diagram geometry as exact reference. Slightly elevated 80degree perspective almost orthographic to retain scale, subtle realistic materials and lived-in details only in occupied spaces. Whole ground floor, no upper floor/roof.

@@ -1,0 +1,62 @@
+{
+  "source": "https://kenney.nl/assets/impact-sounds",
+  "license": "CC0 1.0; Source/License.txt",
+  "processing": "EQ, pitch variation, layered shoe/heel foley. Original source retained.",
+  "clips": {
+    "step_player_00": {
+      "seconds": 0.324,
+      "peak": 0.65,
+      "sha256": "40844f894610403c97d1a886eef7b1f37639e55112f7ffe1f0efa4365f337d17"
+    },
+    "step_ghost_00": {
+      "seconds": 0.667,
+      "peak": 0.78,
+      "sha256": "b39ffe9f00c5ee0e53cfc1ee1f137e3a8bf5988db3d6e6ad7b14c450581052ba"
+    },
+    "step_player_01": {
+      "seconds": 0.298,
+      "peak": 0.65,
+      "sha256": "1bc21f949650126aa3cd72f9ed3833c005a51c54f8c6d102113b1cbcf6c98bac"
+    },
+    "step_ghost_01": {
+      "seconds": 0.719,
+      "peak": 0.78,
+      "sha256": "399e404c1826e5bca003fb21bf007feeec066276374f30dc7f4ba75183b4fe4f"
+    },
+    "step_player_02": {
+      "seconds": 0.298,
+      "peak": 0.65,
+      "sha256": "ec69930d7be915b047a907d5549419aefe82799aa7173830714fe23e18035e80"
+    },
+    "step_ghost_02": {
+      "seconds": 0.72,
+      "peak": 0.78,
+      "sha256": "c012ec45338d631b000e6f2ed56d98041fb35771021ba5a8cf5ffb4a2d8b3799"
+    },
+    "step_player_03": {
+      "seconds": 0.298,
+      "peak": 0.65,
+      "sha256": "4bd1c14daadb940a2ada35e755e8bdbe623e52d4df2ff668efbd0641ce47e105"
+    },
+    "step_ghost_03": {
+      "seconds": 0.685,
+      "peak": 0.78,
+      "sha256": "30ffbbcdce8411a2637a19c640a2b1d90ca5253114ca36d1105c15f0ebfcd57e"
+    },
+    "step_player_04": {
+      "seconds": 0.294,
+      "peak": 0.65,
+      "sha256": "ac32cb9846f201703536f9a5220912058543b89e473a5f7e2c00f74221b022eb"
+    },
+    "step_ghost_04": {
+      "seconds": 0.631,
+      "peak": 0.78,
+      "sha256": "33fd33a3574be1075575fee68aad2c2ddfb64727d3d9f012459caf73c4f57d6b"
+    },
+    "chair_strike": {
+      "seconds": 0.785,
+      "peak": 0.7794,
+      "sha256": "0d5f275c5be443eb1976cd9d38364baae0f0dc28030bf4e09ce56c604dd9ecfb"
+    }
+  }
+}

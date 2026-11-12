@@ -1,0 +1,324 @@
+[
+  {
+    "slug": "metal_office_desk",
+    "mesh": "SM_PH_Desk",
+    "dimensions_cm": [
+      140.0,
+      65.0,
+      76.0
+    ],
+    "materials": [
+      {
+        "name": "M_PH_metal_office_desk_0",
+        "slot": 0,
+        "textures": {
+          "base": "metal_office_desk_diff_2k.png",
+          "metal": "metal_office_desk_metal_2k.png",
+          "rough": "metal_office_desk_rough_2k.png",
+          "normal": "metal_office_desk_nor_gl_2k.png"
+        }
+      }
+    ],
+    "vertices": 3599
+  },
+  {
+    "slug": "plastic_monobloc_chair_01",
+    "mesh": "SM_PH_Chair",
+    "dimensions_cm": [
+      48.0,
+      52.0,
+      88.0
+    ],
+    "materials": [
+      {
+        "name": "M_PH_plastic_monobloc_chair_01_0",
+        "slot": 0,
+        "textures": {
+          "base": "plastic_monobloc_chair_01_diff_2k.png",
+          "metal": "plastic_monobloc_chair_01_metal_2k.png",
+          "rough": "plastic_monobloc_chair_01_rough_2k.png",
+          "normal": "plastic_monobloc_chair_01_nor_gl_2k.png"
+        }
+      }
+    ],
+    "vertices": 1660
+  },
+  {
+    "slug": "steel_frame_shelves_03",
+    "mesh": "SM_PH_Shelves",
+    "dimensions_cm": [
+      80.0,
+      35.0,
+      155.0
+    ],
+    "materials": [
+      {
+        "name": "M_PH_steel_frame_shelves_03_0",
+        "slot": 0,
+        "textures": {
+          "base": "steel_frame_shelves_03_diff_2k.png",
+          "metal": "steel_frame_shelves_03_metal_2k.png",
+          "rough": "steel_frame_shelves_03_rough_2k.png",
+          "normal": "steel_frame_shelves_03_nor_gl_2k.png"
+        }
+      },
+      {
+        "name": "M_PH_steel_frame_shelves_03_1",
+        "slot": 1,
+        "textures": {
+          "base": "steel_frame_shelves_03_drawers_diff_2k.png",
+          "rough": "steel_frame_shelves_03_drawers_rough_2k.png",
+          "normal": "steel_frame_shelves_03_drawers_nor_gl_2k.png"
+        }
+      }
+    ],
+    "vertices": 4546
+  },
+  {
+    "slug": "vintage_microwave",
+    "mesh": "SM_PH_Microwave",
+    "dimensions_cm": [
+      52.0,
+      40.0,
+      32.0
+    ],
+    "materials": [
+      {
+        "name": "M_PH_vintage_microwave_0",
+        "slot": 0,
+        "textures": {
+          "base": "vintage_microwave_diff_2k.png",
+          "metal": "vintage_microwave_metal_2k.png",
+          "rough": "vintage_microwave_rough_2k.png",
+          "normal": "vintage_microwave_nor_gl_2k.png"
+        }
+      },
+      {
+        "name": "M_PH_vintage_microwave_1",
+        "slot": 1,
+        "textures": {
+          "base": "vintage_microwave_diff_2k.png",
+          "metal": "vintage_microwave_metal_2k.png",
+          "rough": "vintage_microwave_rough_2k.png",
+          "alpha": "vintage_microwave_alpha_2k.png"
+        }
+      }
+    ],
+    "vertices": 4258
+  },
+  {
+    "slug": "vintage_electric_kettle",
+    "mesh": "SM_PH_Kettle",
+    "dimensions_cm": [
+      22.0,
+      20.0,
+      28.0
+    ],
+    "materials": [
+      {
+        "name": "M_PH_vintage_electric_kettle_0",
+        "slot": 0,
+        "textures": {
+          "base": "vintage_electric_kettle_diff_2k.png",
+          "metal": "vintage_electric_kettle_metal_2k.png",
+          "rough": "vintage_electric_kettle_rough_2k.png",
+          "normal": "vintage_electric_kettle_nor_gl_2k.png"
+        }
+      },
+      {
+        "name": "M_PH_vintage_electric_kettle_1",
+        "slot": 1,
+        "textures": {
+          "base": "vintage_electric_kettle_diff_2k.png",
+          "metal": "vintage_electric_kettle_metal_2k.png",
+          "rough": "vintage_electric_kettle_rough_2k.png",
+          "normal": "vintage_electric_kettle_nor_gl_2k.png",
+          "alpha": "vintage_electric_kettle_alpha_2k.png"
+        }
+      }
+    ],
+    "vertices": 7857
+  },
+  {
+    "slug": "pot_enamel_01",
+    "mesh": "SM_PH_Pot",
+    "dimensions_cm": [
+      30.0,
+      24.0,
+      18.0
+    ],
+    "materials": [
+      {
+        "name": "M_PH_pot_enamel_01_0",
+        "slot": 0,
+        "textures": {
+          "base": "pot_enamel_01_diff_2k.png",
+          "metal": "pot_enamel_01_metal_2k.png",
+          "rough": "pot_enamel_01_rough_2k.png",
+          "normal": "pot_enamel_01_nor_gl_2k.png"
+        }
+      }
+    ],
+    "vertices": 5706
+  },
+  {
+    "slug": "television_02",
+    "mesh": "SM_PH_CRT",
+    "dimensions_cm": [
+      40.0,
+      35.0,
+      41.1
+    ],
+    "materials": [
+      {
+        "name": "M_PH_television_02_0",
+        "slot": 0,
+        "textures": {
+          "base": "television_02_diff_2k.png",
+          "metal": "television_02_metal_2k.png",
+          "rough": "television_02_rough_2k.png",
+          "normal": "television_02_nor_gl_2k.png"
+        }
+      }
+    ],
+    "vertices": 1296
+  },
+  {
+    "slug": "security_camera_01",
+    "mesh": "SM_PH_SecurityCamera",
+    "dimensions_cm": [
+      17.0,
+      55.4,
+      28.6
+    ],
+    "materials": [
+      {
+        "name": "M_PH_security_camera_01_0",
+        "slot": 0,
+        "textures": {
+          "base": "security_camera_01_diff_2k.png",
+          "metal": "security_camera_01_metal_2k.png",
+          "rough": "security_camera_01_rough_2k.png",
+          "normal": "security_camera_01_nor_gl_2k.png",
+          "mask": "security_camera_01_opacity_2k.png"
+        }
+      },
+      {
+        "name": "M_PH_security_camera_01_1",
+        "slot": 1,
+        "textures": {
+          "base": "security_camera_01_diff_2k.png",
+          "metal": "security_camera_01_metal_2k.png",
+          "rough": "security_camera_01_rough_2k.png",
+          "normal": "security_camera_01_nor_gl_2k.png",
+          "mask": "security_camera_01_opacity_2k.png"
+        }
+      }
+    ],
+    "vertices": 7250
+  },
+  {
+    "slug": "korean_fire_extinguisher_01",
+    "mesh": "SM_PH_Extinguisher",
+    "dimensions_cm": [
+      28.0,
+      36.7,
+      65.9
+    ],
+    "materials": [
+      {
+        "name": "M_PH_korean_fire_extinguisher_01_0",
+        "slot": 0,
+        "textures": {
+          "rough": "korean_fire_extinguisher_01_body_rough_2k.png",
+          "metal": "korean_fire_extinguisher_01_body_metal_2k.png",
+          "normal": "korean_fire_extinguisher_01_body_nor_gl_2k.png",
+          "base": "korean_fire_extinguisher_01_body_diff_2k.png"
+        }
+      },
+      {
+        "name": "M_PH_korean_fire_extinguisher_01_1",
+        "slot": 1,
+        "textures": {
+          "normal": "korean_fire_extinguisher_01_glass_nor_gl_2k.png",
+          "base": "korean_fire_extinguisher_01_glass_diff_2k.png",
+          "metal": "korean_fire_extinguisher_01_glass_metal_2k.png",
+          "rough": "korean_fire_extinguisher_01_glass_rough_2k.png"
+        }
+      },
+      {
+        "name": "M_PH_korean_fire_extinguisher_01_2",
+        "slot": 2,
+        "textures": {
+          "rough": "korean_fire_extinguisher_01_paper_rough_2k.png",
+          "metal": "korean_fire_extinguisher_01_paper_metal_2k.png",
+          "base": "korean_fire_extinguisher_01_paper_diff_2k.png",
+          "normal": "korean_fire_extinguisher_01_paper_nor_gl_2k.png",
+          "mask": "korean_fire_extinguisher_01_paper_opacity_2k.png"
+        }
+      }
+    ],
+    "vertices": 5263
+  },
+  {
+    "slug": "wall_clock",
+    "mesh": "SM_PH_WallClock",
+    "dimensions_cm": [
+      32.0,
+      4.7,
+      32.0
+    ],
+    "materials": [
+      {
+        "name": "M_PH_wall_clock_0",
+        "slot": 0,
+        "textures": {
+          "base": "wall_clock_diff_2k.png",
+          "metal": "wall_clock_metal_2k.png",
+          "rough": "wall_clock_rough_2k.png",
+          "normal": "wall_clock_nor_gl_2k.png"
+        }
+      },
+      {
+        "name": "M_PH_wall_clock_1",
+        "slot": 1,
+        "textures": {
+          "rough": "wall_clock_glass_rough_2k.png",
+          "alpha": "wall_clock_glass_alpha_2k.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.0,
+          "metal": 0.0
+        }
+      }
+    ],
+    "vertices": 2083
+  },
+  {
+    "slug": "old_bed_frame",
+    "mesh": "SM_PH_Bed",
+    "dimensions_cm": [
+      90.5,
+      200.2,
+      120.1
+    ],
+    "materials": [
+      {
+        "name": "M_PH_old_bed_frame_0",
+        "slot": 0,
+        "textures": {
+          "base": "old_bed_frame_diff_2k.png",
+          "metal": "old_bed_frame_metal_2k.png",
+          "rough": "old_bed_frame_rough_2k.png",
+          "normal": "old_bed_frame_nor_gl_2k.png"
+        }
+      }
+    ],
+    "vertices": 25615
+  }
+]

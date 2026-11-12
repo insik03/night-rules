@@ -1,0 +1,481 @@
+{
+  "date": "2026-10-12",
+  "status": "Concept previews awaiting user selection. No Meshy or runtime changes.",
+  "tool": "Built-in image_gen",
+  "sheetCount": 7,
+  "catalogEntries": 66,
+  "notes": [
+    "Grouped catalog sheets, not single-object Meshy input images.",
+    "Opening views illustrate interiors, not final animation or mechanical engineering.",
+    "Architecture dimensions follow floor plan; artwork does not override it.",
+    "No paid Meshy tasks submitted."
+  ],
+  "sheets": [
+    {
+      "id": "01-office",
+      "title": "관리실",
+      "grid": "3 columns by 3 rows",
+      "items": [
+        {
+          "id": "O01",
+          "name": "관리실 책상",
+          "english": "Desk",
+          "brief": "Compact 100cm brown laminate caretaker desk, right drawer pedestal, one closed hero and open drawer detail with actual hollow drawer and vacant drawer slot. Sized for tiny office."
+        },
+        {
+          "id": "O02",
+          "name": "사무용 의자",
+          "english": "Office chair",
+          "brief": "Small worn black fabric swivel desk chair, functional compact, no executive chair."
+        },
+        {
+          "id": "O03",
+          "name": "유선 전화기",
+          "english": "Telephone",
+          "brief": "Old ivory push-button corded desktop telephone, separate handset slightly lifted, coiled cord."
+        },
+        {
+          "id": "O04",
+          "name": "입주자 관리 PC",
+          "english": "Resident PC",
+          "brief": "Modest old beige desktop PC tower, thin square monitor, keyboard mouse; blank dark screen, separable equipment."
+        },
+        {
+          "id": "O05",
+          "name": "CCTV 모니터",
+          "english": "CCTV monitor",
+          "brief": "Old small CRT security monitor, curved dark glass, physical buttons, no imagery."
+        },
+        {
+          "id": "O06",
+          "name": "CCTV 녹화기",
+          "english": "Recorder",
+          "brief": "Black aging CCTV digital recorder with buttons and removable hard-drive tray open detail."
+        },
+        {
+          "id": "O07",
+          "name": "열쇠 보관함",
+          "english": "Key cabinet",
+          "brief": "Small wall-mounted cream metal key cabinet CLOSED and OPEN, key hooks and a few individually hanging keys."
+        },
+        {
+          "id": "O08",
+          "name": "야간수칙 게시판",
+          "english": "Rules board",
+          "brief": "Wall-mounted A4 cork/pin board with separate blank yellowed paper and red marker; no generated text."
+        },
+        {
+          "id": "O09",
+          "name": "서류 보관함",
+          "english": "File cabinet",
+          "brief": "Low narrow gray metal filing cabinet, one drawer open with empty hollow interior and a few removable folders."
+        }
+      ],
+      "prompt": "Use case: stylized-concept. Create a highly detailed photorealistic 3D GAME PROP APPROVAL CONTACT SHEET for HAEDAM GOSIWON, an old but still inhabited inexpensive Korean lodging house psychological horror game. This is a catalog of individual proposed objects, NOT a room scene and NOT a floor plan. Landscape composition, generous evenly spaced cells on light warm gray background, thin subtle cell dividers. Every object fully visible with margin, no clipping, no overlapping neighboring cells. Three-quarter studio view, clear soft neutral illumination, realistic human-scale construction and believable affordable materials. Match an occupied old building: yellowed ivory plastics, modest brown laminate furniture, gray steel, dull stainless steel, slight green undertone, worn edges and selective grime. Worn and mundane, not destroyed, not luxurious, not stylized cartoon, no apocalypse, no blood, no people, no brand logos. Important moving parts mechanically plausible; when specified show a small secondary open view beside closed hero view WITHIN same cell; drawer must be a hollow box, cabinet interior visible. Labels are ONLY large exact asset ID and short English name under each cell; no other descriptive paragraphs or Korean lettering. These are design review images, not final textures.  Sheet 01-office, 3 columns by 3 rows, EXACTLY 9 cells in listed reading order. All cells equal importance; small items enlarged for legibility, not a single shared scale. Do not omit a cell. Top discreet title \"01-OFFICE\". Cell 1: \"O01 Desk\". Compact 100cm brown laminate caretaker desk, right drawer pedestal, one closed hero and open drawer detail with actual hollow drawer and vacant drawer slot. Sized for tiny office.\nCell 2: \"O02 Office chair\". Small worn black fabric swivel desk chair, functional compact, no executive chair.\nCell 3: \"O03 Telephone\". Old ivory push-button corded desktop telephone, separate handset slightly lifted, coiled cord.\nCell 4: \"O04 Resident PC\". Modest old beige desktop PC tower, thin square monitor, keyboard mouse; blank dark screen, separable equipment.\nCell 5: \"O05 CCTV monitor\". Old small CRT security monitor, curved dark glass, physical buttons, no imagery.\nCell 6: \"O06 Recorder\". Black aging CCTV digital recorder with buttons and removable hard-drive tray open detail.\nCell 7: \"O07 Key cabinet\". Small wall-mounted cream metal key cabinet CLOSED and OPEN, key hooks and a few individually hanging keys.\nCell 8: \"O08 Rules board\". Wall-mounted A4 cork/pin board with separate blank yellowed paper and red marker; no generated text.\nCell 9: \"O09 File cabinet\". Low narrow gray metal filing cabinet, one drawer open with empty hollow interior and a few removable folders.",
+      "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-239aed05-6b08-43c3-b6fd-4bd45af6376a.png",
+      "file": "01-office.png"
+    },
+    {
+      "id": "02-investigation",
+      "title": "조사 도구와 단서",
+      "grid": "3 columns by 3 rows",
+      "items": [
+        {
+          "id": "I01",
+          "name": "일반/UV 손전등",
+          "english": "Flashlight",
+          "brief": "Practical worn black handheld flashlight for normal light and swap-in UV cartridge, ordinary believable tool no science fiction, hero assembled and tiny opened cartridge bay detail."
+        },
+        {
+          "id": "I02",
+          "name": "교체형 UV 카트리지",
+          "english": "UV cartridge",
+          "brief": "Palm-sized single-use UV module with dark metal housing, two contacts and recessed small violet LED lens; show module and separate plain protective cap. Practical matching component to flashlight, not ammo."
+        },
+        {
+          "id": "I03",
+          "name": "방 열쇠",
+          "english": "Room keys",
+          "brief": "Three plain metal physical keys with old plastic number tags, no legible numbers needed; each separated."
+        },
+        {
+          "id": "I04",
+          "name": "입주자 명부",
+          "english": "Resident register",
+          "brief": "Worn blue binder open with removable sheets, ruled empty columns without generated text."
+        },
+        {
+          "id": "I05",
+          "name": "근무일지·메모",
+          "english": "Shift log",
+          "brief": "Brown worn notebook open with empty ruled pages and loose torn yellow note, distinct from register."
+        },
+        {
+          "id": "I06",
+          "name": "사진·봉투",
+          "english": "Photographs",
+          "brief": "A few faded empty-room photos, small brown envelopes, no people no readable words."
+        },
+        {
+          "id": "I07",
+          "name": "음성 녹음기",
+          "english": "Voice recorder",
+          "brief": "Cheap small handheld digital voice recorder with physical buttons and tiny dark screen, separate old battery."
+        },
+        {
+          "id": "I08",
+          "name": "소형 보관함",
+          "english": "Evidence case",
+          "brief": "Small old plastic maintenance box closed and open with empty interior, removable foam insert."
+        },
+        {
+          "id": "I09",
+          "name": "자물쇠",
+          "english": "Padlock",
+          "brief": "Old brass padlock, closed hero and unlocked shackle variant with key, sensible mechanical object."
+        }
+      ],
+      "prompt": "Use case: stylized-concept. Create a highly detailed photorealistic 3D GAME PROP APPROVAL CONTACT SHEET for HAEDAM GOSIWON, an old but still inhabited inexpensive Korean lodging house psychological horror game. This is a catalog of individual proposed objects, NOT a room scene and NOT a floor plan. Landscape composition, generous evenly spaced cells on light warm gray background, thin subtle cell dividers. Every object fully visible with margin, no clipping, no overlapping neighboring cells. Three-quarter studio view, clear soft neutral illumination, realistic human-scale construction and believable affordable materials. Match an occupied old building: yellowed ivory plastics, modest brown laminate furniture, gray steel, dull stainless steel, slight green undertone, worn edges and selective grime. Worn and mundane, not destroyed, not luxurious, not stylized cartoon, no apocalypse, no blood, no people, no brand logos. Important moving parts mechanically plausible; when specified show a small secondary open view beside closed hero view WITHIN same cell; drawer must be a hollow box, cabinet interior visible. Labels are ONLY large exact asset ID and short English name under each cell; no other descriptive paragraphs or Korean lettering. These are design review images, not final textures.  Sheet 02-investigation, 3 columns by 3 rows, EXACTLY 9 cells in listed reading order. All cells equal importance; small items enlarged for legibility, not a single shared scale. Do not omit a cell. Top discreet title \"02-INVESTIGATION\". Cell 1: \"I01 Flashlight\". Practical worn black handheld flashlight for normal light and swap-in UV cartridge, ordinary believable tool no science fiction, hero assembled and tiny opened cartridge bay detail.\nCell 2: \"I02 UV cartridge\". Palm-sized single-use UV module with dark metal housing, two contacts and recessed small violet LED lens; show module and separate plain protective cap. Practical matching component to flashlight, not ammo.\nCell 3: \"I03 Room keys\". Three plain metal physical keys with old plastic number tags, no legible numbers needed; each separated.\nCell 4: \"I04 Resident register\". Worn blue binder open with removable sheets, ruled empty columns without generated text.\nCell 5: \"I05 Shift log\". Brown worn notebook open with empty ruled pages and loose torn yellow note, distinct from register.\nCell 6: \"I06 Photographs\". A few faded empty-room photos, small brown envelopes, no people no readable words.\nCell 7: \"I07 Voice recorder\". Cheap small handheld digital voice recorder with physical buttons and tiny dark screen, separate old battery.\nCell 8: \"I08 Evidence case\". Small old plastic maintenance box closed and open with empty interior, removable foam insert.\nCell 9: \"I09 Padlock\". Old brass padlock, closed hero and unlocked shackle variant with key, sensible mechanical object.",
+      "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-de24ee3b-ab22-4ab7-8c33-f6094ac014ac.png",
+      "file": "02-investigation.png"
+    },
+    {
+      "id": "03-kitchen",
+      "title": "공용주방",
+      "grid": "3 columns by 3 rows",
+      "items": [
+        {
+          "id": "K01",
+          "name": "냉장고",
+          "english": "Refrigerator",
+          "brief": "Narrow full-height old ivory two-door refrigerator; CLOSED hero and OPEN miniature, independent freezer and main door, internal shelves present."
+        },
+        {
+          "id": "K02",
+          "name": "전자레인지",
+          "english": "Microwave",
+          "brief": "Old cream countertop microwave, CLOSED hero and OPEN view with cavity and turntable, separate hinged door."
+        },
+        {
+          "id": "K03",
+          "name": "전기밥솥",
+          "english": "Rice cooker",
+          "brief": "Worn white domestic rice cooker with closed hero and open lid view, removable pot."
+        },
+        {
+          "id": "K04",
+          "name": "싱크대·하부장",
+          "english": "Sink unit",
+          "brief": "Compact stainless sink counter with brown laminate base cabinet, one cabinet door open revealing interior; faucet and shallow dish drying rack."
+        },
+        {
+          "id": "K05",
+          "name": "조리대·전기레인지",
+          "english": "Cooking unit",
+          "brief": "Compact old double electric cooktop over short brown laminate counter, kettle and small pot shown separate nearby."
+        },
+        {
+          "id": "K06",
+          "name": "원형 식탁",
+          "english": "Round table",
+          "brief": "One modest ROUND wooden dining table, circular top about 150cm diameter, sturdy practical legs, no chairs attached. Explicitly not rectangular."
+        },
+        {
+          "id": "K07",
+          "name": "식탁 의자",
+          "english": "Dining chair",
+          "brief": "One simple brown plywood dining chair on dark slim metal frame, isolated."
+        },
+        {
+          "id": "K08",
+          "name": "주방 상부장",
+          "english": "Wall cupboard",
+          "brief": "Simple ivory wall-mounted two-door kitchen cabinet, one door open, hollow inside with shelves."
+        },
+        {
+          "id": "K09",
+          "name": "식기·주방용품",
+          "english": "Kitchen smalls",
+          "brief": "Neatly spaced reusable prop group: metal bowl, spoon chopsticks, plain mug, dishwashing liquid, sponge, small lidded food container, dish rack. No brands."
+        }
+      ],
+      "prompt": "Use case: stylized-concept. Create a highly detailed photorealistic 3D GAME PROP APPROVAL CONTACT SHEET for HAEDAM GOSIWON, an old but still inhabited inexpensive Korean lodging house psychological horror game. This is a catalog of individual proposed objects, NOT a room scene and NOT a floor plan. Landscape composition, generous evenly spaced cells on light warm gray background, thin subtle cell dividers. Every object fully visible with margin, no clipping, no overlapping neighboring cells. Three-quarter studio view, clear soft neutral illumination, realistic human-scale construction and believable affordable materials. Match an occupied old building: yellowed ivory plastics, modest brown laminate furniture, gray steel, dull stainless steel, slight green undertone, worn edges and selective grime. Worn and mundane, not destroyed, not luxurious, not stylized cartoon, no apocalypse, no blood, no people, no brand logos. Important moving parts mechanically plausible; when specified show a small secondary open view beside closed hero view WITHIN same cell; drawer must be a hollow box, cabinet interior visible. Labels are ONLY large exact asset ID and short English name under each cell; no other descriptive paragraphs or Korean lettering. These are design review images, not final textures.  Sheet 03-kitchen, 3 columns by 3 rows, EXACTLY 9 cells in listed reading order. All cells equal importance; small items enlarged for legibility, not a single shared scale. Do not omit a cell. Top discreet title \"03-KITCHEN\". Cell 1: \"K01 Refrigerator\". Narrow full-height old ivory two-door refrigerator; CLOSED hero and OPEN miniature, independent freezer and main door, internal shelves present.\nCell 2: \"K02 Microwave\". Old cream countertop microwave, CLOSED hero and OPEN view with cavity and turntable, separate hinged door.\nCell 3: \"K03 Rice cooker\". Worn white domestic rice cooker with closed hero and open lid view, removable pot.\nCell 4: \"K04 Sink unit\". Compact stainless sink counter with brown laminate base cabinet, one cabinet door open revealing interior; faucet and shallow dish drying rack.\nCell 5: \"K05 Cooking unit\". Compact old double electric cooktop over short brown laminate counter, kettle and small pot shown separate nearby.\nCell 6: \"K06 Round table\". One modest ROUND wooden dining table, circular top about 150cm diameter, sturdy practical legs, no chairs attached. Explicitly not rectangular.\nCell 7: \"K07 Dining chair\". One simple brown plywood dining chair on dark slim metal frame, isolated.\nCell 8: \"K08 Wall cupboard\". Simple ivory wall-mounted two-door kitchen cabinet, one door open, hollow inside with shelves.\nCell 9: \"K09 Kitchen smalls\". Neatly spaced reusable prop group: metal bowl, spoon chopsticks, plain mug, dishwashing liquid, sponge, small lidded food container, dish rack. No brands.",
+      "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-97f7b3a1-85e9-4a8c-9092-d9f78a7dd2f3.png",
+      "file": "03-kitchen.png"
+    },
+    {
+      "id": "04-rooms",
+      "title": "개인실과 공실",
+      "grid": "3 columns by 3 rows",
+      "items": [
+        {
+          "id": "R01",
+          "name": "빈 침대 프레임",
+          "english": "Bare bed frame",
+          "brief": "Very narrow 80cm single bed frame in worn dark wood and thin steel, NO mattress, exposed support slats. 202 and 307 vacancy prop."
+        },
+        {
+          "id": "R02",
+          "name": "매트리스·침구",
+          "english": "Bedding",
+          "brief": "Separate thin narrow mattress, modest faded gray blanket and pillow, grouped separated parts, occupied room kit."
+        },
+        {
+          "id": "R03",
+          "name": "개인실 책상",
+          "english": "Room desk",
+          "brief": "Tiny 70cm wide worn brown laminate study desk, one shallow drawer; closed hero plus open drawer detail, actual empty interior."
+        },
+        {
+          "id": "R04",
+          "name": "좁은 옷장",
+          "english": "Wardrobe",
+          "brief": "Narrow cheap single-door wood laminate wardrobe closed and open, hanging rail and shelf inside, no clothes fused to body."
+        },
+        {
+          "id": "R05",
+          "name": "작은 책장",
+          "english": "Book shelf",
+          "brief": "Small open three-tier worn laminate bookshelf, separate books nearby."
+        },
+        {
+          "id": "R06",
+          "name": "선풍기",
+          "english": "Standing fan",
+          "brief": "Old pale ivory compact pedestal oscillating fan with protective grille, believable Korean cheap domestic style."
+        },
+        {
+          "id": "R07",
+          "name": "옷·가방·슬리퍼",
+          "english": "Personal belongings",
+          "brief": "Separated group of old canvas bag, folded sweatshirts, hanging jacket and slippers, no person."
+        },
+        {
+          "id": "R08",
+          "name": "휴지통",
+          "english": "Waste bin",
+          "brief": "Small plastic room wastebasket with detachable liner, modest wear, no disgusting contents."
+        },
+        {
+          "id": "R09",
+          "name": "스탠드·멀티탭·시계",
+          "english": "Room details",
+          "brief": "Separated group: small desk lamp, power strip and coiled plug cable, plain alarm clock, tissue box."
+        }
+      ],
+      "prompt": "Use case: stylized-concept. Create a highly detailed photorealistic 3D GAME PROP APPROVAL CONTACT SHEET for HAEDAM GOSIWON, an old but still inhabited inexpensive Korean lodging house psychological horror game. This is a catalog of individual proposed objects, NOT a room scene and NOT a floor plan. Landscape composition, generous evenly spaced cells on light warm gray background, thin subtle cell dividers. Every object fully visible with margin, no clipping, no overlapping neighboring cells. Three-quarter studio view, clear soft neutral illumination, realistic human-scale construction and believable affordable materials. Match an occupied old building: yellowed ivory plastics, modest brown laminate furniture, gray steel, dull stainless steel, slight green undertone, worn edges and selective grime. Worn and mundane, not destroyed, not luxurious, not stylized cartoon, no apocalypse, no blood, no people, no brand logos. Important moving parts mechanically plausible; when specified show a small secondary open view beside closed hero view WITHIN same cell; drawer must be a hollow box, cabinet interior visible. Labels are ONLY large exact asset ID and short English name under each cell; no other descriptive paragraphs or Korean lettering. These are design review images, not final textures.  Sheet 04-rooms, 3 columns by 3 rows, EXACTLY 9 cells in listed reading order. All cells equal importance; small items enlarged for legibility, not a single shared scale. Do not omit a cell. Top discreet title \"04-ROOMS\". Cell 1: \"R01 Bare bed frame\". Very narrow 80cm single bed frame in worn dark wood and thin steel, NO mattress, exposed support slats. 202 and 307 vacancy prop.\nCell 2: \"R02 Bedding\". Separate thin narrow mattress, modest faded gray blanket and pillow, grouped separated parts, occupied room kit.\nCell 3: \"R03 Room desk\". Tiny 70cm wide worn brown laminate study desk, one shallow drawer; closed hero plus open drawer detail, actual empty interior.\nCell 4: \"R04 Wardrobe\". Narrow cheap single-door wood laminate wardrobe closed and open, hanging rail and shelf inside, no clothes fused to body.\nCell 5: \"R05 Book shelf\". Small open three-tier worn laminate bookshelf, separate books nearby.\nCell 6: \"R06 Standing fan\". Old pale ivory compact pedestal oscillating fan with protective grille, believable Korean cheap domestic style.\nCell 7: \"R07 Personal belongings\". Separated group of old canvas bag, folded sweatshirts, hanging jacket and slippers, no person.\nCell 8: \"R08 Waste bin\". Small plastic room wastebasket with detachable liner, modest wear, no disgusting contents.\nCell 9: \"R09 Room details\". Separated group: small desk lamp, power strip and coiled plug cable, plain alarm clock, tissue box.",
+      "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-48307a2e-6fab-46f4-b42e-bc2c8c7627b3.png",
+      "file": "04-rooms.png"
+    },
+    {
+      "id": "05-washrooms",
+      "title": "화장실과 별도 샤워실",
+      "grid": "3 columns by 3 rows",
+      "items": [
+        {
+          "id": "W01",
+          "name": "변기",
+          "english": "Toilet",
+          "brief": "Old white porcelain seated toilet with tank, lid closed and raised small inset, no shower attached."
+        },
+        {
+          "id": "W02",
+          "name": "화장실 칸막이·문",
+          "english": "Toilet stall",
+          "brief": "Gray compact toilet cubicle partition kit with separate door swung open and latch visible, no shower fittings."
+        },
+        {
+          "id": "W03",
+          "name": "세면대",
+          "english": "Wash basin",
+          "brief": "Small white wall mounted wash basin with dull chrome tap and visible trap pipe."
+        },
+        {
+          "id": "W04",
+          "name": "거울 수납장",
+          "english": "Mirror cabinet",
+          "brief": "Small aged mirror cabinet closed and open with empty shelves, plain mirror reflection no room or people."
+        },
+        {
+          "id": "W05",
+          "name": "샤워 수전",
+          "english": "Shower fittings",
+          "brief": "Wall-mounted handheld shower head, hose, rail and mixer as one spaced plumbing assembly, not attached to toilet."
+        },
+        {
+          "id": "W06",
+          "name": "샤워실 칸막이·문",
+          "english": "Shower stall",
+          "brief": "Separate wet-room shower partition module in frosted textured glass and worn aluminum, door open and small closed inset, no toilet."
+        },
+        {
+          "id": "W07",
+          "name": "탈의 수납함",
+          "english": "Changing locker",
+          "brief": "Narrow cream metal two-tier changing locker, one door open showing hollow compartment, separate hooks."
+        },
+        {
+          "id": "W08",
+          "name": "배수구·매트·환풍기",
+          "english": "Wet floor kit",
+          "brief": "Individual square floor drain, modest rubber anti-slip mat, low tile threshold, wall exhaust fan; all separate."
+        },
+        {
+          "id": "W09",
+          "name": "목욕용품",
+          "english": "Bath smalls",
+          "brief": "Separate plain shampoo bottle, wash basin bucket, plastic stool, folded towel, hanging towel and bath slippers. No brands."
+        }
+      ],
+      "prompt": "Use case: stylized-concept. Create a highly detailed photorealistic 3D GAME PROP APPROVAL CONTACT SHEET for HAEDAM GOSIWON, an old but still inhabited inexpensive Korean lodging house psychological horror game. This is a catalog of individual proposed objects, NOT a room scene and NOT a floor plan. Landscape composition, generous evenly spaced cells on light warm gray background, thin subtle cell dividers. Every object fully visible with margin, no clipping, no overlapping neighboring cells. Three-quarter studio view, clear soft neutral illumination, realistic human-scale construction and believable affordable materials. Match an occupied old building: yellowed ivory plastics, modest brown laminate furniture, gray steel, dull stainless steel, slight green undertone, worn edges and selective grime. Worn and mundane, not destroyed, not luxurious, not stylized cartoon, no apocalypse, no blood, no people, no brand logos. Important moving parts mechanically plausible; when specified show a small secondary open view beside closed hero view WITHIN same cell; drawer must be a hollow box, cabinet interior visible. Labels are ONLY large exact asset ID and short English name under each cell; no other descriptive paragraphs or Korean lettering. These are design review images, not final textures.  Sheet 05-washrooms, 3 columns by 3 rows, EXACTLY 9 cells in listed reading order. All cells equal importance; small items enlarged for legibility, not a single shared scale. Do not omit a cell. Top discreet title \"05-WASHROOMS\". Cell 1: \"W01 Toilet\". Old white porcelain seated toilet with tank, lid closed and raised small inset, no shower attached.\nCell 2: \"W02 Toilet stall\". Gray compact toilet cubicle partition kit with separate door swung open and latch visible, no shower fittings.\nCell 3: \"W03 Wash basin\". Small white wall mounted wash basin with dull chrome tap and visible trap pipe.\nCell 4: \"W04 Mirror cabinet\". Small aged mirror cabinet closed and open with empty shelves, plain mirror reflection no room or people.\nCell 5: \"W05 Shower fittings\". Wall-mounted handheld shower head, hose, rail and mixer as one spaced plumbing assembly, not attached to toilet.\nCell 6: \"W06 Shower stall\". Separate wet-room shower partition module in frosted textured glass and worn aluminum, door open and small closed inset, no toilet.\nCell 7: \"W07 Changing locker\". Narrow cream metal two-tier changing locker, one door open showing hollow compartment, separate hooks.\nCell 8: \"W08 Wet floor kit\". Individual square floor drain, modest rubber anti-slip mat, low tile threshold, wall exhaust fan; all separate.\nCell 9: \"W09 Bath smalls\". Separate plain shampoo bottle, wash basin bucket, plastic stool, folded towel, hanging towel and bath slippers. No brands.",
+      "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-0ece1e4a-ce84-4414-88e5-3ffdaf58f577.png",
+      "file": "05-washrooms.png"
+    },
+    {
+      "id": "06-building",
+      "title": "복도와 건물 부품",
+      "grid": "4 columns by 3 rows",
+      "items": [
+        {
+          "id": "B01",
+          "name": "방문·문틀",
+          "english": "Room door",
+          "brief": "Narrow worn brown room door in cream frame, lever handle; closed hero and ajar side view. Crack completely black, no visible occupant."
+        },
+        {
+          "id": "B02",
+          "name": "안전 걸쇠",
+          "english": "Safety chain",
+          "brief": "Close-up steel door safety chain with slide receiver and screws, mounted on small cropped door edge example, mechanically plausible."
+        },
+        {
+          "id": "B03",
+          "name": "방화문",
+          "english": "Fire door",
+          "brief": "Worn gray steel fire door in frame, lever and overhead closer, open secondary view."
+        },
+        {
+          "id": "B04",
+          "name": "외부 출입문",
+          "english": "Entrance",
+          "brief": "Modest aluminum glazed street entrance double door module, lower opaque panel and clear upper glazing, opening shown."
+        },
+        {
+          "id": "B05",
+          "name": "관리실 반유리 벽·옆문",
+          "english": "Office partition",
+          "brief": "Small caretaker office partition MODULE: lower half solid wall, upper half glass; matching solid side wall with separate side door. No desk, no floorplan, no full-height glass."
+        },
+        {
+          "id": "B06",
+          "name": "미닫이 창문",
+          "english": "Window",
+          "brief": "Small old aluminum sliding window closed and half slid open, external sill, frosted or slightly dirty clear glass."
+        },
+        {
+          "id": "B07",
+          "name": "형광등",
+          "english": "Fluorescent light",
+          "brief": "Aging ceiling fluorescent strip fixture with plastic diffuser beside it, separate light tube."
+        },
+        {
+          "id": "B08",
+          "name": "CCTV 카메라",
+          "english": "Security camera",
+          "brief": "Small old wall-mounted CCTV box camera and mounting bracket, separate removable cover."
+        },
+        {
+          "id": "B09",
+          "name": "소화기·유도등",
+          "english": "Fire equipment",
+          "brief": "One red fire extinguisher with bracket and one simple emergency exit lamp blank pictogram, separately spaced."
+        },
+        {
+          "id": "B10",
+          "name": "계단·난간",
+          "english": "Stair module",
+          "brief": "Compact gray concrete switchback staircase segment with metal railings, 180-degree landing, realistic continuous steps, no grand staircase."
+        },
+        {
+          "id": "B11",
+          "name": "벽·문틀 구멍·바닥 모듈",
+          "english": "Wall modules",
+          "brief": "Three short modular samples of aged pale patterned wallpaper wall: solid, door opening, corner; green-gray vinyl floor slab separate. No room scene."
+        },
+        {
+          "id": "B12",
+          "name": "분전함·스위치·콘센트",
+          "english": "Utility panel",
+          "brief": "Old steel electrical breaker panel, closed hero and open detail showing orderly breakers, separate light switch and outlet."
+        }
+      ],
+      "prompt": "Use case: stylized-concept. Create a highly detailed photorealistic 3D GAME PROP APPROVAL CONTACT SHEET for HAEDAM GOSIWON, an old but still inhabited inexpensive Korean lodging house psychological horror game. This is a catalog of individual proposed objects, NOT a room scene and NOT a floor plan. Landscape composition, generous evenly spaced cells on light warm gray background, thin subtle cell dividers. Every object fully visible with margin, no clipping, no overlapping neighboring cells. Three-quarter studio view, clear soft neutral illumination, realistic human-scale construction and believable affordable materials. Match an occupied old building: yellowed ivory plastics, modest brown laminate furniture, gray steel, dull stainless steel, slight green undertone, worn edges and selective grime. Worn and mundane, not destroyed, not luxurious, not stylized cartoon, no apocalypse, no blood, no people, no brand logos. Important moving parts mechanically plausible; when specified show a small secondary open view beside closed hero view WITHIN same cell; drawer must be a hollow box, cabinet interior visible. Labels are ONLY large exact asset ID and short English name under each cell; no other descriptive paragraphs or Korean lettering. These are design review images, not final textures.  Sheet 06-building, 4 columns by 3 rows, EXACTLY 12 cells in listed reading order. All cells equal importance; small items enlarged for legibility, not a single shared scale. Do not omit a cell. Top discreet title \"06-BUILDING\". Cell 1: \"B01 Room door\". Narrow worn brown room door in cream frame, lever handle; closed hero and ajar side view. Crack completely black, no visible occupant.\nCell 2: \"B02 Safety chain\". Close-up steel door safety chain with slide receiver and screws, mounted on small cropped door edge example, mechanically plausible.\nCell 3: \"B03 Fire door\". Worn gray steel fire door in frame, lever and overhead closer, open secondary view.\nCell 4: \"B04 Entrance\". Modest aluminum glazed street entrance double door module, lower opaque panel and clear upper glazing, opening shown.\nCell 5: \"B05 Office partition\". Small caretaker office partition MODULE: lower half solid wall, upper half glass; matching solid side wall with separate side door. No desk, no floorplan, no full-height glass.\nCell 6: \"B06 Window\". Small old aluminum sliding window closed and half slid open, external sill, frosted or slightly dirty clear glass.\nCell 7: \"B07 Fluorescent light\". Aging ceiling fluorescent strip fixture with plastic diffuser beside it, separate light tube.\nCell 8: \"B08 Security camera\". Small old wall-mounted CCTV box camera and mounting bracket, separate removable cover.\nCell 9: \"B09 Fire equipment\". One red fire extinguisher with bracket and one simple emergency exit lamp blank pictogram, separately spaced.\nCell 10: \"B10 Stair module\". Compact gray concrete switchback staircase segment with metal railings, 180-degree landing, realistic continuous steps, no grand staircase.\nCell 11: \"B11 Wall modules\". Three short modular samples of aged pale patterned wallpaper wall: solid, door opening, corner; green-gray vinyl floor slab separate. No room scene.\nCell 12: \"B12 Utility panel\". Old steel electrical breaker panel, closed hero and open detail showing orderly breakers, separate light switch and outlet.",
+      "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-46a778b1-f5b1-494b-89cb-23d0faa768a3.png",
+      "file": "06-building.png"
+    },
+    {
+      "id": "07-roof-utility",
+      "title": "옥상·세탁·창고",
+      "grid": "3 columns by 3 rows",
+      "items": [
+        {
+          "id": "U01",
+          "name": "접이식 빨래건조대",
+          "english": "Drying rack",
+          "brief": "Ordinary foldable stainless laundry drying rack, empty, visible hinge joints, small folded variant."
+        },
+        {
+          "id": "U02",
+          "name": "옥상 빨랫줄",
+          "english": "Laundry line",
+          "brief": "Two modest rooftop metal laundry poles with stretched ropes and separate clothespins, no building."
+        },
+        {
+          "id": "U03",
+          "name": "널린 빨래·시트",
+          "english": "Laundry",
+          "brief": "Separated hanging white sheet, faded towel, shirt and trousers on hangers; empty cloth, no body, no ghost."
+        },
+        {
+          "id": "U04",
+          "name": "세탁기",
+          "english": "Washing machine",
+          "brief": "Old compact white top-loading washing machine, closed and open lid with inner drum visible."
+        },
+        {
+          "id": "U05",
+          "name": "세탁용품",
+          "english": "Laundry smalls",
+          "brief": "Separately spaced plastic basket, empty basin, plain detergent bottle and clothes peg basket."
+        },
+        {
+          "id": "U06",
+          "name": "창고 선반·상자",
+          "english": "Storage shelf",
+          "brief": "Cheap metal utility shelving with separate cardboard boxes and lidded plastic tote; tote shown open with separate lid."
+        },
+        {
+          "id": "U07",
+          "name": "옥상 벽·배수·환기·배관",
+          "english": "Roof fixtures",
+          "brief": "Short weathered parapet module, roof drain, ventilation cowl, water pipe with red valve, individual separate objects."
+        },
+        {
+          "id": "U08",
+          "name": "에어컨 실외기",
+          "english": "Outdoor unit",
+          "brief": "Weathered outdoor air conditioner condenser on two concrete blocks, grille intact, insulated pipes."
+        },
+        {
+          "id": "U09",
+          "name": "청소도구·사다리",
+          "english": "Cleaning tools",
+          "brief": "Separate mop, broom, dustpan, bucket, folded stepladder and small tool bag, ordinary maintained objects."
+        }
+      ],
+      "prompt": "Use case: stylized-concept. Create a highly detailed photorealistic 3D GAME PROP APPROVAL CONTACT SHEET for HAEDAM GOSIWON, an old but still inhabited inexpensive Korean lodging house psychological horror game. This is a catalog of individual proposed objects, NOT a room scene and NOT a floor plan. Landscape composition, generous evenly spaced cells on light warm gray background, thin subtle cell dividers. Every object fully visible with margin, no clipping, no overlapping neighboring cells. Three-quarter studio view, clear soft neutral illumination, realistic human-scale construction and believable affordable materials. Match an occupied old building: yellowed ivory plastics, modest brown laminate furniture, gray steel, dull stainless steel, slight green undertone, worn edges and selective grime. Worn and mundane, not destroyed, not luxurious, not stylized cartoon, no apocalypse, no blood, no people, no brand logos. Important moving parts mechanically plausible; when specified show a small secondary open view beside closed hero view WITHIN same cell; drawer must be a hollow box, cabinet interior visible. Labels are ONLY large exact asset ID and short English name under each cell; no other descriptive paragraphs or Korean lettering. These are design review images, not final textures.  Sheet 07-roof-utility, 3 columns by 3 rows, EXACTLY 9 cells in listed reading order. All cells equal importance; small items enlarged for legibility, not a single shared scale. Do not omit a cell. Top discreet title \"07-ROOF-UTILITY\". Cell 1: \"U01 Drying rack\". Ordinary foldable stainless laundry drying rack, empty, visible hinge joints, small folded variant.\nCell 2: \"U02 Laundry line\". Two modest rooftop metal laundry poles with stretched ropes and separate clothespins, no building.\nCell 3: \"U03 Laundry\". Separated hanging white sheet, faded towel, shirt and trousers on hangers; empty cloth, no body, no ghost.\nCell 4: \"U04 Washing machine\". Old compact white top-loading washing machine, closed and open lid with inner drum visible.\nCell 5: \"U05 Laundry smalls\". Separately spaced plastic basket, empty basin, plain detergent bottle and clothes peg basket.\nCell 6: \"U06 Storage shelf\". Cheap metal utility shelving with separate cardboard boxes and lidded plastic tote; tote shown open with separate lid.\nCell 7: \"U07 Roof fixtures\". Short weathered parapet module, roof drain, ventilation cowl, water pipe with red valve, individual separate objects.\nCell 8: \"U08 Outdoor unit\". Weathered outdoor air conditioner condenser on two concrete blocks, grille intact, insulated pipes.\nCell 9: \"U09 Cleaning tools\". Separate mop, broom, dustpan, bucket, folded stepladder and small tool bag, ordinary maintained objects.",
+      "source": "C:\\Users\\dbdls\\.codex\\generated_images\\01a08d97-b5aa-7ae2-958d-414040f9355c\\exec-c259e364-7adb-4438-8e3b-d6ce86542315.png",
+      "file": "07-roof-utility.png"
+    }
+  ]
+}

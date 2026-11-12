@@ -1,0 +1,23 @@
+name: 버그 제보
+description: 게임 실행 또는 제작 도구 문제
+title: "[버그] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 순서
+      description: 사용한 브랜치/커밋, DAY, 장소와 행동을 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 실제 결과와 기대 결과
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 캡처 및 로그
+      description: 개인정보와 로그인 정보는 제거해 주세요.

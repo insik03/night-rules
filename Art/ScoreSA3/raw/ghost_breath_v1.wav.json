@@ -1,0 +1,31 @@
+{
+  "kind": "generate",
+  "title": "ghost_breath",
+  "original_idea": "",
+  "audio_type": "sfx",
+  "prompt": "",
+  "prompt_used": "TrackType: SFX, monstrous emaciated man breathing, slow sharp inhale then long wet rattling exhale, repeating, raspy throat, wet crackle, very close, dry indoor.",
+  "sound_fields": {
+    "source": "monstrous emaciated man breathing",
+    "action": "slow sharp inhale then long wet rattling exhale, repeating",
+    "material": "raspy throat, wet crackle",
+    "space": "very close, dry indoor"
+  },
+  "bpm": null,
+  "seconds": 6.0,
+  "negative_prompt": null,
+  "cfg": 1.0,
+  "steps": 8,
+  "variations": 2,
+  "seed": 541773754,
+  "candidate": 1,
+  "file": "ghost_breath_v1.wav",
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "created": "2026-11-05T23:16:41",
+  "backend": "sa3-torch",
+  "model": "medium + same-l",
+  "peak_dbfs": -5.53,
+  "raw_peak_dbfs": -5.53,
+  "ceiling_gain_db": 0.0
+}

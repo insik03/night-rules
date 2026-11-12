@@ -1,0 +1,102 @@
+{
+  "asset": "wall_clock",
+  "info": {
+    "type": 2,
+    "name": "Wall Clock",
+    "categories": [
+      "collection: project_lighthouse",
+      "decorative",
+      "appliances"
+    ],
+    "tags": [
+      "time",
+      "timepiece",
+      "watch",
+      "watchface",
+      "wall clock",
+      "analog",
+      "modern",
+      "office decor",
+      "home interior",
+      "admin",
+      "office",
+      "90s"
+    ],
+    "description": "Free 4K model of a modern wall clock with a worn metal bezel, clear glass, bold numerals, gray hour/minute hands, and a slim red second hand on a clean dial.",
+    "authors": {
+      "PierreB3D": "All"
+    },
+    "donated": true,
+    "max_resolution": [
+      4096,
+      4096
+    ],
+    "polycount": 3658,
+    "files_hash": "4057cadbc0e1620d16275c230bf031ced39378a1",
+    "texel_density": 8686.08984794609,
+    "dimensions": [
+      320.4909861087799,
+      47.2230945505423,
+      320.4909861087799
+    ],
+    "date_published": 1780963200,
+    "staging": null,
+    "category_id": "86b8b047-c091-5db9-a416-a652c84c94f6",
+    "category": "Decor & Art/Wall Decor/Wall Clocks",
+    "collections": [
+      "project_lighthouse"
+    ],
+    "attributes": {
+      "condition": [
+        "worn"
+      ],
+      "material": [
+        "metal",
+        "glass"
+      ]
+    },
+    "img_version": "65459aa0",
+    "download_count": 4252,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/wall_clock.png?width=256&height=256&format=webp&v=65459aa0"
+  },
+  "files": {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/wall_clock/wall_clock_2k.blend",
+    "md5": "329c987098ce100b720bae901858a635",
+    "size": 210473,
+    "include": {
+      "textures/wall_clock_diff_2k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wall_clock/wall_clock_diff_2k.jpg",
+        "md5": "9465708b64357430f7188bd8e1d4b60d",
+        "size": 1365701
+      },
+      "textures/wall_clock_glass_alpha_2k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/wall_clock/wall_clock_glass_alpha_2k.png",
+        "md5": "5291e06a4e53fbb5dadaebeac03c8c61",
+        "size": 13011
+      },
+      "textures/wall_clock_glass_rough_2k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/wall_clock/wall_clock_glass_rough_2k.png",
+        "md5": "650a2cebedbaf6e60d760c314283c940",
+        "size": 2669193
+      },
+      "textures/wall_clock_metal_2k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/wall_clock/wall_clock_metal_2k.exr",
+        "md5": "3b366adba87f0657d71ebfac5c21168c",
+        "size": 84910
+      },
+      "textures/wall_clock_nor_gl_2k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/wall_clock/wall_clock_nor_gl_2k.exr",
+        "md5": "2ba2fdf0086077fb5f6e580046bd0bde",
+        "size": 1713442
+      },
+      "textures/wall_clock_rough_2k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/wall_clock/wall_clock_rough_2k.exr",
+        "md5": "9f7ab8baa241d8d98930a078637d5751",
+        "size": 1404768
+      }
+    }
+  },
+  "license": "CC0-1.0",
+  "license_url": "https://polyhaven.com/license",
+  "source_url": "https://polyhaven.com/a/wall_clock"
+}

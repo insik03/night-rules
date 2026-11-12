@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-11-01",
+  "skill_count": 61,
+  "hash_verified_files": 221,
+  "metadata_valid": true,
+  "blender_roundtrip": {
+    "blender": "5.2.2 LTS",
+    "backend": "local-background-python",
+    "test": "isolated box / FBX round trip",
+    "expected_cm": [
+      42.0,
+      44.0,
+      80.0
+    ],
+    "before_cm": [
+      41.999998688697815,
+      43.99999976158142,
+      80.0000011920929
+    ],
+    "after_cm": [
+      42.000001668930054,
+      44.00000274181366,
+      80.0000011920929
+    ],
+    "passed": true,
+    "unreal_import_tested": false,
+    "paid_generations": 0
+  },
+  "unreal_build_rerun": false,
+  "reason": "Skills and agent instructions only; no game source or asset changes."
+}

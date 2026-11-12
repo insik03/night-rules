@@ -1,0 +1,622 @@
+{
+  "source_sha256": {
+    "NRGame.h": "bdd8ba8cadc6ca8464ac38dc9a191bfffdf9b20a5354cdd8bc3101a7ee4b11c0",
+    "NRGame.cpp": "faf059ba4cef359a2a996d7995c362313ea18a72d63508e35b478b242c105fec",
+    "NRArchitecture.cpp": "271f18299246f18dd88f1d22ab8bf84e2df4b2cb1c5214833483e151be0ad3c1"
+  },
+  "scope": "Code-space audit and Blender reference only; not packaged-game screenshot or collision QA",
+  "unit": "cm",
+  "windows": [
+    {
+      "room": 101,
+      "center_cm": [
+        529.0,
+        230.0,
+        160.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 120.0,
+      "upper_cm": 200.0,
+      "object": "Window_101"
+    },
+    {
+      "room": 102,
+      "center_cm": [
+        759.0,
+        230.0,
+        160.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 120.0,
+      "upper_cm": 200.0,
+      "object": "Window_102"
+    },
+    {
+      "room": 103,
+      "center_cm": [
+        989.0,
+        230.0,
+        160.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 120.0,
+      "upper_cm": 200.0,
+      "object": "Window_103"
+    },
+    {
+      "room": 104,
+      "center_cm": [
+        1219.0,
+        230.0,
+        160.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 120.0,
+      "upper_cm": 200.0,
+      "object": "Window_104"
+    },
+    {
+      "room": 105,
+      "center_cm": [
+        1449.0,
+        230.0,
+        160.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 120.0,
+      "upper_cm": 200.0,
+      "object": "Window_105"
+    },
+    {
+      "room": 106,
+      "center_cm": [
+        1679.0,
+        230.0,
+        160.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 120.0,
+      "upper_cm": 200.0,
+      "object": "Window_106"
+    },
+    {
+      "room": 107,
+      "center_cm": [
+        1909.0,
+        230.0,
+        160.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 120.0,
+      "upper_cm": 200.0,
+      "object": "Window_107"
+    },
+    {
+      "room": 108,
+      "center_cm": [
+        2139.0,
+        230.0,
+        160.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 120.0,
+      "upper_cm": 200.0,
+      "object": "Window_108"
+    },
+    {
+      "room": 109,
+      "center_cm": [
+        2369.0,
+        230.0,
+        160.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 120.0,
+      "upper_cm": 200.0,
+      "object": "Window_109"
+    },
+    {
+      "room": 110,
+      "center_cm": [
+        2599.0,
+        230.0,
+        160.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 120.0,
+      "upper_cm": 200.0,
+      "object": "Window_110"
+    },
+    {
+      "room": 111,
+      "center_cm": [
+        2829.0,
+        230.0,
+        160.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 120.0,
+      "upper_cm": 200.0,
+      "object": "Window_111"
+    },
+    {
+      "room": 112,
+      "center_cm": [
+        3059.0,
+        230.0,
+        160.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 120.0,
+      "upper_cm": 200.0,
+      "object": "Window_112"
+    },
+    {
+      "room": 201,
+      "center_cm": [
+        529.0,
+        230.0,
+        480.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 440.0,
+      "upper_cm": 520.0,
+      "object": "Window_201"
+    },
+    {
+      "room": 202,
+      "center_cm": [
+        759.0,
+        230.0,
+        480.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 440.0,
+      "upper_cm": 520.0,
+      "object": "Window_202"
+    },
+    {
+      "room": 203,
+      "center_cm": [
+        989.0,
+        230.0,
+        480.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 440.0,
+      "upper_cm": 520.0,
+      "object": "Window_203"
+    },
+    {
+      "room": 204,
+      "center_cm": [
+        1219.0,
+        230.0,
+        480.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 440.0,
+      "upper_cm": 520.0,
+      "object": "Window_204"
+    },
+    {
+      "room": 205,
+      "center_cm": [
+        1449.0,
+        230.0,
+        480.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 440.0,
+      "upper_cm": 520.0,
+      "object": "Window_205"
+    },
+    {
+      "room": 206,
+      "center_cm": [
+        1679.0,
+        230.0,
+        480.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 440.0,
+      "upper_cm": 520.0,
+      "object": "Window_206"
+    },
+    {
+      "room": 207,
+      "center_cm": [
+        1909.0,
+        230.0,
+        480.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 440.0,
+      "upper_cm": 520.0,
+      "object": "Window_207"
+    },
+    {
+      "room": 208,
+      "center_cm": [
+        2139.0,
+        230.0,
+        480.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 440.0,
+      "upper_cm": 520.0,
+      "object": "Window_208"
+    },
+    {
+      "room": 209,
+      "center_cm": [
+        2369.0,
+        230.0,
+        480.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 440.0,
+      "upper_cm": 520.0,
+      "object": "Window_209"
+    },
+    {
+      "room": 210,
+      "center_cm": [
+        2599.0,
+        230.0,
+        480.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 440.0,
+      "upper_cm": 520.0,
+      "object": "Window_210"
+    },
+    {
+      "room": 211,
+      "center_cm": [
+        2829.0,
+        230.0,
+        480.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 440.0,
+      "upper_cm": 520.0,
+      "object": "Window_211"
+    },
+    {
+      "room": 212,
+      "center_cm": [
+        3059.0,
+        230.0,
+        480.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 440.0,
+      "upper_cm": 520.0,
+      "object": "Window_212"
+    },
+    {
+      "room": 301,
+      "center_cm": [
+        529.0,
+        230.0,
+        800.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 760.0,
+      "upper_cm": 840.0,
+      "object": "Window_301"
+    },
+    {
+      "room": 302,
+      "center_cm": [
+        759.0,
+        230.0,
+        800.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 760.0,
+      "upper_cm": 840.0,
+      "object": "Window_302"
+    },
+    {
+      "room": 303,
+      "center_cm": [
+        989.0,
+        230.0,
+        800.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 760.0,
+      "upper_cm": 840.0,
+      "object": "Window_303"
+    },
+    {
+      "room": 304,
+      "center_cm": [
+        1219.0,
+        230.0,
+        800.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 760.0,
+      "upper_cm": 840.0,
+      "object": "Window_304"
+    },
+    {
+      "room": 305,
+      "center_cm": [
+        1449.0,
+        230.0,
+        800.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 760.0,
+      "upper_cm": 840.0,
+      "object": "Window_305"
+    },
+    {
+      "room": 306,
+      "center_cm": [
+        1679.0,
+        230.0,
+        800.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 760.0,
+      "upper_cm": 840.0,
+      "object": "Window_306"
+    },
+    {
+      "room": 307,
+      "center_cm": [
+        1909.0,
+        230.0,
+        800.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 760.0,
+      "upper_cm": 840.0,
+      "object": "Window_307"
+    },
+    {
+      "room": 308,
+      "center_cm": [
+        2139.0,
+        230.0,
+        800.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 760.0,
+      "upper_cm": 840.0,
+      "object": "Window_308"
+    },
+    {
+      "room": 309,
+      "center_cm": [
+        2369.0,
+        230.0,
+        800.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 760.0,
+      "upper_cm": 840.0,
+      "object": "Window_309"
+    },
+    {
+      "room": 310,
+      "center_cm": [
+        2599.0,
+        230.0,
+        800.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 760.0,
+      "upper_cm": 840.0,
+      "object": "Window_310"
+    },
+    {
+      "room": 311,
+      "center_cm": [
+        2829.0,
+        230.0,
+        800.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 760.0,
+      "upper_cm": 840.0,
+      "object": "Window_311"
+    },
+    {
+      "room": 312,
+      "center_cm": [
+        3059.0,
+        230.0,
+        800.0
+      ],
+      "opening_cm": [
+        60,
+        80
+      ],
+      "lower_cm": 760.0,
+      "upper_cm": 840.0,
+      "object": "Window_312"
+    }
+  ],
+  "window_bounds_passed": 36,
+  "expected_windows": 36,
+  "floor_height_cm": 320.0,
+  "roof_height_cm": 960.0,
+  "roof_stair_opening_xy_cm": [
+    3500,
+    3900,
+    -900,
+    -300
+  ],
+  "roof_stair_head_xy_cm": [
+    3500,
+    3900,
+    -900,
+    -200
+  ],
+  "roof_door_center_cm": [
+    3790,
+    -200,
+    960
+  ],
+  "canopy": {
+    "center_cm": [
+      3100,
+      -615,
+      1180
+    ],
+    "size_cm": [
+      650,
+      480,
+      12
+    ]
+  },
+  "clotheslines": [
+    {
+      "y_cm": -300,
+      "x_range_cm": [
+        750,
+        2150
+      ],
+      "z_cm": 1140
+    },
+    {
+      "y_cm": -520,
+      "x_range_cm": [
+        750,
+        2150
+      ],
+      "z_cm": 1140
+    },
+    {
+      "y_cm": -740,
+      "x_range_cm": [
+        750,
+        2150
+      ],
+      "z_cm": 1140
+    }
+  ],
+  "parapet_top_cm": 1070,
+  "differences_from_v1": [
+    "Windows corrected from 60x90 at centerZ145 to60x80 at centerZ160.",
+    "Roof stair head added.",
+    "Full roof slab replaced with actual stair opening.",
+    "Clotheslines corrected from2 to3 at actual Y anchors.",
+    "Existing external escape model and landings added."
+  ],
+  "runtime_issue": [
+    "Upper access area has decorative window panels on F2/F3 but a full uncut wall behind them. Not counted as functional exterior windows; needs a separate game change if wanted."
+  ],
+  "Tripo_credits_spent": 0
+}

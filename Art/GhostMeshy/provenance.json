@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-12",
+  "status": "rejected_by_user",
+  "reason": "Face is insufficiently frightening; muscular skin-tight silhouette rejected.",
+  "source": "New text prompt only. No previous ghost reference images used.",
+  "next_step": "Show a new image concept to the user and get their approval before any further Meshy generation or rigging.",
+  "integrated_into_game": false,
+  "tasks": [
+    {
+      "task_id": "01a12bf0-011f-72ef-9d2e-ac23021597d1",
+      "resource": "text-to-3d",
+      "status": "SUCCEEDED",
+      "consumed_credits": 20
+    },
+    {
+      "task_id": "01a12bf1-ac85-7626-a2ea-0a16fb97d6f7",
+      "resource": "text-to-3d",
+      "status": "SUCCEEDED",
+      "consumed_credits": 10
+    }
+  ]
+}

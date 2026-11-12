@@ -1,0 +1,172 @@
+[
+  {
+    "id": "A01",
+    "mesh": "SM_AM_Wall",
+    "materials": [
+      {
+        "name": "M_AM_SM_AM_Wall_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_AM_SM_AM_Wall_0_base.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.8,
+          "metal": 0
+        }
+      }
+    ],
+    "triangles": 12,
+    "dimensions_cm": [
+      100.0,
+      12.0,
+      260.0
+    ]
+  },
+  {
+    "id": "A01",
+    "mesh": "SM_AM_DoorWall",
+    "materials": [
+      {
+        "name": "M_AM_SM_AM_DoorWall_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_AM_SM_AM_DoorWall_0_base.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.8,
+          "metal": 0
+        }
+      }
+    ],
+    "triangles": 36,
+    "dimensions_cm": [
+      230.0,
+      10.0,
+      260.0
+    ]
+  },
+  {
+    "id": "A02",
+    "mesh": "SM_AM_WindowWall",
+    "materials": [
+      {
+        "name": "M_AM_SM_AM_WindowWall_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_AM_SM_AM_WindowWall_0_base.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.8,
+          "metal": 0
+        }
+      }
+    ],
+    "triangles": 60,
+    "dimensions_cm": [
+      230.0,
+      16.0,
+      260.0
+    ]
+  },
+  {
+    "id": "A03",
+    "mesh": "SM_AM_TileWall",
+    "materials": [
+      {
+        "name": "M_AM_SM_AM_TileWall_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_AM_SM_AM_TileWall_0_base.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.8,
+          "metal": 0
+        }
+      }
+    ],
+    "triangles": 12,
+    "dimensions_cm": [
+      100.0,
+      12.0,
+      260.0
+    ]
+  },
+  {
+    "id": "A03",
+    "mesh": "SM_AM_TileFloor",
+    "materials": [
+      {
+        "name": "M_AM_SM_AM_TileFloor_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_AM_SM_AM_TileFloor_0_base.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.8,
+          "metal": 0
+        }
+      }
+    ],
+    "triangles": 12,
+    "dimensions_cm": [
+      100.0,
+      100.0,
+      2.0
+    ]
+  },
+  {
+    "id": "A04",
+    "mesh": "SM_AM_FireEscape",
+    "materials": [
+      {
+        "name": "M_AM_SM_AM_FireEscape_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_AM_SM_AM_FireEscape_0_base.png",
+          "normal": "T_AM_SM_AM_FireEscape_0_normal.png",
+          "orm": "T_AM_SM_AM_FireEscape_0_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.8,
+          "metal": 0
+        }
+      }
+    ],
+    "triangles": 17999,
+    "dimensions_cm": [
+      680.72,
+      164.841,
+      436.166
+    ]
+  }
+]

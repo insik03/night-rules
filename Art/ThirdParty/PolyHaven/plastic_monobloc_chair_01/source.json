@@ -1,0 +1,90 @@
+{
+  "asset": "plastic_monobloc_chair_01",
+  "info": {
+    "donated": true,
+    "date_published": 1668384000,
+    "name": "Plastic Monobloc Chair 01",
+    "type": 2,
+    "staging": null,
+    "authors": {
+      "Kuutti Siitonen": "All"
+    },
+    "info": null,
+    "sponsors": [
+      "26820710"
+    ],
+    "categories": [
+      "furniture",
+      "seating",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "plastic",
+      "dirty",
+      "old",
+      "monobloc",
+      "outdoor",
+      "cheap",
+      "shed"
+    ],
+    "max_resolution": [
+      4096,
+      4096
+    ],
+    "polycount": 3356,
+    "texel_density": 2690.4013569013064,
+    "dimensions": [
+      641.8611407279968,
+      627.5919079780579,
+      879.8411972820759
+    ],
+    "files_hash": "fc7be38d51f2483fd3194fdbc6321cf5873742ae",
+    "description": "Free 4K model: weathered white plastic monobloc chair with scuffs, dirt and faded finish, classic cheap outdoor stacking design showing age and wear.",
+    "category_id": "11261ec6-df2b-5150-9904-684d2558070d",
+    "category": "Furniture/Seating/Chairs",
+    "collections": [
+      "the_shed"
+    ],
+    "attributes": {
+      "condition": [
+        "worn"
+      ],
+      "material": [
+        "plastic"
+      ]
+    },
+    "img_version": "cb7077d8",
+    "download_count": 32946,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/plastic_monobloc_chair_01.png?width=256&height=256&format=webp&v=cb7077d8"
+  },
+  "files": {
+    "include": {
+      "textures/plastic_monobloc_chair_01_metal_2k.exr": {
+        "size": 13296,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_monobloc_chair_01/plastic_monobloc_chair_01_metal_2k.exr",
+        "md5": "1b946c7ab313e557e93f8e74a53b819d"
+      },
+      "textures/plastic_monobloc_chair_01_diff_2k.jpg": {
+        "size": 2010853,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_monobloc_chair_01/plastic_monobloc_chair_01_diff_2k.jpg",
+        "md5": "a3d16a97d5b83025e7c7e6d846de5fdc"
+      },
+      "textures/plastic_monobloc_chair_01_nor_gl_2k.exr": {
+        "size": 5710855,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_monobloc_chair_01/plastic_monobloc_chair_01_nor_gl_2k.exr",
+        "md5": "0fac879ce924487cac6a27f0b789fc92"
+      },
+      "textures/plastic_monobloc_chair_01_rough_2k.exr": {
+        "size": 3350121,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_monobloc_chair_01/plastic_monobloc_chair_01_rough_2k.exr",
+        "md5": "76a2857701b9fe30c49ad2737be05cfc"
+      }
+    },
+    "size": 197735,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/plastic_monobloc_chair_01/plastic_monobloc_chair_01_2k.blend",
+    "md5": "f8456e5ce9cf1aebb983e3e1cb9ea093"
+  },
+  "license": "CC0-1.0",
+  "license_url": "https://polyhaven.com/license",
+  "source_url": "https://polyhaven.com/a/plastic_monobloc_chair_01"
+}

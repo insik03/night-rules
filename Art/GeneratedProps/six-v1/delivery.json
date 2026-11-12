@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-22",
+  "provider": "Meshy",
+  "starting_balance": 500,
+  "ending_balance": 320,
+  "total_consumed_credits": 180,
+  "regenerations": 0,
+  "nonuniform_scaling": false,
+  "game_imported": false,
+  "assets": [
+    {
+      "name": "chair",
+      "label": "철제·합판 의자",
+      "resource": "image-to-3d",
+      "task_id": "01a15f1a-f2c0-729a-a055-b1cf53db178a",
+      "status": "SUCCEEDED",
+      "consumed_credits": 30,
+      "model": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\GeneratedProps\\six-v1\\chair\\model.glb",
+      "preview": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\GeneratedProps\\six-v1\\chair\\preview.png",
+      "target_cm": "42×44×80 / 좌판 높이45",
+      "triangles": 192426,
+      "review": "높이80cm로 전체를 균일 환산하면 약49.5×54.3×80cm. 목표42×44보다 넓고 깊음. 치수 적합 판정 보류."
+    },
+    {
+      "name": "bedding",
+      "label": "싱글 침구",
+      "resource": "image-to-3d",
+      "task_id": "01a15f1b-3aec-74df-b319-132b9ffa36ce",
+      "status": "SUCCEEDED",
+      "consumed_credits": 30,
+      "model": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\GeneratedProps\\six-v1\\bedding\\model.glb",
+      "preview": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\GeneratedProps\\six-v1\\bedding\\preview.png",
+      "target_cm": "매트리스88×195×18",
+      "triangles": 723018,
+      "review": "전체 길이195cm 기준 균일 환산하면 폭 약112.4cm. 목표 매트리스 폭88cm보다 넓음. 측정에 베개·이불 포함; 침대에 바로 맞는 상태 아님."
+    },
+    {
+      "name": "sink",
+      "label": "싱크대·하부장",
+      "resource": "image-to-3d",
+      "task_id": "01a15f1d-09c9-70be-bf7b-bcd1352fcb76",
+      "status": "SUCCEEDED",
+      "consumed_credits": 30,
+      "model": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\GeneratedProps\\six-v1\\sink\\model.glb",
+      "preview": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\GeneratedProps\\six-v1\\sink\\preview.png",
+      "target_cm": "120×60×85 / 수도꼭지 제외",
+      "triangles": 128516,
+      "review": "폭120cm 기준 전체 깊이 약60.1cm, 전체 높이 약89.0cm. 전체 높이는 수도꼭지 포함이라 상판 높이85cm 충족 여부는 별도 실측 필요. 문은 아직 본체와 미분리."
+    },
+    {
+      "name": "shower",
+      "label": "샤워 세트",
+      "resource": "image-to-3d",
+      "task_id": "01a15f1d-1cc9-717f-bd1f-0beccb3c7747",
+      "status": "SUCCEEDED",
+      "consumed_credits": 30,
+      "model": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\GeneratedProps\\six-v1\\shower\\model.glb",
+      "preview": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\GeneratedProps\\six-v1\\shower\\preview.png",
+      "target_cm": "25×15×110 / 설치 높이 별도",
+      "triangles": 528492,
+      "review": "전체 높이110cm 기준 약32.2×19.0×110cm. 호스·레일 포함 전체 외형; 목표25×15 및 레일 길이는 별도 검수 필요."
+    },
+    {
+      "name": "slippers",
+      "label": "슬리퍼 한 쌍",
+      "resource": "image-to-3d",
+      "task_id": "01a15f1d-31f3-70b9-876b-273d3e9bc1e1",
+      "status": "SUCCEEDED",
+      "consumed_credits": 30,
+      "model": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\GeneratedProps\\six-v1\\slippers\\model.glb",
+      "preview": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\GeneratedProps\\six-v1\\slippers\\preview.png",
+      "target_cm": "한 짝11×28×10 / 쌍 약24×28",
+      "triangles": 500020,
+      "review": "한 쌍의 전체 길이28cm 기준 약24.4×28×6.9cm. 각 슬리퍼 치수는 분리 후 측정 필요. 두 슬리퍼는 현재 한 메시 오브젝트."
+    },
+    {
+      "name": "books",
+      "label": "시험 준비용 책 묶음",
+      "resource": "image-to-3d",
+      "task_id": "01a15f1d-45d7-742e-92f3-5ece20b86d54",
+      "status": "SUCCEEDED",
+      "consumed_credits": 30,
+      "model": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\GeneratedProps\\six-v1\\books\\model.glb",
+      "preview": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\Game_pm\\Art\\GeneratedProps\\six-v1\\books\\preview.png",
+      "target_cm": "30×22×25",
+      "triangles": 854030,
+      "review": "전체 폭30cm 기준 약30×21.9×19.2cm. 목표 높이25cm보다 낮음. 여러 책이 한 정적 메시 오브젝트."
+    }
+  ]
+}

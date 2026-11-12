@@ -1,0 +1,98 @@
+[
+  {
+    "name": "fluorescent_hum",
+    "duration": 12,
+    "loop": true,
+    "peak": 0.20263360576470543,
+    "rms": 0.11031020067039139,
+    "source": "original deterministic synthesis"
+  },
+  {
+    "name": "room_tone",
+    "duration": 16,
+    "loop": true,
+    "peak": 0.15533306776520112,
+    "rms": 0.03350795420515742,
+    "source": "original deterministic synthesis"
+  },
+  {
+    "name": "power_trip",
+    "duration": 2,
+    "loop": false,
+    "peak": 0.3153321213387877,
+    "rms": 0.027672197425769963,
+    "source": "original deterministic synthesis"
+  },
+  {
+    "name": "power_return",
+    "duration": 3,
+    "loop": false,
+    "peak": 0.2565049292179317,
+    "rms": 0.06252332059292043,
+    "source": "original deterministic synthesis"
+  },
+  {
+    "name": "chair_drag",
+    "duration": 4,
+    "loop": false,
+    "peak": 0.1430224857267408,
+    "rms": 0.036307296037374426,
+    "source": "original deterministic synthesis"
+  },
+  {
+    "name": "pipe_knock",
+    "duration": 3,
+    "loop": false,
+    "peak": 0.34650087433945015,
+    "rms": 0.03892509273305246,
+    "source": "original deterministic synthesis"
+  },
+  {
+    "name": "door_slam",
+    "duration": 2,
+    "loop": false,
+    "peak": 0.13050847309575003,
+    "rms": 0.014910637857318332,
+    "source": "original deterministic synthesis"
+  },
+  {
+    "name": "distant_steps",
+    "duration": 8,
+    "loop": false,
+    "peak": 0.11078439634348963,
+    "rms": 0.007524300860618162,
+    "source": "original deterministic synthesis"
+  },
+  {
+    "name": "breath_near",
+    "duration": 5,
+    "loop": false,
+    "peak": 0.03149169026320737,
+    "rms": 0.004676840338005248,
+    "source": "original deterministic synthesis"
+  },
+  {
+    "name": "radio_static",
+    "duration": 6,
+    "loop": false,
+    "peak": 0.1271869458677413,
+    "rms": 0.026969404286847142,
+    "source": "original deterministic synthesis"
+  },
+  {
+    "name": "metal_rattle",
+    "duration": 4,
+    "loop": false,
+    "peak": 0.18264612503188452,
+    "rms": 0.016457459427269696,
+    "source": "original deterministic synthesis"
+  },
+  {
+    "name": "chase_pulse",
+    "duration": 10,
+    "loop": true,
+    "peak": 0.12097926679425444,
+    "rms": 0.03114668287777516,
+    "source": "original deterministic synthesis"
+  }
+]

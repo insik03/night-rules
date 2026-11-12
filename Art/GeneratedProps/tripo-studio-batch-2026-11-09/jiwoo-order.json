@@ -1,0 +1,11 @@
+{
+  "id": "jiwoo",
+  "input": "C:/Users/dbdls/OneDrive/바탕 화면/AI작업/Game_pm/Art/Characters/Residents-Tripo-v1/inputs/jiwoo.png",
+  "input_sha256": "3544E3BF9DBA141E9B283F8779DAE261CE26B91C65995BFE731D3CF2B5596691",
+  "expected_credits": 55,
+  "balance_before": 2650,
+  "submitted_at": "2026-11-09T12:39:04.8101002+09:00",
+  "status": "submitted",
+  "url": "https://studio.tripo3d.ai/ko/workspace/generate/b09f582c-e646-47c1-b773-0a61a0337385",
+  "balance_after": 2595
+}

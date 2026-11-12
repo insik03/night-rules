@@ -1,0 +1,98 @@
+[
+  {
+    "name": "chair",
+    "objects": 1,
+    "triangles": 192426,
+    "raw_xyz": [
+      1.1777139902114868,
+      1.2923529744148254,
+      1.9029670357704163
+    ],
+    "normalized_xyz": [
+      0.6188830221826146,
+      0.6791252555205805,
+      1.0
+    ],
+    "note": "Raw world AABB after glTF axis conversion; arbitrary generated units. No physical cm size or orientation guarantee. No scaling applied."
+  },
+  {
+    "name": "bedding",
+    "objects": 1,
+    "triangles": 723018,
+    "raw_xyz": [
+      1.0960299968719482,
+      1.9015570282936096,
+      0.33549700677394867
+    ],
+    "normalized_xyz": [
+      0.5763855517157364,
+      1.0,
+      0.17643278733271117
+    ],
+    "note": "Raw world AABB after glTF axis conversion; arbitrary generated units. No physical cm size or orientation guarantee. No scaling applied."
+  },
+  {
+    "name": "sink",
+    "objects": 1,
+    "triangles": 128516,
+    "raw_xyz": [
+      1.9030669927597046,
+      0.9537319839000702,
+      1.4110220074653625
+    ],
+    "normalized_xyz": [
+      1.0,
+      0.5011552339085182,
+      0.7414463142042045
+    ],
+    "note": "Raw world AABB after glTF axis conversion; arbitrary generated units. No physical cm size or orientation guarantee. No scaling applied."
+  },
+  {
+    "name": "shower",
+    "objects": 1,
+    "triangles": 528492,
+    "raw_xyz": [
+      0.5568180084228516,
+      0.3295319974422455,
+      1.9027989506721497
+    ],
+    "normalized_xyz": [
+      0.2926310255879423,
+      0.17318277231855775,
+      1.0
+    ],
+    "note": "Raw world AABB after glTF axis conversion; arbitrary generated units. No physical cm size or orientation guarantee. No scaling applied."
+  },
+  {
+    "name": "slippers",
+    "objects": 1,
+    "triangles": 500020,
+    "raw_xyz": [
+      1.6588810086250305,
+      1.902978003025055,
+      0.4704529941082001
+    ],
+    "normalized_xyz": [
+      0.8717289458879728,
+      1.0,
+      0.24721935480092147
+    ],
+    "note": "Raw world AABB after glTF axis conversion; arbitrary generated units. No physical cm size or orientation guarantee. No scaling applied."
+  },
+  {
+    "name": "books",
+    "objects": 1,
+    "triangles": 854030,
+    "raw_xyz": [
+      1.9037110209465027,
+      1.392324984073639,
+      1.2178109884262085
+    ],
+    "normalized_xyz": [
+      1.0,
+      0.7313741259854615,
+      0.6397037024142074
+    ],
+    "note": "Raw world AABB after glTF axis conversion; arbitrary generated units. No physical cm size or orientation guarantee. No scaling applied."
+  }
+]

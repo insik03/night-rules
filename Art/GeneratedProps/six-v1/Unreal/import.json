@@ -1,0 +1,369 @@
+[
+  {
+    "id": "chair",
+    "mesh": "SM_GP_Chair",
+    "materials": [
+      {
+        "name": "M_GP_chair_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_chair_base.png",
+          "normal": "T_CP_chair_normal.png",
+          "orm": "T_CP_chair_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 9000,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      49.52,
+      54.351,
+      79.991
+    ]
+  },
+  {
+    "id": "bed_support",
+    "mesh": "SM_GP_BedSupport",
+    "materials": [
+      {
+        "name": "M_GP_BedSupport",
+        "slot": 0,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.11999999731779099,
+            0.08500000089406967,
+            0.05000000074505806
+          ],
+          "rough": 0.6499999761581421,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 60,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      90.0,
+      197.0,
+      31.0
+    ]
+  },
+  {
+    "id": "bedding",
+    "mesh": "SM_GP_Bedding",
+    "materials": [
+      {
+        "name": "M_GP_bedding_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_bedding_base.png",
+          "normal": "T_CP_bedding_normal.png",
+          "orm": "T_CP_bedding_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 14998,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      88.062,
+      194.988,
+      26.947
+    ]
+  },
+  {
+    "id": "sink",
+    "mesh": "SM_GP_SinkBody",
+    "materials": [
+      {
+        "name": "M_GP_sink_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_sink_base.png",
+          "normal": "T_CP_sink_normal.png",
+          "orm": "T_CP_sink_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GP_SinkInterior",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.550000011920929,
+            0.5299999713897705,
+            0.44999998807907104
+          ],
+          "rough": 0.75,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GP_Plinth",
+        "slot": 2,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.03500000014901161,
+            0.03500000014901161,
+            0.029999999329447746
+          ],
+          "rough": 0.6499999761581421,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 9654,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      119.985,
+      57.711,
+      99.959
+    ]
+  },
+  {
+    "id": "sink",
+    "mesh": "SM_GP_SinkLeft",
+    "materials": [
+      {
+        "name": "M_GP_sink_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_sink_base.png",
+          "normal": "T_CP_sink_normal.png",
+          "orm": "T_CP_sink_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GP_SinkInterior",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.550000011920929,
+            0.5299999713897705,
+            0.44999998807907104
+          ],
+          "rough": 0.75,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 1854,
+    "pivot_m": [
+      -0.581963837146759,
+      -0.22573180496692657,
+      0.0
+    ],
+    "dimensions_cm": [
+      59.596,
+      7.491,
+      63.0
+    ]
+  },
+  {
+    "id": "sink",
+    "mesh": "SM_GP_SinkRight",
+    "materials": [
+      {
+        "name": "M_GP_sink_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_sink_base.png",
+          "normal": "T_CP_sink_normal.png",
+          "orm": "T_CP_sink_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GP_SinkInterior",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.550000011920929,
+            0.5299999713897705,
+            0.44999998807907104
+          ],
+          "rough": 0.75,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 1129,
+    "pivot_m": [
+      0.5818925499916077,
+      -0.22573180496692657,
+      0.0
+    ],
+    "dimensions_cm": [
+      59.437,
+      7.5,
+      63.0
+    ]
+  },
+  {
+    "id": "shower",
+    "mesh": "SM_GP_Shower",
+    "materials": [
+      {
+        "name": "M_GP_shower_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_shower_base.png",
+          "normal": "T_CP_shower_normal.png",
+          "orm": "T_CP_shower_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 16000,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      32.208,
+      19.063,
+      109.973
+    ]
+  },
+  {
+    "id": "slippers",
+    "mesh": "SM_GP_Slippers",
+    "materials": [
+      {
+        "name": "M_GP_slippers_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_slippers_base.png",
+          "normal": "T_CP_slippers_normal.png",
+          "orm": "T_CP_slippers_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 4000,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      24.371,
+      28.0,
+      6.931
+    ]
+  },
+  {
+    "id": "books",
+    "mesh": "SM_GP_Books",
+    "materials": [
+      {
+        "name": "M_GP_books_0",
+        "slot": 0,
+        "textures": {
+          "base": "T_CP_books_base.png",
+          "normal": "T_CP_books_normal.png",
+          "orm": "T_CP_books_orm.png"
+        },
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "triangles": 5625,
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      29.559,
+      20.728,
+      19.858
+    ]
+  }
+]

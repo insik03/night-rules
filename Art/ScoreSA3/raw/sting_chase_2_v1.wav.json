@@ -1,0 +1,31 @@
+{
+  "kind": "generate",
+  "title": "sting_chase",
+  "original_idea": "",
+  "audio_type": "sfx",
+  "prompt": "",
+  "prompt_used": "TrackType: SFX, sudden horror jolt in a narrow hallway, one sharp violent screech of a metal chair leg scraped hard across tile, with a single short dissonant violin stab, then quick silence, harsh metal on ceramic, thin scratchy strings, no brass, no drums, no boom, small dry corridor, close, not cinematic, not epic.",
+  "sound_fields": {
+    "source": "sudden horror jolt in a narrow hallway",
+    "action": "one sharp violent screech of a metal chair leg scraped hard across tile, with a single short dissonant violin stab, then quick silence",
+    "material": "harsh metal on ceramic, thin scratchy strings, no brass, no drums, no boom",
+    "space": "small dry corridor, close, not cinematic, not epic"
+  },
+  "bpm": null,
+  "seconds": 3.0,
+  "negative_prompt": null,
+  "cfg": 3.0,
+  "steps": 8,
+  "variations": 4,
+  "seed": 260254381,
+  "candidate": 1,
+  "file": "sting_chase_2_v1.wav",
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "created": "2026-11-05T23:24:35",
+  "backend": "sa3-torch",
+  "model": "medium + same-l",
+  "peak_dbfs": -1.0,
+  "raw_peak_dbfs": -0.89,
+  "ceiling_gain_db": -0.11
+}

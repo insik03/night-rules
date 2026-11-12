@@ -1,0 +1,49 @@
+{
+  "kind": "process",
+  "input_audio": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\AI작업\\Game_pm\\Art\\ScoreSA3\\raw\\ghost_chuckle_2_v1.wav",
+  "source": {
+    "kind": "generate",
+    "title": "ghost_chuckle",
+    "original_idea": "",
+    "audio_type": "sfx",
+    "prompt": "",
+    "prompt_used": "TrackType: SFX, an old man laughing under his breath, slow quiet wheezing laugh, barely voiced, mostly breath, trailing off, dry raspy human throat, not a monster growl, a few metres away in a narrow corridor, faint echo.",
+    "sound_fields": {
+      "source": "an old man laughing under his breath",
+      "action": "slow quiet wheezing laugh, barely voiced, mostly breath, trailing off",
+      "material": "dry raspy human throat, not a monster growl",
+      "space": "a few metres away in a narrow corridor, faint echo"
+    },
+    "bpm": null,
+    "seconds": 3.5,
+    "negative_prompt": null,
+    "cfg": 3.0,
+    "steps": 8,
+    "variations": 4,
+    "seed": 1227226522,
+    "candidate": 1,
+    "file": "ghost_chuckle_2_v1.wav",
+    "sample_rate": 44100,
+    "bit_depth": 24,
+    "created": "2026-11-05T23:24:40",
+    "backend": "sa3-torch",
+    "model": "medium + same-l",
+    "peak_dbfs": -1.0,
+    "raw_peak_dbfs": 0.0,
+    "ceiling_gain_db": -1.0
+  },
+  "created": "2026-11-05T23:24:40",
+  "format": "wav",
+  "sample_rate": 44100,
+  "channels": 1,
+  "seconds": 2.839,
+  "steps": [
+    "trim_silence -50.0 dB",
+    "mono",
+    "peak normalize -1.0 dBFS (-0.00 dB)"
+  ],
+  "peak": 0.891,
+  "peak_dbfs": -1.0,
+  "rms": 0.0994,
+  "file": "ghost_chuckle_2_v1_proc.wav"
+}

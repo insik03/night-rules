@@ -1,0 +1,31 @@
+{
+  "kind": "generate",
+  "title": "bgm_blackout",
+  "original_idea": "",
+  "audio_type": "music",
+  "prompt": "Oppressive dark ambient for a building power outage. Deep sub-bass rumble, low droning, faint knocks and creaks inside the walls, a distant muffled moan. No drums, no melody, claustrophobic and very dark.",
+  "prompt_used": "TrackType: Music, VocalType: Instrumental, Oppressive dark ambient for a building power outage. Deep sub-bass rumble, low droning, faint knocks and creaks inside the walls, a distant muffled moan. No drums, no melody, claustrophobic and very dark.",
+  "sound_fields": {
+    "source": "",
+    "action": "",
+    "material": "",
+    "space": ""
+  },
+  "bpm": null,
+  "seconds": 48.0,
+  "negative_prompt": null,
+  "cfg": 1.0,
+  "steps": 8,
+  "variations": 2,
+  "seed": 718646326,
+  "candidate": 2,
+  "file": "bgm_blackout_v2.wav",
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "created": "2026-11-05T23:16:31",
+  "backend": "sa3-torch",
+  "model": "medium + same-l",
+  "peak_dbfs": -3.44,
+  "raw_peak_dbfs": -3.44,
+  "ceiling_gain_db": 0.0
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rice-cooker",
+  "input": "C:/Users/dbdls/OneDrive/바탕 화면/AI작업/Game_pm/Art/AssetConcepts/remaining-20-v1/04-rice-cooker.png",
+  "input_sha256": "EF32F550D7458318174E2FE5340D5B3CCF6E3F48A3F845457D9633EBD8654B18",
+  "expected_credits": 55,
+  "balance_before": 2870,
+  "submitted_at": "2026-11-09T12:36:51.0732520+09:00",
+  "status": "submitted",
+  "url": "https://studio.tripo3d.ai/ko/workspace/generate/bc918264-d4ba-49ea-8212-d372ccd55762",
+  "balance_after": 2815
+}

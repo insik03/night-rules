@@ -1,0 +1,12 @@
+{
+  "id": "jeongsuk",
+  "task_id": "61092442-27a9-4725-ad85-55ecfae4f9ea",
+  "stage": "rig",
+  "expected_credits": 20,
+  "balance_before": 2345,
+  "status": "check_required",
+  "at": "2026-11-09T12:46:29.6777959+09:00",
+  "balance_after": 2345,
+  "final_status": "completed_downloaded_imported",
+  "final_verification": "ledger-final.json; per-character unreal-import.json"
+}

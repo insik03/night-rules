@@ -1,0 +1,286 @@
+{
+  "tool": "built-in imagegen",
+  "scope": "20 reference images, no Tripo/Meshy 3D orders",
+  "items": [
+    {
+      "id": "01-toilet",
+      "name": "변기",
+      "dimensions_cm": [
+        42,
+        70,
+        75
+      ],
+      "dimension_status": "도면 목표",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. Compact floor-mounted two-piece toilet, aged ivory glazed ceramic, oval closed seat and lid with visible separation seams, small rear cistern, simple chrome flush lever, believable mounting bolts and outlet base. Entire compact toilet including cistern. No tile wall or plumbing installation scene.",
+      "description": "Compact floor-mounted two-piece toilet, aged ivory glazed ceramic, oval closed seat and lid with visible separation seams, small rear cistern, simple chrome flush lever, believable mounting bolts and outlet base. Entire compact toilet including cistern. No tile wall or plumbing installation scene.",
+      "image": "01-toilet.png",
+      "ready": true
+    },
+    {
+      "id": "02-washbasin",
+      "name": "세면대·수전",
+      "dimensions_cm": [
+        55,
+        60,
+        85
+      ],
+      "dimension_status": "도면 목표",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. Narrow pedestal washbasin assembly, aged ivory glazed ceramic basin and pedestal, simple tarnished chrome single mixer faucet. Basin rim at 73cm, top of faucet reaches total85cm. Basin width55 depth60cm. Proper recessed bowl, drain and overflow, mild mineral staining around drain only. No walls or mirror.",
+      "description": "Narrow pedestal washbasin assembly, aged ivory glazed ceramic basin and pedestal, simple tarnished chrome single mixer faucet. Basin rim at 73cm, top of faucet reaches total85cm. Basin width55 depth60cm. Proper recessed bowl, drain and overflow, mild mineral staining around drain only. No walls or mirror.",
+      "image": "02-washbasin.png",
+      "ready": true
+    },
+    {
+      "id": "03-trashcan",
+      "name": "작은 휴지통",
+      "dimensions_cm": [
+        20,
+        20,
+        28
+      ],
+      "dimension_status": "도면 목표",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One small cylindrical open-top wastebasket, muted desaturated olive plastic, 20cm diameter 28cm height. Thick rounded rim, lightly scuffed moulded plastic body and subtle concentric base detail. Empty inside, no bag or trash, compact room-size.",
+      "description": "One small cylindrical open-top wastebasket, muted desaturated olive plastic, 20cm diameter 28cm height. Thick rounded rim, lightly scuffed moulded plastic body and subtle concentric base detail. Empty inside, no bag or trash, compact room-size.",
+      "image": "03-trashcan.png",
+      "ready": true
+    },
+    {
+      "id": "04-rice-cooker",
+      "name": "전기밥솥",
+      "dimensions_cm": [
+        38,
+        32,
+        32
+      ],
+      "dimension_status": "배치 검토용 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One ordinary Korean household electric rice cooker, wide squat oval body 38 wide32deep32high, aged off-white plastic, charcoal front control panel with small blank dark display and unlettered tactile buttons, lid closed, short folded carry handle, steam valve. Tiny seams and mild daily wear, no rice or accessories.",
+      "description": "One ordinary Korean household electric rice cooker, wide squat oval body 38 wide32deep32high, aged off-white plastic, charcoal front control panel with small blank dark display and unlettered tactile buttons, lid closed, short folded carry handle, steam valve. Tiny seams and mild daily wear, no rice or accessories.",
+      "image": "04-rice-cooker.png",
+      "ready": true
+    },
+    {
+      "id": "05-dish-rack",
+      "name": "식기 건조대",
+      "dimensions_cm": [
+        45,
+        30,
+        18
+      ],
+      "dimension_status": "배치 검토용 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One single-tier stainless wire dish-drying rack 45wide30deep18high, thick believable evenly spaced wire hoops for plates, integrated rectangular dull ivory plastic drain tray, four rubber feet, small cutlery compartment. Empty rack, no plates or dishes, clear buildable geometry not overly fine wire.",
+      "description": "One single-tier stainless wire dish-drying rack 45wide30deep18high, thick believable evenly spaced wire hoops for plates, integrated rectangular dull ivory plastic drain tray, four rubber feet, small cutlery compartment. Empty rack, no plates or dishes, clear buildable geometry not overly fine wire.",
+      "image": "05-dish-rack.png",
+      "ready": true
+    },
+    {
+      "id": "06-laundry-basket",
+      "name": "빨래 바구니",
+      "dimensions_cm": [
+        40,
+        30,
+        50
+      ],
+      "dimension_status": "배치 검토용 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One tall rectangular laundry hamper, 40wide30deep50high, faded dusty blue injection-moulded plastic, open top, two built-in handholds, regular rounded rectangular ventilation holes, sturdy continuous rim, slightly worn corners. Empty, no clothing, no separate lid.",
+      "description": "One tall rectangular laundry hamper, 40wide30deep50high, faded dusty blue injection-moulded plastic, open top, two built-in handholds, regular rounded rectangular ventilation holes, sturdy continuous rim, slightly worn corners. Empty, no clothing, no separate lid.",
+      "image": "06-laundry-basket.png",
+      "ready": true
+    },
+    {
+      "id": "07-detergent",
+      "name": "세제 용기",
+      "dimensions_cm": [
+        14,
+        9,
+        26
+      ],
+      "dimension_status": "배치 검토용 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One small laundry detergent bottle, 14wide9deep26high, off-white HDPE plastic body with integrated curved handle and muted blue screw cap, modest blank pale label area. Fine mould seams and subtle fingerprints, simple unbranded practical silhouette. No label lettering or other bottles.",
+      "description": "One small laundry detergent bottle, 14wide9deep26high, off-white HDPE plastic body with integrated curved handle and muted blue screw cap, modest blank pale label area. Fine mould seams and subtle fingerprints, simple unbranded practical silhouette. No label lettering or other bottles.",
+      "image": "07-detergent.png",
+      "ready": true
+    },
+    {
+      "id": "08-storage-box",
+      "name": "종이 보관 상자",
+      "dimensions_cm": [
+        60,
+        40,
+        50
+      ],
+      "dimension_status": "도면 목표",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One tall corrugated cardboard storage carton, 60wide40deep50high, closed four top flaps with a single aged tan packing tape strip, softened corners, corrugated edge detail and light handling scuffs, slightly bowed but structurally sound panels. Plain small blank label, no printed words, no straps or contents.",
+      "description": "One tall corrugated cardboard storage carton, 60wide40deep50high, closed four top flaps with a single aged tan packing tape strip, softened corners, corrugated edge detail and light handling scuffs, slightly bowed but structurally sound panels. Plain small blank label, no printed words, no straps or contents.",
+      "image": "08-storage-box.png",
+      "ready": true
+    },
+    {
+      "id": "09-mop",
+      "name": "대걸레",
+      "dimensions_cm": [
+        30,
+        12,
+        135
+      ],
+      "dimension_status": "청소구역 점유 외형 내 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One ordinary cotton string floor mop, overall135cm tall with30wide12deep cotton head, a straight old grey metal handle, faded teal plastic clamp and cap, off-white slightly grey cotton loops bundled neatly at floor. Show entire long handle and mop head upright with all portions visible. No bucket or other objects.",
+      "description": "One ordinary cotton string floor mop, overall135cm tall with30wide12deep cotton head, a straight old grey metal handle, faded teal plastic clamp and cap, off-white slightly grey cotton loops bundled neatly at floor. Show entire long handle and mop head upright with all portions visible. No bucket or other objects.",
+      "image": "09-mop.png",
+      "ready": true
+    },
+    {
+      "id": "10-bucket",
+      "name": "청소 양동이",
+      "dimensions_cm": [
+        32,
+        32,
+        32
+      ],
+      "dimension_status": "청소구역 점유 외형 내 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One round faded muted blue plastic cleaning bucket,32cm diameter32cm tall, open rim, empty interior, single metal swing handle folded flat down along body so it does not increase total height. Sturdy lip, shallow moulded ribs, small realistic abrasions. No mop, no wringer, no extra supplies.",
+      "description": "One round faded muted blue plastic cleaning bucket,32cm diameter32cm tall, open rim, empty interior, single metal swing handle folded flat down along body so it does not increase total height. Sturdy lip, shallow moulded ribs, small realistic abrasions. No mop, no wringer, no extra supplies.",
+      "image": "10-bucket.png",
+      "ready": true
+    },
+    {
+      "id": "11-sneakers",
+      "name": "운동화 한 켤레",
+      "dimensions_cm": [
+        25,
+        30,
+        12
+      ],
+      "dimension_status": "배치 검토용 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One pair of ordinary adult low-top sneakers side by side, both complete and not overlapping, overallpair25wide30deep12high. Grey fabric and muted navy synthetic panels, off-white rubber soles, believable toe cap stitching, neatly tied laces, moderate everyday wear, unbranded. Matching left and right shoes, no logos, no foot, no extra shoes.",
+      "description": "One pair of ordinary adult low-top sneakers side by side, both complete and not overlapping, overallpair25wide30deep12high. Grey fabric and muted navy synthetic panels, off-white rubber soles, believable toe cap stitching, neatly tied laces, moderate everyday wear, unbranded. Matching left and right shoes, no logos, no foot, no extra shoes.",
+      "image": "11-sneakers.png",
+      "ready": true
+    },
+    {
+      "id": "12-crate",
+      "name": "플라스틱 운반 상자",
+      "dimensions_cm": [
+        55,
+        35,
+        30
+      ],
+      "dimension_status": "배치 검토용 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One rectangular stackable plastic utility crate55wide35deep30high, faded dark green moulded plastic, open top, integrated side handholds, ribbed corners and regular grid ventilation openings, empty interior, light scuffing. Strong construction and readable thickness, no labels or contents.",
+      "description": "One rectangular stackable plastic utility crate55wide35deep30high, faded dark green moulded plastic, open top, integrated side handholds, ribbed corners and regular grid ventilation openings, empty interior, light scuffing. Strong construction and readable thickness, no labels or contents.",
+      "image": "12-crate.png",
+      "ready": true
+    },
+    {
+      "id": "13-ac-unit",
+      "name": "에어컨 실외기",
+      "dimensions_cm": [
+        80,
+        32,
+        55
+      ],
+      "dimension_status": "배치 검토용 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One rectangular residential air conditioner outdoor condenser80wide32deep55high, yellowed off-white sheet metal, one circular dark fan behind concentric protective grille on front left, narrow service panel front right, side coil fins and two low mounting feet within statedheight. Subtle rust only at feet and screws. No brackets, wall, brand, text or detached pipes.",
+      "description": "One rectangular residential air conditioner outdoor condenser80wide32deep55high, yellowed off-white sheet metal, one circular dark fan behind concentric protective grille on front left, narrow service panel front right, side coil fins and two low mounting feet within statedheight. Subtle rust only at feet and screws. No brackets, wall, brand, text or detached pipes.",
+      "image": "13-ac-unit.png",
+      "ready": true
+    },
+    {
+      "id": "14-meter-box",
+      "name": "전기 계량기함",
+      "dimensions_cm": [
+        45,
+        22,
+        65
+      ],
+      "dimension_status": "배치 검토용 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One compact wall-mounted electrical meter enclosure45wide22deep65high, aged grey painted steel, closed front access door with hinges and latch, small inset clear inspection window showing a simple unreadable analogue electricity meter, two short cable glands below includedwithinheight. Visible door seam, dull metal, mild weathering. Freestanding isolated object, no wall, readable numbers or symbols.",
+      "description": "One compact wall-mounted electrical meter enclosure45wide22deep65high, aged grey painted steel, closed front access door with hinges and latch, small inset clear inspection window showing a simple unreadable analogue electricity meter, two short cable glands below includedwithinheight. Visible door seam, dull metal, mild weathering. Freestanding isolated object, no wall, readable numbers or symbols.",
+      "image": "14-meter-box.png",
+      "ready": true
+    },
+    {
+      "id": "15-vent-cap",
+      "name": "환기 덕트 캡",
+      "dimensions_cm": [
+        45,
+        45,
+        60
+      ],
+      "dimension_status": "배치 검토용 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One rooftop static mushroom ventilation cap,45cm diameter and60cm totalheight, round galvanized steel rain hood over vertical cylindrical duct and square mounting flange no wider45cm, discreet supports beneath hood, believable metal seams and slight oxidization. Plain passive vent, no spinning turbine, roof or surrounding objects.",
+      "description": "One rooftop static mushroom ventilation cap,45cm diameter and60cm totalheight, round galvanized steel rain hood over vertical cylindrical duct and square mounting flange no wider45cm, discreet supports beneath hood, believable metal seams and slight oxidization. Plain passive vent, no spinning turbine, roof or surrounding objects.",
+      "image": "15-vent-cap.png",
+      "ready": true
+    },
+    {
+      "id": "16-trash-bag",
+      "name": "묶인 쓰레기봉투",
+      "dimensions_cm": [
+        65,
+        45,
+        50
+      ],
+      "dimension_status": "배치 검토용 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One tied household refuse sack, broad low silhouette65wide45deep50high, opaque dark charcoal plastic stretched around rounded unseen contents, firmly knotted neck, realistic folds, soft matte highlights and contact deformation atbase. No exposed waste, no dripping liquid, no text, no cluster of bags.",
+      "description": "One tied household refuse sack, broad low silhouette65wide45deep50high, opaque dark charcoal plastic stretched around rounded unseen contents, firmly knotted neck, realistic folds, soft matte highlights and contact deformation atbase. No exposed waste, no dripping liquid, no text, no cluster of bags.",
+      "image": "16-trash-bag.png",
+      "ready": true
+    },
+    {
+      "id": "17-ashtray",
+      "name": "금속 재떨이",
+      "dimensions_cm": [
+        25,
+        25,
+        60
+      ],
+      "dimension_status": "배치 검토용 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One freestanding cylindrical outdoor smoking ashtray stand,25cm diameter60cm tall, dull stainless steel body with removable shallow recessed ash bowl top and modest weighted circular base, simple small side disposal opening. Tarnished brushed metal, minor rain streaks, no cigarette packs, no logos, no detached accessories.",
+      "description": "One freestanding cylindrical outdoor smoking ashtray stand,25cm diameter60cm tall, dull stainless steel body with removable shallow recessed ash bowl top and modest weighted circular base, simple small side disposal opening. Tarnished brushed metal, minor rain streaks, no cigarette packs, no logos, no detached accessories.",
+      "image": "17-ashtray.png",
+      "ready": true
+    },
+    {
+      "id": "18-water-tank",
+      "name": "옥상 물탱크",
+      "dimensions_cm": [
+        120,
+        120,
+        140
+      ],
+      "dimension_status": "이웃집 배경용 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One compact cylindrical polyethylene rooftop water tank120cm diameter140cm totalheight, faded muted mustard yellow, domed shoulder and closed screw lid, broad moulded horizontal reinforcing ribs, small bottom outlet connection included in silhouette. Weathered but intact, no support tower, rooftop, pipes network or text.",
+      "description": "One compact cylindrical polyethylene rooftop water tank120cm diameter140cm totalheight, faded muted mustard yellow, domed shoulder and closed screw lid, broad moulded horizontal reinforcing ribs, small bottom outlet connection included in silhouette. Weathered but intact, no support tower, rooftop, pipes network or text.",
+      "image": "18-water-tank.png",
+      "ready": true
+    },
+    {
+      "id": "19-neighbor-house",
+      "name": "낡은 저층 주택 외관",
+      "dimensions_cm": [
+        700,
+        550,
+        340
+      ],
+      "dimension_status": "배경용 제안·고시원 본체 아님",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One single-storey modest older Korean hillside house, footprint7mwide5.5mdeep maximumheight3.4m, simple rectangular plaster masonry walls, shallow pitched grey corrugated roof, single plain metal entrance door and two small aluminium frame windows on main facade, one small side window. Restrained cracked plaster and water stains but inhabited and maintained, low concrete plinth included in height. Window glass dark, no vegetation growing over it. One entire isolated house, no ground terrain, no road, no adjoining buildings or courtyard, no people, signs or text. Suitable for sparse dark hillside neighborhood, not rural traditional hanok, not horror ruin.",
+      "description": "One single-storey modest older Korean hillside house, footprint7mwide5.5mdeep maximumheight3.4m, simple rectangular plaster masonry walls, shallow pitched grey corrugated roof, single plain metal entrance door and two small aluminium frame windows on main facade, one small side window. Restrained cracked plaster and water stains but inhabited and maintained, low concrete plinth included in height. Window glass dark, no vegetation growing over it. One entire isolated house, no ground terrain, no road, no adjoining buildings or courtyard, no people, signs or text. Suitable for sparse dark hillside neighborhood, not rural traditional hanok, not horror ruin.",
+      "image": "19-neighbor-house.png",
+      "ready": true
+    },
+    {
+      "id": "20-retaining-wall",
+      "name": "옹벽 마감 모듈",
+      "dimensions_cm": [
+        200,
+        30,
+        200
+      ],
+      "dimension_status": "반복 마감 모듈 제안",
+      "prompt": "Use case: stylized-concept. High-quality production concept for a semi-realistic 3D PC psychological horror game set in an older Korean gosiwon. Grounded believable modelling detail and carefully differentiated materials, polished game asset quality, not cartoon, not primitive low-poly blockout, not cinematic photographic hyperrealism. One isolated asset only, whole object inside frame with generous margin, three-quarter front perspective that clearly shows front, side and top. Plain neutral light warm-grey studio background, soft even neutral lighting, unobtrusive contact shadow, no dramatic horror lighting. No people, no captions, no labels with letters, no logos, no dimensions drawn in image, no collage or multiple views. Preserve specified overall proportions in the silhouette; numbers describe design targets, not lettering to render. Construction seams and moving-part boundaries should remain legible. One straight modular stone-faced retaining wall section,2m wide30cm deep2mhigh, vertical rectangular silhouette and flat squared ends for repetition. Irregular mortared grey granite stone facing with restrained mineral weathering, flat concrete coping flush with width, plain concrete back, stable flat bottom. Medium-sized rough stones with readable joint depth but not huge boulders, no protruding vegetation, no stairs, terrain or other walls. Entire module isolated at threequarter view showing front and one thin end. Designed to align along a hillside alley.",
+      "description": "One straight modular stone-faced retaining wall section,2m wide30cm deep2mhigh, vertical rectangular silhouette and flat squared ends for repetition. Irregular mortared grey granite stone facing with restrained mineral weathering, flat concrete coping flush with width, plain concrete back, stable flat bottom. Medium-sized rough stones with readable joint depth but not huge boulders, no protruding vegetation, no stairs, terrain or other walls. Entire module isolated at threequarter view showing front and one thin end. Designed to align along a hillside alley.",
+      "image": "20-retaining-wall.png",
+      "ready": true
+    }
+  ]
+}

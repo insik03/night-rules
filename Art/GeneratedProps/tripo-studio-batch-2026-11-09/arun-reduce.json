@@ -1,0 +1,10 @@
+{
+  "id": "arun",
+  "task_id": "d58cac76-6c66-4d60-b863-ab3f6cf6b0d4",
+  "stage": "reduce",
+  "expected_credits": 35,
+  "balance_before": 2400,
+  "status": "submitted",
+  "at": "2026-11-09T12:43:58.8557134+09:00",
+  "balance_after": 2365
+}

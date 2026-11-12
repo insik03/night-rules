@@ -1,0 +1,81 @@
+{
+  "status": "pending_image_review",
+  "date": "2026-10-12",
+  "source": [
+    "NightRulesPrototype/Source/NightRulesPrototype/NRGame.h",
+    "NightRulesPrototype/Source/NightRulesPrototype/NRGame.cpp"
+  ],
+  "generator": "deterministic Pillow diagram; not AI-generated geometry",
+  "preserved_cm": {
+    "room_pitch": 230,
+    "room_depth": 300,
+    "nominal_hall_width": 130,
+    "floor_height": 320
+  },
+  "proposals": [
+    "remove rear parallel corridor",
+    "rear facade from y=-1300 to -900; review required",
+    "switchback stair at current east shaft",
+    "third floor and roof",
+    "exterior west emergency stair",
+    "no lounges; floor 1 lounge becomes separate shower room; floors 2/3 kitchen slightly reduced for separate showers",
+    "two ROUND kitchen tables per floor; nominal diameter 150cm pending review; no shower facilities inside toilet/washroom",
+    "floors 2/3 bathroom relocated toward east stairs; counters opposite kitchen entry",
+    "upper bathroom interiors rotated clockwise 90 degrees; corridor entrance preserved",
+    "open end bay x3110..3900 opposite stairs to hall; preserve exterior wall and main hall width",
+    "202/307 vacant with bare frame and desk; 203 remains Minseo residence",
+    "five occupied rooms and three investigable empty rooms per floor; four other empty rooms"
+  ],
+  "occupied_rooms": {
+    "1": [
+      101,
+      102,
+      104,
+      105,
+      107
+    ],
+    "2": [
+      203,
+      204,
+      206,
+      208,
+      211
+    ],
+    "3": [
+      301,
+      303,
+      305,
+      308,
+      311
+    ]
+  },
+  "investigable_rooms": {
+    "1": [
+      103,
+      106,
+      109
+    ],
+    "2": [
+      201,
+      202,
+      209
+    ],
+    "3": [
+      302,
+      307,
+      310
+    ]
+  },
+  "visual_baseline": "user-selected-baseline.png (user attachment; exact editing reference)",
+  "images": {
+    "1": "proposed-1.png",
+    "2": "proposed-2.png",
+    "3": "proposed-3.png",
+    "4": "proposed-roof.png"
+  },
+  "current_images": {
+    "1": "current-1.png",
+    "2": "current-2.png"
+  },
+  "game_changed": false
+}

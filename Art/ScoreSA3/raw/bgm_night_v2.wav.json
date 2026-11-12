@@ -1,0 +1,31 @@
+{
+  "kind": "generate",
+  "title": "bgm_night",
+  "original_idea": "",
+  "audio_type": "music",
+  "prompt": "Dark ambient horror drone for quietly exploring an old run-down Korean boarding house at night. Low sustained cello and synth pad cluster, distant metallic pipe resonances, faint fluorescent hum, subtle tape hiss. No drums, no melody, slow and unsettling, sparse.",
+  "prompt_used": "TrackType: Music, VocalType: Instrumental, Dark ambient horror drone for quietly exploring an old run-down Korean boarding house at night. Low sustained cello and synth pad cluster, distant metallic pipe resonances, faint fluorescent hum, subtle tape hiss. No drums, no melody, slow and unsettling, sparse.",
+  "sound_fields": {
+    "source": "",
+    "action": "",
+    "material": "",
+    "space": ""
+  },
+  "bpm": null,
+  "seconds": 64.0,
+  "negative_prompt": null,
+  "cfg": 1.0,
+  "steps": 8,
+  "variations": 2,
+  "seed": 251243958,
+  "candidate": 2,
+  "file": "bgm_night_v2.wav",
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "created": "2026-11-05T23:16:26",
+  "backend": "sa3-torch",
+  "model": "medium + same-l",
+  "peak_dbfs": -2.23,
+  "raw_peak_dbfs": -2.23,
+  "ceiling_gain_db": 0.0
+}

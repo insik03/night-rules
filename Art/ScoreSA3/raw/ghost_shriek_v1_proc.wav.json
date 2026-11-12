@@ -1,0 +1,49 @@
+{
+  "kind": "process",
+  "input_audio": "C:\\Users\\dbdls\\OneDrive\\바탕 화면\\AI작업\\Game_pm\\Art\\ScoreSA3\\raw\\ghost_shriek_v1.wav",
+  "source": {
+    "kind": "generate",
+    "title": "ghost_shriek",
+    "original_idea": "",
+    "audio_type": "sfx",
+    "prompt": "",
+    "prompt_used": "TrackType: SFX, inhuman ghost, sudden harsh raspy shriek, choked off abruptly, distorted torn voice, no clear pitch, indoor corridor, short reverb.",
+    "sound_fields": {
+      "source": "inhuman ghost",
+      "action": "sudden harsh raspy shriek, choked off abruptly",
+      "material": "distorted torn voice, no clear pitch",
+      "space": "indoor corridor, short reverb"
+    },
+    "bpm": null,
+    "seconds": 2.5,
+    "negative_prompt": null,
+    "cfg": 1.0,
+    "steps": 8,
+    "variations": 2,
+    "seed": 569795207,
+    "candidate": 1,
+    "file": "ghost_shriek_v1.wav",
+    "sample_rate": 44100,
+    "bit_depth": 24,
+    "created": "2026-11-05T23:16:42",
+    "backend": "sa3-torch",
+    "model": "medium + same-l",
+    "peak_dbfs": -2.5,
+    "raw_peak_dbfs": -2.5,
+    "ceiling_gain_db": 0.0
+  },
+  "created": "2026-11-05T23:16:42",
+  "format": "wav",
+  "sample_rate": 44100,
+  "channels": 1,
+  "seconds": 2.33,
+  "steps": [
+    "trim_silence -50.0 dB",
+    "mono",
+    "peak normalize -1.0 dBFS (+2.51 dB)"
+  ],
+  "peak": 0.891,
+  "peak_dbfs": -1.0,
+  "rms": 0.1707,
+  "file": "ghost_shriek_v1_proc.wav"
+}

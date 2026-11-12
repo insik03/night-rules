@@ -1,0 +1,36 @@
+{
+  "status": "pending_image_review",
+  "date": "2026-10-12",
+  "source": [
+    "NightRulesPrototype/Source/NightRulesPrototype/NRGame.h",
+    "NightRulesPrototype/Source/NightRulesPrototype/NRGame.cpp"
+  ],
+  "generator": "deterministic Pillow diagram; not AI-generated geometry",
+  "preserved_cm": {
+    "room_pitch": 230,
+    "room_depth": 300,
+    "nominal_hall_width": 130,
+    "floor_height": 320
+  },
+  "proposals": [
+    "remove rear parallel corridor",
+    "rear facade from y=-1300 to -900; review required",
+    "switchback stair at current east shaft",
+    "third floor and roof",
+    "exterior west emergency stair",
+    "lounge on floor 1 only; floors 2/3 expanded kitchen with three six-seat tables",
+    "floors 2/3 bathroom relocated toward east stairs; counters opposite kitchen entry",
+    "upper bathroom interiors rotated clockwise 90 degrees; corridor entrance preserved"
+  ],
+  "images": {
+    "1": "proposed-1.png",
+    "2": "proposed-2.png",
+    "3": "proposed-3.png",
+    "4": "proposed-roof.png"
+  },
+  "current_images": {
+    "1": "current-1.png",
+    "2": "current-2.png"
+  },
+  "game_changed": false
+}

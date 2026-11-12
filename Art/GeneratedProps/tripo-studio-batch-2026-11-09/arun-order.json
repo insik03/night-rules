@@ -1,0 +1,11 @@
+{
+  "id": "arun",
+  "input": "C:/Users/dbdls/OneDrive/바탕 화면/AI작업/Game_pm/Art/Characters/Residents-Tripo-v1/inputs/arun.png",
+  "input_sha256": "C11CC0E977825837EB37113676613141875EB07CCEC15811BDE64920EC34EDA5",
+  "expected_credits": 55,
+  "balance_before": 2595,
+  "submitted_at": "2026-11-09T12:39:25.5195269+09:00",
+  "status": "submitted",
+  "url": "https://studio.tripo3d.ai/ko/workspace/generate/d58cac76-6c66-4d60-b863-ab3f6cf6b0d4",
+  "balance_after": 2540
+}

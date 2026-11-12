@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-12",
+  "status": "integrated_and_runtime_verified",
+  "approved_concept": "concept-approved.png",
+  "image_source": "Codex built-in image_gen; user approved the wide smile, empty shadow eyes and fused burn-skin concept",
+  "model_input": "reference-a-pose.png",
+  "input_preparation": "Same approved design, one front-facing full-body A pose on grey background. No concept changes requested.",
+  "cli_version": "meshy-cli@0.4.0",
+  "project_folder": "../meshy_output/20261012_025835_haedam-approved-smiling-ghost_01a12c1d",
+  "tasks": [
+    {"resource": "image-to-3d", "id": "01a12c1d-7d95-7004-89d0-a9fa29ccab06", "status": "SUCCEEDED", "consumed_credits": 30},
+    {"resource": "rigging", "id": "01a12c22-e197-76a3-8c66-d498f04c3c8d", "status": "SUCCEEDED", "consumed_credits": 5}
+  ],
+  "total_consumed_credits": 35,
+  "rigging_input": "rig-input.glb: Blender-optimized derivative of the image-to-3d task, uploaded locally for rigging",
+  "geometry": {"source_triangles": 714682, "game_triangles": 89999, "height_m": 2.15},
+  "local_processing": [
+    "Blender 5.2.2 decimation with UV/PBR textures retained",
+    "Removed unweighted Meshy rig-display Icosphere from game export",
+    "26-degree held head tilt, torso lean, asymmetric arm swing for running",
+    "Two-bone leg solve reduces stride to 56 percent for the chase speed; original footfall timing retained",
+    "Foot-ground correction, in-place root, loop seam blend; walking has a 12-degree head tilt",
+    "Unreal FBX, texture and material import under /Game/PrototypeAssets/GhostMeshy"
+  ],
+  "commercial_terms": "User reports a paid student-discount Meshy subscription. Current account-specific commercial terms have not been independently archived; retain source and verify before public release.",
+  "steam_ai_disclosure": "Pre-generated AI character geometry and textures; AI-generated reference image, Meshy automatic rigging and base motion, Blender manual/script post-processing. No live AI generation in game."
+}

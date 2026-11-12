@@ -1,0 +1,85 @@
+--- a/NightRulesPrototype/Source/NightRulesPrototype/NRArchitecture.cpp
++++ b/NightRulesPrototype/Source/NightRulesPrototype/NRArchitecture.cpp
+@@ -89,8 +89,18 @@
+         if(F==0) {
+             Opening(-500,350,230,Z,0,false,190,226);
+         } else {
+-            Wall(FVector(-75,230,Z+130),FVector(850,16,260));
+-            ArchitecturePanel(TEXT("SM_AM_WindowWall"),FVector(-75,225,Z+130),FVector(230,16,260));
++            // The window module's opening is 64cm right of its centre.
++            // Leave a real 60x80cm aperture instead of a solid wall behind it.
++            constexpr float WX=-11.f;
++            Wall(FVector(-75,230,Z+60),FVector(850,16,120));
++            Wall(FVector(-75,230,Z+230),FVector(850,16,60));
++            Wall(FVector((-500+WX-30)/2,230,Z+160),FVector(WX-30+500,16,80));
++            Wall(FVector((WX+30+350)/2,230,Z+160),FVector(350-WX-30,16,80));
++            Prop(TEXT("glass"),TEXT(""),FVector(WX,230,Z+160),FVector(60,3,80));
++            for(float X:{WX-29.f,WX+29.f})
++                Prop(TEXT("trim"),TEXT(""),FVector(X,230,Z+160),FVector(2,18,80));
++            for(float H:{121.f,199.f})
++                Prop(TEXT("trim"),TEXT(""),FVector(WX,230,Z+H),FVector(60,18,2));
+         }
+         // Widened east end: keep exterior but remove its corridor-facing divider.
+         Wall(FVector(3505,230,Z+130),FVector(790,16,260));
+@@ -286,6 +296,20 @@
+             }
+             Clear(FVector(3200,-135,Z),FVector(3200,100,Z),TEXT("widened hall end is open"));
+         }
++        for(int32 F=1;F<3;++F) {
++            const FVector W(-11,230,F*320.f+160);
++            bool FoundGlass=false,Blocked=false;
++            for(auto* P:Props) {
++                if(P->Id==TEXT("glass") && P->GetActorLocation().Equals(W,.1f))FoundGlass=true;
++                if(P->Id==TEXT("architecture_collision") && P->Mesh->Bounds.GetBox().IsInside(W))Blocked=true;
++            }
++            Check(FoundGlass && !Blocked,TEXT("upper lobby window aperture is not sealed by wall"));
++        }
++        for(auto* P:Props)if(P->Id==TEXT("toolbox")) {
++            Check(P->Mesh->GetStaticMesh() && P->Mesh->GetStaticMesh()->GetName()==TEXT("SM_AP_Toolbox"),TEXT("approved Tripo toolbox loaded"));
++            const FBox B=P->Mesh->Bounds.GetBox();
++            Check(FMath::Abs(B.Min.Z-.1f)<.3f && FMath::Abs(B.GetSize().X-50)<.2f,TEXT("toolbox rests on floor at authored size"));
++        }
+         int32 Leaves=0;
+         for(auto* P:Props)if(P->Id==TEXT("entrance")){++Leaves;P->SetDoor(false);}
+         Check(Leaves==2,TEXT("building entrance has two leaves"));
+--- a/NightRulesPrototype/Source/NightRulesPrototype/NRGame.cpp
++++ b/NightRulesPrototype/Source/NightRulesPrototype/NRGame.cpp
+@@ -99,7 +99,8 @@
+     const FString MaterialPath=FString(TEXT("/Game/PrototypeAssets/"))+Surface+TEXT(".")+Surface;
+     if(auto* Material=LoadObject<UMaterialInterface>(nullptr,*MaterialPath)) Mesh->SetMaterial(0,Material);
+     FString Asset;
+-    if(Key==TEXT("phone")) Asset=TEXT("SM_CP_Phone");
++    if(Key==TEXT("toolbox")) Asset=TEXT("SM_AP_Toolbox");
++    else if(Key==TEXT("phone")) Asset=TEXT("SM_CP_Phone");
+     else if(Key.StartsWith(TEXT("cart_"))) Asset=TEXT("SM_CP_Cartridge");
+     else if(Key==TEXT("chair") || Key==TEXT("officechair") || Key==TEXT("commonchair")) Asset=TEXT("SM_PH_Chair");
+     else if(Key==TEXT("entrance")) Asset=TEXT("SM_EntranceDoor");
+@@ -137,7 +138,7 @@
+     else if(Key.StartsWith(TEXT("fixture"))) Asset=TEXT("SM_Fluorescent");
+     if(!Asset.IsEmpty())
+     {
+-        const FString Path=(Asset.StartsWith(TEXT("SM_CP_")) ? TEXT("/Game/PrototypeAssets/CoreProps/") : Asset.StartsWith(TEXT("SM_PH_")) || Asset.StartsWith(TEXT("SM_GS_")) ? TEXT("/Game/ThirdParty/PolyHaven/") : TEXT("/Game/PrototypeAssets/"))+Asset+TEXT(".")+Asset;
++        const FString Path=(Asset.StartsWith(TEXT("SM_AP_")) ? TEXT("/Game/PrototypeAssets/ApprovedV2/") : Asset.StartsWith(TEXT("SM_CP_")) ? TEXT("/Game/PrototypeAssets/CoreProps/") : Asset.StartsWith(TEXT("SM_PH_")) || Asset.StartsWith(TEXT("SM_GS_")) ? TEXT("/Game/ThirdParty/PolyHaven/") : TEXT("/Game/PrototypeAssets/"))+Asset+TEXT(".")+Asset;
+         if(auto* Model=LoadObject<UStaticMesh>(nullptr,*Path))
+         { Mesh->SetStaticMesh(Model); Mesh->SetWorldScale3D(FVector(1)); Mesh->EmptyOverrideMaterials(); }
+     }
+@@ -692,10 +693,16 @@
+     auto* CleaningShelf=Prop(TEXT("shelves"),TEXT("청소용품 선반"),FVector(NRLayout::StoreX(310),-790,0),FVector(80,35,155));
+     auto* CleaningCart=Prop(TEXT("cart_cleaning"),TEXT("UV 카트리지 줍기"),FVector::ZeroVector,FVector(18,8,8));
+     PlaceOn(CleaningCart,CleaningShelf,FVector2D(NRLayout::StoreX(318),-790));
+-    Prop(TEXT("toolbox"),TEXT("전임 총무의 공구함"),FVector(NRLayout::StoreX(95),-790,16),FVector(50,30,32));
+-    auto* ToolboxLid=Prop(TEXT("toolbox_lid"),TEXT("전임 총무의 공구함"),FVector(NRLayout::StoreX(95),-790,34),FVector(52,32,4));
++    auto* Toolbox=Prop(TEXT("toolbox"),TEXT("전임 총무의 공구함"),FVector(NRLayout::StoreX(95),-790,.1f),FVector(50,30,32));
+     auto* ToolCart=Prop(TEXT("cart_toolbox"),TEXT("UV 카트리지 줍기"),FVector::ZeroVector,FVector(18,8,8));
+-    PlaceOn(ToolCart,ToolboxLid,FVector2D(NRLayout::StoreX(95),-790));
++    // Support against the actual lid surface, away from the raised handle.
++    const FVector ToolXY(NRLayout::StoreX(95)-15,-785,0);
++    FHitResult LidHit;FCollisionQueryParams LidQ;LidQ.bTraceComplex=true;
++    if(Toolbox->Mesh->LineTraceComponent(LidHit,ToolXY+FVector(0,0,65),ToolXY-FVector(0,0,5),LidQ)) {
++        const float Bottom=ToolCart->Mesh->Bounds.GetBox().Min.Z-ToolCart->GetActorLocation().Z;
++        ToolCart->SetActorLocation(FVector(ToolXY.X,ToolXY.Y,LidHit.ImpactPoint.Z-Bottom+.05f));
++        ToolCart->Home=ToolCart->GetActorLocation();
++    } else PlaceOn(ToolCart,Toolbox,FVector2D(ToolXY.X,ToolXY.Y));
+     const FVector Door202=NRLayout::DoorAnchor(1,1);
+     Face(Prop(TEXT("chair"),TEXT("의자와 바닥 흔적"),NRLayout::RoomCenter(1,1)+FVector(-20,-25,0),FVector(45,45,90)),FVector2D(0,-1));
+     UVMarker=Prop(TEXT("uvmark"),TEXT(""),Door202+FVector(90,-.7f,130),FVector(1));

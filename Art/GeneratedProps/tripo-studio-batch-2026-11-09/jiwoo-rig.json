@@ -1,0 +1,12 @@
+{
+  "id": "jiwoo",
+  "task_id": "b09f582c-e646-47c1-b773-0a61a0337385",
+  "stage": "rig",
+  "expected_credits": 20,
+  "balance_before": 2305,
+  "status": "check_required",
+  "at": "2026-11-09T12:47:17.6845390+09:00",
+  "balance_after": 2305,
+  "final_status": "completed_downloaded_imported",
+  "final_verification": "ledger-final.json; per-character unreal-import.json"
+}

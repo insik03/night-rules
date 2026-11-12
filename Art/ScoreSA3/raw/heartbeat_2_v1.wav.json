@@ -1,0 +1,31 @@
+{
+  "kind": "generate",
+  "title": "heartbeat",
+  "original_idea": "",
+  "audio_type": "sfx",
+  "prompt": "",
+  "prompt_used": "TrackType: SFX, human heartbeat, steady lub-dub at about 80 beats per minute, muffled deep thumps, felt more than heard, inside the chest, close, dry.",
+  "sound_fields": {
+    "source": "human heartbeat",
+    "action": "steady lub-dub at about 80 beats per minute",
+    "material": "muffled deep thumps, felt more than heard",
+    "space": "inside the chest, close, dry"
+  },
+  "bpm": null,
+  "seconds": 6.0,
+  "negative_prompt": null,
+  "cfg": 1.0,
+  "steps": 8,
+  "variations": 2,
+  "seed": 1859615744,
+  "candidate": 1,
+  "file": "heartbeat_2_v1.wav",
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "created": "2026-11-05T23:15:35",
+  "backend": "sa3-torch",
+  "model": "medium + same-l",
+  "peak_dbfs": -1.0,
+  "raw_peak_dbfs": 0.0,
+  "ceiling_gain_db": -1.0
+}

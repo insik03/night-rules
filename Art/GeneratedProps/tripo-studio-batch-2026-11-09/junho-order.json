@@ -1,0 +1,11 @@
+{
+  "id": "junho",
+  "input": "C:/Users/dbdls/OneDrive/바탕 화면/AI작업/Game_pm/Art/Characters/Residents-Tripo-v1/inputs/junho.png",
+  "input_sha256": "5094C9CDB5B94EDF5EA032784913559706001943586DA368AD93789833226653",
+  "expected_credits": 55,
+  "balance_before": 2705,
+  "submitted_at": "2026-11-09T12:38:41.7067769+09:00",
+  "status": "submitted",
+  "url": "https://studio.tripo3d.ai/ko/workspace/generate/bb91aeee-dbcd-44ee-ac12-8b9aa323d005",
+  "balance_after": 2650
+}

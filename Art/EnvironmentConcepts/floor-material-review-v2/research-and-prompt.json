@@ -1,0 +1,22 @@
+{
+  "status": "reference-informed concept; not game-applied; prior green-floor draft superseded",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: stylized-concept. Create a high-quality material art-direction comparison board for a Korean gosiwon psychological horror game. This is a NEW proposal informed by two real flooring installer case studies: a Cheongnyangni gosiwon corridor renovated with narrow warm woodgrain decorative vinyl planks laid lengthwise with staggered joints, and another real gosiwon using fine mottled light grey stone-look decorative vinyl tiles with barely visible flush seams. Do NOT reproduce specific photographs or their exact architecture. Landscape image with TWO equal vertical panels, small labels 01 and 02 only. Show SAME modest narrow straight corridor proportions and SAME camera in each panel, camera 150cm high looking slightly down so floor fills most lower half; room doors closed on both sides, low modest fluorescent ceiling, plain wallpaper, wooden doors, restrained realistic videogame rendering. No people or extra furnishings. Left panel 01 represents existing older floors 1 and 2: medium warm honey-brown woodgrain PRINTED PVC decorative vinyl planks approximately 15cm wide and 90cm long, long direction follows corridor, staggered end joints, no gaps or deep bevels, mild floor polish soft sheen, subtle shoe scuffs and uneven dull worn walking strip, modest darkened edges beside skirting, wood grain is fine printed imitation rather than expensive solid lumber. Maintained occupied low-cost accommodation, not derelict. Right panel 02 represents renovated third floor: light neutral warmgrey stone-look decorative vinyl tiles approximately 45cm square with thin hairline butt joints, understated fine cloudy mineral print, satin matte finish, clean fresh surface no heavy wear. Right walls clean ivory wallpaper and trim while left walls lightly aged ivory, same door positions. Neutral fluorescent lighting equally bright in both panels so floor colors readable. NO green flooring, NO large diamonds, NO marble luxury, NO wet floors, NO deeply grouted ceramic floor in corridor, NO exposed concrete slab, NO water puddles, NO blood. Small practical painted darkbrown skirting. Fine material detail suitable polished semi-realistic PC game, not cartoon or basic flat colors. No extra text, no spheres, no collage insets. This image is a conceptual finish preview, not a floor plan, not a claimed game screenshot.",
+  "sources": [
+    {
+      "url": "https://contents.ohou.se/projects/68824",
+      "observed": "시공 업체가 밝은 우드 데코타일 덧방을 설명. 직접 확인한 커버 사진은 길이 방향의 나뭇결 패턴과 엇갈린 이음매."
+    },
+    {
+      "url": "https://soomgo.com/portfolio/detail/69083f33bc65844bee95e68b",
+      "observed": "고시원 복도·계단 데코타일 포트폴리오의 사진에서 회색 잔무늬 바닥과 얇은 이음매 확인."
+    }
+  ],
+  "designDecisions": [
+    "1·2층 갈색 나뭇결 PVC 바닥의 사용감은 게임 설정에 따른 창작 표현",
+    "3층 밝은 회색 데코타일, 리모델링 설정 반영",
+    "15×90cm / 45×45cm는 제작 검토용 제안이며 현장 사진에서 측정한 값 아님",
+    "특정 제품 성분이나 전체 고시원의 보급 비율은 사진만으로 확정하지 않음",
+    "주방·화장실·객실의 마감은 이 복도 시안에서 확정하지 않음"
+  ]
+}

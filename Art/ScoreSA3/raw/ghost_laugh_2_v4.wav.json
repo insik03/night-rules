@@ -1,0 +1,31 @@
+{
+  "kind": "generate",
+  "title": "ghost_laugh",
+  "original_idea": "",
+  "audio_type": "sfx",
+  "prompt": "",
+  "prompt_used": "TrackType: SFX, a man giggling quietly to himself through a fixed wide grin, soft breathy unhinged giggle, short bursts through clenched teeth, slightly too long, human voice, airy, hoarse, not a monster, not cartoonish, close, dark empty hallway.",
+  "sound_fields": {
+    "source": "a man giggling quietly to himself through a fixed wide grin",
+    "action": "soft breathy unhinged giggle, short bursts through clenched teeth, slightly too long",
+    "material": "human voice, airy, hoarse, not a monster, not cartoonish",
+    "space": "close, dark empty hallway"
+  },
+  "bpm": null,
+  "seconds": 3.0,
+  "negative_prompt": null,
+  "cfg": 3.0,
+  "steps": 8,
+  "variations": 4,
+  "seed": 2063205534,
+  "candidate": 4,
+  "file": "ghost_laugh_2_v4.wav",
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "created": "2026-11-05T23:24:38",
+  "backend": "sa3-torch",
+  "model": "medium + same-l",
+  "peak_dbfs": -1.0,
+  "raw_peak_dbfs": 0.0,
+  "ceiling_gain_db": -1.0
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "toilet",
+    "mesh": "SM_TS_Toilet",
+    "target_cm": [
+      42,
+      70,
+      75
+    ],
+    "actual_cm": [
+      39.58164978027344,
+      74.69244384765625,
+      75.00000762939453
+    ],
+    "uniform_scale": 0.765501534345855,
+    "original_triangles": 1934730,
+    "triangles": 18000,
+    "materials": [
+      {
+        "slot": 0,
+        "maps": {
+          "BaseColor": "T_TS_toilet_0_BaseColor",
+          "Normal": "T_TS_toilet_0_Normal",
+          "ORM": "T_TS_toilet_0_ORM"
+        }
+      }
+    ],
+    "placement_status": "review required; existing sanitary fixtures not replaced",
+    "dimension_delta_cm": [
+      -2.4183502197265625,
+      4.69244384765625,
+      7.62939453125e-06
+    ]
+  },
+  {
+    "id": "washbasin",
+    "mesh": "SM_TS_Washbasin",
+    "target_cm": [
+      55,
+      60,
+      85
+    ],
+    "actual_cm": [
+      49.68421936035156,
+      47.58271026611328,
+      85.0
+    ],
+    "uniform_scale": 0.8671439815839774,
+    "original_triangles": 1966934,
+    "triangles": 18000,
+    "materials": [
+      {
+        "slot": 0,
+        "maps": {
+          "BaseColor": "T_TS_washbasin_0_BaseColor",
+          "Normal": "T_TS_washbasin_0_Normal",
+          "ORM": "T_TS_washbasin_0_ORM"
+        }
+      }
+    ],
+    "placement_status": "review required; existing sanitary fixtures not replaced",
+    "dimension_delta_cm": [
+      -5.3157806396484375,
+      -12.417289733886719,
+      0.0
+    ]
+  },
+  {
+    "id": "rice-cooker",
+    "mesh": "SM_TS_RiceCooker",
+    "target_cm": [
+      38,
+      32,
+      32
+    ],
+    "actual_cm": [
+      41.90821838378906,
+      44.454193115234375,
+      32.000003814697266
+    ],
+    "uniform_scale": 0.4536633502953482,
+    "original_triangles": 1937900,
+    "triangles": 11998,
+    "materials": [
+      {
+        "slot": 0,
+        "maps": {
+          "BaseColor": "T_TS_rice_cooker_0_BaseColor",
+          "Normal": "T_TS_rice_cooker_0_Normal",
+          "ORM": "T_TS_rice_cooker_0_ORM"
+        }
+      }
+    ],
+    "placement_status": "review required; existing sanitary fixtures not replaced",
+    "dimension_delta_cm": [
+      3.9082183837890625,
+      12.454193115234375,
+      3.814697265625e-06
+    ],
+    "mesh_validation_repaired": true
+  }
+]

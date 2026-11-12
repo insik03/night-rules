@@ -1,0 +1,45 @@
+# Unreal / Blender generated output
+NightRulesPrototype/Binaries/
+NightRulesPrototype/DerivedDataCache/
+NightRulesPrototype/Intermediate/
+NightRulesPrototype/Saved/
+.vs/
+*.sln
+*.VC.db
+*.blend1
+*.blend2
+__pycache__/
+tools/output/
+Builds/
+# Separate existing project
+blog-writer/
+
+tools/visual-build.log
+NightRulesPrototype/Build/
+tools/game-build.log
+# Meshy task snapshots contain temporary signed download URLs.
+Art/GhostMeshy/meshy_output/
+Art/CoreProps/v1/meshy_output/
+Art/Characters/Protagonist-v1/meshy_output/
+Art/Characters/Protagonist-v2/meshy_output/
+
+# Team sharing: local-only material
+**/meshy_output/
+**/__pycache__/
+*.pyc
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+!.env.example
+**/credentials.json
+**/token.json
+**/cookies.json
+/docs/showcase/
+/sites/
+/Art/Audio/
+/NightRulesPrototype/Content/Developers/
+/NightRulesPrototype/Content/Collections/
+/.agents/skills/
+/NVIDIA Corporation/

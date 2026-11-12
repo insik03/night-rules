@@ -1,0 +1,12 @@
+{
+  "id": "junho",
+  "task_id": "bb91aeee-dbcd-44ee-ac12-8b9aa323d005",
+  "stage": "rig",
+  "expected_credits": 20,
+  "balance_before": 2325,
+  "status": "submitted",
+  "at": "2026-11-09T12:47:00.8103319+09:00",
+  "balance_after": 2305,
+  "final_status": "completed_downloaded_imported",
+  "final_verification": "ledger-final.json; per-character unreal-import.json"
+}

@@ -1,0 +1,31 @@
+{
+  "tool": "Codex built-in image_gen",
+  "date": "2026-10-09",
+  "purpose": "Meshy image-to-3D reference images; not imported into the game",
+  "assets": [
+    {
+      "slug": "01_old_refrigerator",
+      "name": "낡은 2도어 냉장고",
+      "size": "폭 68 × 깊이 70 × 높이 180 cm",
+      "prompt": "Use case: product-mockup. Create ONE isolated full-body asset reference image for single-image-to-3D reconstruction in Meshy, for a realistic Korean budget boarding-house horror game. Subject: an ordinary inexpensive early-2000s freestanding top-freezer refrigerator, two CLOSED doors, slightly yellowed ivory painted enamel, small upper freezer occupying roughly 28 percent of height, larger lower refrigerator door, dark rubber gasket seams, two simple thick recessed horizontal grip handles at the door split, discreet scuffs and a little grime near the bottom feet, intact and still in everyday use. Proportions: 68 cm wide, 70 cm deep, 180 cm high. No exposed cables, no magnets, no stickers, no food, no logos, no writing. Single object only. Entire object fully visible, centered with generous 12 percent white margins, front-right three-quarter view showing the entire front, the right side and a small amount of the top, long-lens near-orthographic projection, no lens distortion. Pure solid white seamless background, no room, no ground plane edge, extremely soft negligible contact shadow, broad even neutral studio illumination so no surface is hidden in darkness. Photorealistic PBR game prop render with readable geometry, softly rounded manufactured edges, plausible subtle wear, coherent shape and clean silhouette. No collage, no multiple views, no annotations, no dimension lines, no pedestal, no artistic horror lighting. Square composition."
+    },
+    {
+      "slug": "02_shared_kitchen_sink",
+      "name": "공용주방 싱크대",
+      "size": "폭 150 × 깊이 60 × 높이 88 cm",
+      "prompt": "Use case: product-mockup. ONE isolated modular kitchenette sink cabinet for a realistic old Korean boarding-house game, image-to-3D modeling reference. A single freestanding compact floor cabinet, 150 cm wide, 60 cm deep, countertop 88 cm high. Faded warm off-white laminated cabinet, two main front cupboard doors and one narrower side door, simple robust beige horizontal handles. One inset rectangular stainless steel wash basin on the left, integrated ridged stainless draining board on the right, ONE short thick curved chrome faucet attached at the rear of the basin. All cupboard doors CLOSED. No dishes, no dish rack, no soap, no food, no backsplash wall, no pipes outside the cabinet, no separate objects. Stainless steel satin finish, not mirror polished; moderate daily-use scratches and faint water marks; slightly discolored door edges, intact modest utilitarian furniture, not destroyed. Full object centered and entirely inside square image, front-right three-quarter slightly elevated view that clearly shows basin cavity, countertop, whole cabinet front, right side and toe kick. Long lens near-orthographic projection; background pure white; even neutral studio light, no dramatic shadows or floor reflections; tiny soft contact shadow only; ample margin all sides. Photorealistic PBR prop, clean coherent silhouette, practical thicknesses rather than hair-thin detail. No text, logo, labels, multiple views, collage, people, room or pedestal."
+    },
+    {
+      "slug": "03_entrance_shoe_cabinet",
+      "name": "입구 신발장",
+      "size": "폭 90 × 깊이 35 × 높이 110 cm",
+      "prompt": "Use case: product-mockup. Produce ONE isolated object image for Meshy single-image-to-3D reconstruction: a low utilitarian entrance shoe cabinet used in a cheap old Korean boarding house. Dimensions approximately width 90 cm, depth 35 cm, height 110 cm. A simple rectangular box carcass made of faded cream melamine board with worn medium-brown edge banding. Front contains exactly six CLOSED rectangular compartment doors arranged in two columns and three rows. Each door has one small solid recessed finger pull, no slats or tiny perforations. Stable flat top, modest recessed plinth base. Slight chipped corner edges and daily-use scuffs, a few subtle shoe marks near the base, still functional not ruined. No shoes, no loose objects, no labels, no numbers, no handwriting, no logos. Entire cabinet shown in a single front-right three-quarter view with a little top visible; near-orthographic long lens, realistic furniture proportions and solid board thickness. Centered isolated on pure white seamless background, even soft neutral lighting, negligible contact shadow, clearly visible front and side, generous blank margins. Realistic high-quality PBR game prop reference, no decorative luxury styling, no room, no other object, no multi-view sheet, no text or graphics. Square image."
+    },
+    {
+      "slug": "04_wall_exhaust_fan",
+      "name": "벽걸이 환풍기",
+      "size": "폭 35 × 높이 35 × 깊이 12 cm",
+      "prompt": "Use case: product-mockup. ONE isolated wall exhaust fan appliance for a realistic old Korean boarding-house shared bathroom or kitchen, suitable as a single-image-to-3D modeling reference. Approximate width 35 cm, height 35 cm, depth 12 cm. A shallow square yellowed ivory ABS plastic housing with rounded corners, broad simple front protective grille consisting of a small number of thick horizontal bars. Behind the grille, a clearly recognizable stationary five-blade dark gray fan; the fan is integrated into the same housing. Restrained dust in crevices and light aged plastic discoloration, intact useful appliance, no heavy rust. A short solid rear duct collar is partially visible from the side, no wires, no pull cord, no wall or frame around it. Entire appliance visible at a nearly frontal front-right three-quarter angle, slight side depth and top visible; center it with generous pure white margins on a solid white seamless background. Soft neutral studio lighting evenly illuminates the grille and inner blades; no black void obscuring the construction, no dramatic shadow, no background scene. Photorealistic manufactured object with clean readable topology cues, robust thickness of grille bars suitable for a game model, no labels, logos, text, arrows, dimensions, collage or multiple views. Square composition."
+    }
+  ]
+}

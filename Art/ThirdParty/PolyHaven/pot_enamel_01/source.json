@@ -1,0 +1,87 @@
+{
+  "asset": "pot_enamel_01",
+  "info": {
+    "donated": true,
+    "date_published": 1662681600,
+    "name": "Pot Enamel 01",
+    "categories": [
+      "props",
+      "decorative",
+      "dishes"
+    ],
+    "type": 2,
+    "staging": null,
+    "authors": {
+      "Kuutti Siitonen": "All"
+    },
+    "tags": [
+      "pot",
+      "container",
+      "cooking",
+      "cookware",
+      "kitchen",
+      "enamel",
+      "crockery",
+      "cuisine"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "sponsors": [
+      "77433244"
+    ],
+    "polycount": 11416,
+    "texel_density": 14474.246184477663,
+    "dimensions": [
+      262.93012499809265,
+      180.4744154214859,
+      178.26278507709503
+    ],
+    "files_hash": "2332da616c0701d4556f6e272426f8459611c7f3",
+    "description": "Free 8K enamel pot model, dark brown with worn scuffs, lid and rounded handles, decorated with bold red-orange flame-like pattern around the base.",
+    "category_id": "e6058a1a-0864-52d4-a70b-596d5f08ce64",
+    "category": "Food & Kitchen/Cookware/Pots & Pans",
+    "attributes": {
+      "condition": [
+        "worn"
+      ],
+      "material": [
+        "metal"
+      ]
+    },
+    "img_version": "159e0103",
+    "download_count": 5046,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/pot_enamel_01.png?width=256&height=256&format=webp&v=159e0103"
+  },
+  "files": {
+    "include": {
+      "textures/pot_enamel_01_nor_gl_2k.exr": {
+        "size": 4342379,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pot_enamel_01/pot_enamel_01_nor_gl_2k.exr",
+        "md5": "211e7bb191723a6a65593b9135d93b6f"
+      },
+      "textures/pot_enamel_01_diff_2k.jpg": {
+        "size": 1950047,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pot_enamel_01/pot_enamel_01_diff_2k.jpg",
+        "md5": "ad5ec427f31349983fae9320e7fdb08d"
+      },
+      "textures/pot_enamel_01_metal_2k.exr": {
+        "size": 364358,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pot_enamel_01/pot_enamel_01_metal_2k.exr",
+        "md5": "a2dcc3d12476636a7514a51ad101c510"
+      },
+      "textures/pot_enamel_01_rough_2k.exr": {
+        "size": 3979773,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pot_enamel_01/pot_enamel_01_rough_2k.exr",
+        "md5": "b86f5e6d558c7c03ebdaba51de3745f4"
+      }
+    },
+    "size": 396225,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/pot_enamel_01/pot_enamel_01_2k.blend",
+    "md5": "ba08cc1b02bdb5493d298e7233bb01cd"
+  },
+  "license": "CC0-1.0",
+  "license_url": "https://polyhaven.com/license",
+  "source_url": "https://polyhaven.com/a/pot_enamel_01"
+}

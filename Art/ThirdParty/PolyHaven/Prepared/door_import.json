@@ -1,0 +1,565 @@
+[
+  {
+    "slug": "haedam_gosiwon",
+    "mesh": "SM_GS_Door",
+    "materials": [
+      {
+        "name": "M_GS_Wood",
+        "slot": 0,
+        "textures": {
+          "base": "oak_veneer_01_diff_1k.png",
+          "rough": "oak_veneer_01_rough_1k.png",
+          "normal": "oak_veneer_01_nor_gl_1k.png"
+        }
+      },
+      {
+        "name": "M_GS_BlackPlastic",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.019999999552965164,
+            0.019999999552965164,
+            0.02199999988079071
+          ],
+          "rough": 0.44999998807907104,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_Keypad",
+        "slot": 2,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.05000000074505806,
+            0.07999999821186066,
+            0.07000000029802322
+          ],
+          "rough": 0.20000000298023224,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_WhitePlastic",
+        "slot": 3,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.7799999713897705,
+            0.7799999713897705,
+            0.7400000095367432
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_Steel",
+        "slot": 4,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.6200000047683716,
+            0.6200000047683716,
+            0.6000000238418579
+          ],
+          "rough": 0.3499999940395355,
+          "metal": 1.0
+        }
+      }
+    ],
+    "dimensions_cm": [
+      78.6,
+      15.0,
+      200.0
+    ]
+  },
+  {
+    "slug": "haedam_gosiwon",
+    "mesh": "SM_GS_DoorFrame",
+    "materials": [
+      {
+        "name": "M_GS_Wood",
+        "slot": 0,
+        "textures": {
+          "base": "oak_veneer_01_diff_1k.png",
+          "rough": "oak_veneer_01_rough_1k.png",
+          "normal": "oak_veneer_01_nor_gl_1k.png"
+        }
+      },
+      {
+        "name": "M_GS_Steel",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.6200000047683716,
+            0.6200000047683716,
+            0.6000000238418579
+          ],
+          "rough": 0.3499999940395355,
+          "metal": 1.0
+        }
+      }
+    ],
+    "dimensions_cm": [
+      99.0,
+      14.4,
+      211.5
+    ]
+  },
+  {
+    "slug": "haedam_gosiwon",
+    "mesh": "SM_GS_Desk",
+    "materials": [
+      {
+        "name": "M_GS_Wood",
+        "slot": 0,
+        "textures": {
+          "base": "oak_veneer_01_diff_1k.png",
+          "rough": "oak_veneer_01_rough_1k.png",
+          "normal": "oak_veneer_01_nor_gl_1k.png"
+        }
+      },
+      {
+        "name": "M_GS_Steel",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.6200000047683716,
+            0.6200000047683716,
+            0.6000000238418579
+          ],
+          "rough": 0.3499999940395355,
+          "metal": 1.0
+        }
+      },
+      {
+        "name": "M_GS_WhitePlastic",
+        "slot": 2,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.7799999713897705,
+            0.7799999713897705,
+            0.7400000095367432
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      }
+    ],
+    "dimensions_cm": [
+      100.0,
+      51.7,
+      160.0
+    ]
+  },
+  {
+    "slug": "haedam_gosiwon",
+    "mesh": "SM_GS_WallShelf",
+    "materials": [
+      {
+        "name": "M_GS_Wood",
+        "slot": 0,
+        "textures": {
+          "base": "oak_veneer_01_diff_1k.png",
+          "rough": "oak_veneer_01_rough_1k.png",
+          "normal": "oak_veneer_01_nor_gl_1k.png"
+        }
+      },
+      {
+        "name": "M_GS_Steel",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.6200000047683716,
+            0.6200000047683716,
+            0.6000000238418579
+          ],
+          "rough": 0.3499999940395355,
+          "metal": 1.0
+        }
+      }
+    ],
+    "dimensions_cm": [
+      90.0,
+      25.0,
+      14.0
+    ]
+  },
+  {
+    "slug": "haedam_gosiwon",
+    "mesh": "SM_GS_AirCon",
+    "materials": [
+      {
+        "name": "M_GS_WhitePlastic",
+        "slot": 0,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.7799999713897705,
+            0.7799999713897705,
+            0.7400000095367432
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_Vent",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "rough": 0.6000000238418579,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_Led",
+        "slot": 2,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.10000000149011612,
+            0.5,
+            0.20000000298023224
+          ],
+          "rough": 0.30000001192092896,
+          "metal": 0.0
+        }
+      }
+    ],
+    "dimensions_cm": [
+      80.0,
+      20.5,
+      28.0
+    ]
+  },
+  {
+    "slug": "haedam_gosiwon",
+    "mesh": "SM_GS_Breaker",
+    "materials": [
+      {
+        "name": "M_GS_PaintedSteel",
+        "slot": 0,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.41999998688697815,
+            0.4399999976158142,
+            0.4300000071525574
+          ],
+          "rough": 0.550000011920929,
+          "metal": 0.6000000238418579
+        }
+      },
+      {
+        "name": "M_GS_BlackPlastic",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.019999999552965164,
+            0.019999999552965164,
+            0.02199999988079071
+          ],
+          "rough": 0.44999998807907104,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_Warning",
+        "slot": 2,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.8500000238418579,
+            0.6499999761581421,
+            0.05000000074505806
+          ],
+          "rough": 0.5,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_Paper",
+        "slot": 3,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.8500000238418579,
+            0.8199999928474426,
+            0.699999988079071
+          ],
+          "rough": 0.800000011920929,
+          "metal": 0.0
+        }
+      }
+    ],
+    "dimensions_cm": [
+      42.0,
+      10.0,
+      58.0
+    ]
+  },
+  {
+    "slug": "haedam_gosiwon",
+    "mesh": "SM_GS_Hatch",
+    "materials": [
+      {
+        "name": "M_GS_PaintedSteel",
+        "slot": 0,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.41999998688697815,
+            0.4399999976158142,
+            0.4300000071525574
+          ],
+          "rough": 0.550000011920929,
+          "metal": 0.6000000238418579
+        }
+      },
+      {
+        "name": "M_GS_Steel",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.6200000047683716,
+            0.6200000047683716,
+            0.6000000238418579
+          ],
+          "rough": 0.3499999940395355,
+          "metal": 1.0
+        }
+      },
+      {
+        "name": "M_GS_Tape",
+        "slot": 2,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.800000011920929,
+            0.7200000286102295,
+            0.3499999940395355
+          ],
+          "rough": 0.6000000238418579,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_Paper",
+        "slot": 3,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.8500000238418579,
+            0.8199999928474426,
+            0.699999988079071
+          ],
+          "rough": 0.800000011920929,
+          "metal": 0.0
+        }
+      }
+    ],
+    "dimensions_cm": [
+      48.0,
+      3.8,
+      68.0
+    ]
+  },
+  {
+    "slug": "haedam_gosiwon",
+    "mesh": "SM_GS_Binder",
+    "materials": [
+      {
+        "name": "M_GS_BinderCover",
+        "slot": 0,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.05000000074505806,
+            0.07999999821186066,
+            0.1599999964237213
+          ],
+          "rough": 0.6000000238418579,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_Paper",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.8500000238418579,
+            0.8199999928474426,
+            0.699999988079071
+          ],
+          "rough": 0.800000011920929,
+          "metal": 0.0
+        }
+      }
+    ],
+    "dimensions_cm": [
+      26.6,
+      4.2,
+      19.0
+    ]
+  },
+  {
+    "slug": "haedam_gosiwon",
+    "mesh": "SM_GS_Fuse",
+    "materials": [
+      {
+        "name": "M_GS_Ceramic",
+        "slot": 0,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.8199999928474426,
+            0.800000011920929,
+            0.7400000095367432
+          ],
+          "rough": 0.4000000059604645,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_Steel",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.6200000047683716,
+            0.6200000047683716,
+            0.6000000238418579
+          ],
+          "rough": 0.3499999940395355,
+          "metal": 1.0
+        }
+      }
+    ],
+    "dimensions_cm": [
+      4.0,
+      4.0,
+      15.0
+    ]
+  },
+  {
+    "slug": "haedam_gosiwon",
+    "mesh": "SM_GS_KeyTag",
+    "materials": [
+      {
+        "name": "M_GS_RedPlastic",
+        "slot": 0,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.44999998807907104,
+            0.03999999910593033,
+            0.029999999329447746
+          ],
+          "rough": 0.44999998807907104,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_Paper",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.8500000238418579,
+            0.8199999928474426,
+            0.699999988079071
+          ],
+          "rough": 0.800000011920929,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_Steel",
+        "slot": 2,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.6200000047683716,
+            0.6200000047683716,
+            0.6000000238418579
+          ],
+          "rough": 0.3499999940395355,
+          "metal": 1.0
+        }
+      }
+    ],
+    "dimensions_cm": [
+      15.8,
+      4.5,
+      1.4
+    ]
+  },
+  {
+    "slug": "haedam_gosiwon",
+    "mesh": "SM_GS_Logbook",
+    "materials": [
+      {
+        "name": "M_GS_LogCover",
+        "slot": 0,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.05999999865889549,
+            0.11999999731779099,
+            0.07999999821186066
+          ],
+          "rough": 0.699999988079071,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_Paper",
+        "slot": 1,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.8500000238418579,
+            0.8199999928474426,
+            0.699999988079071
+          ],
+          "rough": 0.800000011920929,
+          "metal": 0.0
+        }
+      },
+      {
+        "name": "M_GS_RuleLine",
+        "slot": 2,
+        "textures": {},
+        "constants": {
+          "base": [
+            0.44999998807907104,
+            0.5,
+            0.6000000238418579
+          ],
+          "rough": 0.800000011920929,
+          "metal": 0.0
+        }
+      }
+    ],
+    "dimensions_cm": [
+      31.0,
+      22.5,
+      1.4
+    ]
+  }
+]

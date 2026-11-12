@@ -1,0 +1,42 @@
+{
+  "completed_at": "2026-10-13",
+  "status": "integrated_and_packaged",
+  "source_record": "model-provenance.json",
+  "project_dir": "meshy_output/20261013_013807_protagonist-v2-detail_01a130fa",
+  "lineage": [
+    {"resource": "image-to-3d", "task_id": "01a130fa-2c20-740a-ba03-689c15e410e4", "file": "protagonist.glb", "consumed_credits": 35, "previous_turn": true},
+    {"resource": "remesh", "task_id": "01a13104-075e-72d7-b7d6-e2c20411f850", "parent_task_id": "01a130fa-2c20-740a-ba03-689c15e410e4", "file": "optimized.glb", "consumed_credits": 5},
+    {"resource": "rigging", "task_id": "01a13108-539e-7077-9555-e9945d424fdc", "parent_task_id": "01a13104-075e-72d7-b7d6-e2c20411f850", "files": ["rigged.glb", "walking.glb", "running.glb"], "consumed_credits": 5}
+  ],
+  "additional_credits": 10,
+  "v2_total_credits": 45,
+  "game_asset": {
+    "source_triangles": 693056,
+    "base_body_triangles": 41549,
+    "height_m": 1.76,
+    "bones": 24,
+    "texture_resolution": 2048,
+    "lod_count": 3,
+    "lod_reduction_targets": [1.0, 0.5, 0.2],
+    "unreal_mesh": "/Game/PrototypeAssets/Protagonist/SK_Protagonist",
+    "blend_space": "/Game/PrototypeAssets/Protagonist/BS_Player",
+    "clips": ["A_PlayerIdle", "A_PlayerWalk", "A_PlayerRun", "A_PlayerCrouchIdle", "A_PlayerCrouchWalk"],
+    "animation_sources": "Meshy walking/running; Blender in-place baking and derived idle/crouch with leg IK",
+    "visibility": "Scene-capture-only player body, shared by live CCTV and recorded frames",
+    "export_directory": "Unreal"
+  },
+  "validation": {
+    "platform": "Windows packaged Unreal Engine 5.8 build",
+    "status": "passed",
+    "record": "../../Previews/Protagonist-v3/verification.json",
+    "checks": ["NRProtagonistTest", "NROfficeCCTVTest", "NRInvestigationTest", "NRFeedbackTest"],
+    "failures": 0,
+    "captures": "../../Previews/Protagonist-v3",
+    "performance_scope": "Mesh complexity, texture resolution and LOD optimization; no frame-rate benchmark on target laptop performed"
+  },
+  "remaining_polish": [
+    "Hair texture bleed and thick hair strands from generated source",
+    "Crouch knee cloth deformation",
+    "Dedicated first-person hands and facial animation are outside this body integration"
+  ]
+}
