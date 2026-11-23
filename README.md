@@ -54,3 +54,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\team\Open-Editor.ps1
 ## 공개 범위와 권리
 
 공개 저장소 설정은 일반적인 재사용 라이선스를 부여한다는 뜻이 아닙니다. 프로젝트 전체에 MIT/Apache 등 오픈소스 라이선스는 부여하지 않았습니다. 외부 자료에는 해당 원본 라이선스가 적용됩니다. [출처와 공개 범위](docs/team-assets.md)를 확인하세요.
+
+## Apple Silicon Mac 시연 준비
+
+[Mac 빌드 안내](docs/macos-support.md)를 참고하세요. `bash BuildMac.command`로 Mac에서 별도 패키징합니다. 현재는 설정·스크립트 준비 단계이며 Mac 실기 빌드/플레이 검증 전입니다. Windows 실행파일은 Mac용 앱이 아닙니다.
