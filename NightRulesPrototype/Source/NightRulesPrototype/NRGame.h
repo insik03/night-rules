@@ -279,6 +279,7 @@ public:
     TArray<TWeakObjectPtr<UStaticMeshComponent>> ResidentDoorChain;
     float ResidentConversationRemaining=0;
     void BuildResidentVisuals(); void TickResidentVisuals(float Delta);
+    void BuildRecentAssets(); void RecentAssetsTest();
     void BeginResidentConversation(const FString& Key); void EndResidentConversation();
     void BuildWorld(); void BuildArchitecture(); void BuildScreen(); void LoadData();
     void UpdatePointerInput(bool Force=false);

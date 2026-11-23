@@ -104,8 +104,8 @@ void ANRProp::Configure(const FString& Key,const FString& Name,FVector Size)
     else if(Key.StartsWith(TEXT("cart_"))) Asset=TEXT("SM_CP_Cartridge");
     else if(Key==TEXT("chair") || Key==TEXT("officechair") || Key==TEXT("commonchair")) Asset=TEXT("SM_PH_Chair");
     else if(Key==TEXT("entrance")) Asset=TEXT("SM_EntranceDoor");
-    else if(Key==TEXT("desk")) Asset=TEXT("SM_CP_DeskBody");
-    else if(Key.StartsWith(TEXT("drawer_"))) Asset=TEXT("SM_CP_Drawer")+FString::FromInt(7-FCString::Atoi(*Key.Right(1)));
+    else if(Key==TEXT("desk")) Asset=TEXT("SM_RA_DeskBody");
+    else if(Key.StartsWith(TEXT("drawer_"))) Asset=TEXT("SM_RA_Drawer")+FString::FromInt(7-FCString::Atoi(*Key.Right(1)));
     else if(Key.StartsWith(TEXT("fridge_"))) Asset=TEXT("SM_CP_FridgeBody");
     else if(Key.StartsWith(TEXT("wardrobe_"))) Asset=TEXT("SM_CP_WardrobeBody");
     else if(Key==TEXT("microwave")) Asset=TEXT("SM_PH_Microwave");
@@ -130,15 +130,15 @@ void ANRProp::Configure(const FString& Key,const FString& Name,FVector Size)
     else if(Key==TEXT("spare_fuse")) Asset=TEXT("SM_GS_Fuse");
     else if(Key==TEXT("lost_tag")) Asset=TEXT("SM_GS_KeyTag");
     else if(Key==TEXT("complaint_log")) Asset=TEXT("SM_GS_Logbook");
-    else if(Key==TEXT("toilet")) Asset=TEXT("SM_Toilet");
-    else if(Key==TEXT("sink")) Asset=TEXT("SM_Sink");
+    else if(Key==TEXT("toilet")) Asset=TEXT("SM_RA_Toilet");
+    else if(Key==TEXT("sink")) Asset=TEXT("SM_RA_Washbasin");
     else if(Key==TEXT("locker")) Asset=TEXT("SM_Locker");
     else if(Key==TEXT("roster")) Asset=TEXT("SM_PH_CRT");
     else if(Key==TEXT("cctv") || Key.StartsWith(TEXT("cctv_display_"))) Asset=TEXT("SM_CP_CRT");
     else if(Key.StartsWith(TEXT("fixture"))) Asset=TEXT("SM_Fluorescent");
     if(!Asset.IsEmpty())
     {
-        const FString Path=(Asset.StartsWith(TEXT("SM_AP_")) ? TEXT("/Game/PrototypeAssets/ApprovedV2/") : Asset.StartsWith(TEXT("SM_CP_")) ? TEXT("/Game/PrototypeAssets/CoreProps/") : Asset.StartsWith(TEXT("SM_PH_")) || Asset.StartsWith(TEXT("SM_GS_")) ? TEXT("/Game/ThirdParty/PolyHaven/") : TEXT("/Game/PrototypeAssets/"))+Asset+TEXT(".")+Asset;
+        const FString Path=(Asset.StartsWith(TEXT("SM_RA_")) ? TEXT("/Game/PrototypeAssets/RecentAssetsV1/") : Asset.StartsWith(TEXT("SM_AP_")) ? TEXT("/Game/PrototypeAssets/ApprovedV2/") : Asset.StartsWith(TEXT("SM_CP_")) ? TEXT("/Game/PrototypeAssets/CoreProps/") : Asset.StartsWith(TEXT("SM_PH_")) || Asset.StartsWith(TEXT("SM_GS_")) ? TEXT("/Game/ThirdParty/PolyHaven/") : TEXT("/Game/PrototypeAssets/"))+Asset+TEXT(".")+Asset;
         if(auto* Model=LoadObject<UStaticMesh>(nullptr,*Path))
         { Mesh->SetStaticMesh(Model); Mesh->SetWorldScale3D(FVector(1)); Mesh->EmptyOverrideMaterials(); }
     }
@@ -278,7 +278,7 @@ void ANRGameMode::LoadData()
 }
 void ANRGameMode::BeginPlay()
 {
-    Super::BeginPlay(); LoadPreferences(); LoadData(); BuildWorld(); BuildResidentVisuals();
+    Super::BeginPlay(); LoadPreferences(); LoadData(); BuildWorld(); BuildResidentVisuals(); BuildRecentAssets();
     Player=Cast<ANRPlayer>(UGameplayStatics::GetPlayerCharacter(this,0));
     if(Player) { Player->SetActorLocation(NRLayout::OfficePoint(FVector(85,-395,100))); Player->GetController()->SetControlRotation(FRotator(0,110,0)); Player->GetCharacterMovement()->SetMovementMode(MOVE_Walking); Player->GetCharacterMovement()->Activate(true); }
     SetupCCTV();
@@ -342,6 +342,24 @@ void ANRGameMode::BeginPlay()
     SetupInvestigation();
     if(FParse::Param(FCommandLine::Get(),TEXT("NROfficeCCTVTest"))) GetWorld()->GetTimerManager().SetTimerForNextTick(this,&ANRGameMode::OfficeCCTVTest);
     if(FParse::Param(FCommandLine::Get(),TEXT("NRProtagonistTest"))) GetWorld()->GetTimerManager().SetTimerForNextTick(this,&ANRGameMode::ProtagonistTest);
+    if(FParse::Param(FCommandLine::Get(),TEXT("NRUVComparePreview"))) {
+        FirstCall=99999;IntroComplete=true;IntroCallPending=false;Page.Empty();StopVoice();SubtitleLines.Reset();Notice.Empty();
+        Player->SetActorLocation(FVector(725,-153,410));
+        Player->GetController()->SetControlRotation((UVMarker->GetActorLocation()-Player->Camera->GetComponentLocation()).Rotation());
+        Player->UVRemaining=45;Player->UV=false;Player->LightOn=true;
+        Player->DisableInput(Player->GetController<APlayerController>());
+        Player->GetController()->SetIgnoreLookInput(true);Player->GetController()->SetIgnoreMoveInput(true);
+        auto After=[this](float T,TFunction<void()> Fn){FTimerHandle H;GetWorld()->GetTimerManager().SetTimer(H,FTimerDelegate::CreateLambda(MoveTemp(Fn)),T,false);};
+        After(2.f,[this]{Player->UV=true;});
+        After(5.f,[this]{Player->LightOn=false;});
+        After(6.5f,[this]{Player->LightOn=true;Player->UVRemaining=0;});
+        After(8.f,[this]{Player->UVRemaining=45;Player->UV=true;});
+        for(float T:{1.f,3.5f,5.5f,7.f,9.f}) After(T,[this]{
+            UE_LOG(LogTemp,Display,TEXT("NR_UV_COMPARE uv=%d light=%d charge=%.2f visible=%d material=%s"),Player->UV,Player->LightOn,Player->UVRemaining,UVMarker->Mesh->IsVisible(),*UVMarker->Mesh->GetMaterial(0)->GetName());
+            Player->GetController<APlayerController>()->ConsoleCommand(TEXT("Shot SHOWUI"));
+        });
+        After(11.f,[]{FPlatformMisc::RequestExit(false);});
+    }
     if(FParse::Param(FCommandLine::Get(),TEXT("NRInvestigationTest"))) GetWorld()->GetTimerManager().SetTimerForNextTick(this,&ANRGameMode::InvestigationTest);
     if(FParse::Param(FCommandLine::Get(),TEXT("NRExperienceTest"))) GetWorld()->GetTimerManager().SetTimerForNextTick(this,&ANRGameMode::ExperienceTest);
     const bool RulesReplyPreview=FParse::Param(FCommandLine::Get(),TEXT("NRRulesReplyPreview"));
@@ -386,7 +404,7 @@ void ANRGameMode::BeginPlay()
     if(FParse::Param(FCommandLine::Get(),TEXT("NRDrawerPreview")))
     {
         IntroComplete=true; Notice.Empty(); SubtitleLines.Reset();
-        Player->SetActorLocation(FVector(-85,-367,90)); Player->GetController()->SetControlRotation(FRotator(-46,107,0));
+        Player->SetActorLocation(NRLayout::OfficePoint(FVector(-90,-360,90))); Player->GetController()->SetControlRotation(FRotator(-46,103,0));
         for(auto* P:Props) if(P->Id==TEXT("drawer_4")) Use(P);
         FTimerHandle Shot,Exit;
         GetWorld()->GetTimerManager().SetTimer(Shot,[this]{Player->GetController<APlayerController>()->ConsoleCommand(TEXT("Shot SHOWUI"));},5.f,false);
@@ -501,6 +519,7 @@ void ANRGameMode::BeginPlay()
     }
     if(FParse::Param(FCommandLine::Get(),TEXT("NRMapTest"))) GetWorld()->GetTimerManager().SetTimerForNextTick(this,&ANRGameMode::MapTest);
     if(FParse::Param(FCommandLine::Get(),TEXT("NRSmokeTest"))) GetWorld()->GetTimerManager().SetTimerForNextTick(this,&ANRGameMode::SmokeTest);
+    if(FParse::Param(FCommandLine::Get(),TEXT("NRRecentAssetsTest"))) GetWorld()->GetTimerManager().SetTimerForNextTick(this,&ANRGameMode::RecentAssetsTest);
     FString View; TArray<FString> ViewParts;
     // -NRView=x,y,z,pitch,yaw : screenshot from any spot (layout review).
     if(FParse::Value(FCommandLine::Get(),TEXT("NRView="),View,false) && View.ParseIntoArray(ViewParts,TEXT(","))==5)
