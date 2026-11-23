@@ -15,12 +15,12 @@ git lfs install --local
 git lfs pull --include="NightRulesPrototype/Content/**" --exclude=""
 ```
 
-이 브랜치는 Mac 지원만 분리한 것으로, 별도 로컬 UV/소품 수정의 공유를 포함하지 않는다. GitHub Download ZIP에는 실제 LFS 에셋이 빠질 수 있으므로 위 명령을 사용한다.
+이 브랜치는 2026-11-23 기준 로컬 게임 Source/Content를 포함한다. UV 손바닥 재질, 기어다니기 조명, 수리한 관리실 책상·서랍 및 최근 소품도 함께 공유한다. GitHub Download ZIP에는 실제 LFS 에셋이 빠질 수 있으므로 위 명령을 사용한다.
 
 ## 맥에서 준비
 1. Epic Games Launcher로 **Unreal Engine 5.8 (가능하면 5.8.3)** Mac 버전을 설치한다. Windows용 엔진/실행파일을 복사해 사용하지 않는다.
 2. **전체 Xcode**를 설치하고 한 번 열어 초기 구성 및 약관 단계를 직접 완료한다. Command Line Tools만으로는 부족하다. Python 3도 필요하다.
-3. 이 맥 지원 브랜치를 clone하고 Git LFS로 Content를 받거나, 제공된 소스 ZIP을 맥의 쓰기 가능한 로컬 폴더에 푼다. ZIP에는 별도의 미공유 게임 변경도 포함되어 있으므로 브랜치와 동일한 스냅샷은 아니다.
+3. 이 맥 지원 브랜치를 clone하고 Git LFS로 Content를 받거나, 제공된 소스 ZIP을 맥의 쓰기 가능한 로컬 폴더에 푼다. 이제 GitHub 브랜치에도 최신 게임 Source/Content가 포함되어 있다. 초기 ZIP보다 GitHub의 맥 안내·도구가 최신이다.
 4. 터미널에서 프로젝트 루트(clone한 `night-rules` 또는 압축을 푼 `NightRules-Mac-Source`)로 이동한다. 아래 명령은 그 폴더 기준이다.
 
 ```bash
@@ -40,7 +40,7 @@ bash BuildMac.command --engine "/설치한/UE_5.8"
 에디터로 직접 열기: `python3 tools/mac.py editor`. .command 파일을 더블클릭할 경우 먼저 `chmod +x BuildMac.command PlayMac.command`를 할 수 있다. 위 `bash` 실행은 실행 권한 변경 없이 가능하다.
 
 ## 환경 요구와 확인 범위
-Epic의 UE 5.8 문서는 개발 환경을 macOS 14.5 이상, Xcode 26.0 이상(26.1.1 권장)으로 안내하고, Xcode 26.4는 비호환이라고 명시한다. 설치된 5.8.3의 SDK JSON에는 더 넓은 허용 범위(macOS 14.0/Xcode 15.2~27.9)가 기록되어 있어 차이가 있다. 이 도구는 첫 빌드에서 공식 권장 범위를 보수적으로 사용한다. 실제 맥의 버전은 아직 확인하지 않았다. 이는 에디터 개발 환경 기준이며 게임의 최종 최소 사양/프레임 보장이 아니다.
+Epic의 UE 5.8 문서는 개발 환경을 macOS 14.5 이상, Xcode 26.0 이상(26.1.1 권장)으로 안내하고, Xcode 26.4는 비호환이라고 명시한다. 설치된 5.8.3의 SDK JSON에는 더 넓은 허용 범위(macOS 14.0/Xcode 15.2~27.9)가 기록되어 있어 차이가 있다. Apple의 Xcode 26.1.1 설치 요구사항은 macOS 15.6 이상이다. 따라서 빌드 도구 사전 검사는 macOS 15.6 이상을 요구한다. https://developer.apple.com/xcode/system-requirements 실제 맥의 버전은 아직 확인하지 않았다. 이는 에디터 개발 환경 기준이며 게임의 최종 최소 사양/프레임 보장이 아니다.
 
 공식 근거:
 https://dev.epicgames.com/documentation/unreal-engine/macos-development-requirements-for-unreal-engine?application_version=5.8
@@ -55,7 +55,7 @@ https://dev.epicgames.com/documentation/unreal-engine/macos-development-requirem
 ## 결과와 검증
 패키지: `Builds/Mac` 아래 `NightRulesPrototype.app`. 실제 게임 코드는 이 앱과 동봉 패키지 파일을 함께 배포해야 하므로 앱만 임의로 떼어내지 않는다.
 
-`verify`는 개발 빌드에서 NRInvestigationTest/NRScoreTest를 각각 실제 실행하고 현재 실행 로그의 failures=0을 확인한다. 렌더러를 끄지 않으며 화면이 잠시 열린다. 로그는 `Builds/MacVerification`에 저장한다. 성공 후에도 다음은 직접 확인한다:
+`verify`는 개발 빌드에서 NRInvestigationTest/NRScoreTest/NRRecentAssetsTest를 각각 실제 실행하고 현재 실행 로그의 failures=0을 확인한다. 렌더러를 끄지 않으며 화면이 잠시 열린다. 로그는 `Builds/MacVerification`에 저장한다. 성공 후에도 다음은 직접 확인한다:
 - WASD/마우스 시점, Esc 메뉴와 복귀, 음량/감도 저장과 재실행
 - 한글 자막·수칙·전화 및 효과음·CoreAudio 출력
 - 일반 손전등에서는 손바닥이 숨겨지고 UV 빛에서만 보이는지

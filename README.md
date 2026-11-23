@@ -58,3 +58,19 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\team\Open-Editor.ps1
 ## Apple Silicon Mac 시연 준비
 
 [Mac 빌드 안내](docs/macos-support.md)를 참고하세요. `bash BuildMac.command`로 Mac에서 별도 패키징합니다. 현재는 설정·스크립트 준비 단계이며 Mac 실기 빌드/플레이 검증 전입니다. Windows 실행파일은 Mac용 앱이 아닙니다.
+
+### Mac에서 최신 게임으로 시험하기
+
+맥 지원 및 최신 게임 파일은 `feature/apple-silicon-support-20261123` 브랜치에 있습니다. 아직 Mac 실기 빌드 성공은 확인하지 않았습니다.
+
+```bash
+GIT_LFS_SKIP_SMUDGE=1 git clone --branch feature/apple-silicon-support-20261123 https://github.com/insik03/night-rules.git
+cd night-rules
+git lfs install --local
+git lfs pull --include="NightRulesPrototype/Content/**" --exclude=""
+python3 tools/mac.py check
+bash BuildMac.command
+bash PlayMac.command
+```
+
+빌드 환경은 [설치 안내](docs/macos-support.md)를 먼저 확인하세요. 빌드 후 `python3 tools/mac.py verify`로 UV·귀신·최근 소품 검사를 실행할 수 있습니다. 최신 공유 범위는 [Mac 시연용 공유 기록](docs/mac-playtest-snapshot-20261123.md)에 있습니다.

@@ -162,7 +162,7 @@ void ANRGameMode::TickCrawlScare(float D)
     CrawlTime+=D;
     if(InteriorLights.IsValidIndex(CrawlLight) && InteriorLights[CrawlLight]) {
         const bool On=FMath::PerlinNoise1D(CrawlTime*7.f)>-.05f || FMath::Fmod(CrawlTime,1.3f)<.08f;
-        InteriorLights[CrawlLight]->SetIntensity(On?LightIntensities[CrawlLight]*.55f:0.f);
+        InteriorLights[CrawlLight]->SetIntensity(LightIntensities[CrawlLight]*(On?1.f:.12f));
     }    // Around frame 55 of 166 its head turns back over the shoulder.
     if(!CrawlChuckled && CrawlTime>=2.3f) {
         CrawlChuckled=true;
@@ -215,6 +215,8 @@ void ANRGameMode::CrawlPreview()
     // Real game render of the blackout crawl: three shots, then exit.
     FirstCall=99999; IntroComplete=true; Page.Empty(); StopVoice(); SubtitleLines.Reset(); Notice.Empty();
     SetPower(true); Player->SetActorLocation(FVector(500,NRLayout::CorridorY,410)); Player->GetController()->SetControlRotation(FRotator(-4,0,0));
+    Player->DisableInput(Player->GetController<APlayerController>());
+    Player->GetController()->SetIgnoreLookInput(true);Player->GetController()->SetIgnoreMoveInput(true);
     for(float At:{1.f,2.6f,4.6f}) { FTimerHandle H; GetWorld()->GetTimerManager().SetTimer(H,[this]{Player->GetController<APlayerController>()->ConsoleCommand(TEXT("Shot SHOWUI"));},At,false); }
-    FTimerHandle End; GetWorld()->GetTimerManager().SetTimer(End,[this]{UE_LOG(LogTemp,Display,TEXT("NR_CRAWL_PREVIEW_COMPLETE seen=%d"),ScareEvents.Contains(TEXT("blackout_crawl")));FPlatformMisc::RequestExit(false);},6.f,false);
+    FTimerHandle End; GetWorld()->GetTimerManager().SetTimer(End,[this]{UE_LOG(LogTemp,Display,TEXT("NR_CRAWL_PREVIEW_COMPLETE seen=%d"),ScareEvents.Contains(TEXT("blackout_crawl")));FPlatformMisc::RequestExit(false);},8.f,false);
 }

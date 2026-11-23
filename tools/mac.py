@@ -54,8 +54,8 @@ def host_check(engine):
     if platform.machine() != 'arm64':
         raise RuntimeError('Use a native Apple Silicon terminal/Python (not Rosetta or an Intel Mac).')
     version = tuple(int(v) for v in platform.mac_ver()[0].split('.')[:2])
-    if version < (14, 5):
-        raise RuntimeError('Use macOS 14.5 or newer for this UE 5.8 development setup.')
+    if version < (15, 6):
+        raise RuntimeError('Use macOS 15.6 or newer to install the recommended Xcode 26.1.1 toolchain.')
     for rel in ['Engine/Build/BatchFiles/Mac/Build.sh', 'Engine/Build/BatchFiles/RunUAT.sh']:
         if not (engine / rel).is_file():
             raise RuntimeError('Missing Mac engine file: ' + str(engine / rel))
@@ -107,7 +107,8 @@ def main():
             logdir = ROOT / 'Builds/MacVerification'
             logdir.mkdir(parents=True, exist_ok=True)
             for flag, marker in [('NRInvestigationTest', 'NR_INVESTIGATION_COMPLETE'),
-                                 ('NRScoreTest', 'NR_SCORE_COMPLETE')]:
+                                 ('NRScoreTest', 'NR_SCORE_COMPLETE'),
+                                 ('NRRecentAssetsTest', 'NR_RECENT_ASSETS_COMPLETE')]:
                 logfile = logdir / (flag + '.log')
                 # Remove stale log content before the process starts, not the user's game saves.
                 logfile.write_text('')
@@ -116,7 +117,7 @@ def main():
                 text = logfile.read_text(encoding='utf-8', errors='replace')
                 if marker + ' failures=0' not in text:
                     raise RuntimeError('Runtime test did not report success: ' + str(logfile))
-            print('PASS: Mac investigation and score runtime checks. Manual gameplay QA still required.')
+            print('PASS: Mac investigation, score and recent-assets runtime checks. Manual gameplay QA still required.')
         return
     static_check()
     if args.static:

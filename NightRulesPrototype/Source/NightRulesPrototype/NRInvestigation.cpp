@@ -102,13 +102,19 @@ void ANRGameMode::SetupInvestigation()
         Mark->Mesh->SetStaticMesh(LoadObject<UStaticMesh>(nullptr,TEXT("/Engine/BasicShapes/Plane.Plane")));
         Mark->Mesh->SetRelativeScale3D(FVector(-Size.X,Size.Y,Size.Z)/100);Mark->SetActorRotation(Rotation);
         Mark->Mesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);Mark->Mesh->SetCastShadow(false);
-        auto* Mat=UMaterialInstanceDynamic::Create(LoadObject<UMaterialInterface>(nullptr,TEXT("/Game/PrototypeAssets/M_UVMark.M_UVMark")),this);
+        auto* Mat=UMaterialInstanceDynamic::Create(LoadObject<UMaterialInterface>(nullptr,TEXT("/Game/PrototypeAssets/M_UVHandResidue_v2.M_UVHandResidue_v2")),this);
         if(Mat) {Mat->SetTextureParameterValue(TEXT("Feed"),LoadObject<UTexture2D>(nullptr,Texture));Mark->Mesh->SetMaterial(0,Mat);}
         Mark->Mesh->SetVisibility(false);
     };
-    Setup(UVMarker,TEXT("/Game/PrototypeAssets/T_UVDoor.T_UVDoor"),FVector(65,24,100),FRotator(0,0,90));
+    Setup(UVMarker,TEXT("/Game/PrototypeAssets/T_ClueHandprint.T_ClueHandprint"),FVector(26,34,100),FRotator(0,0,90));
     UVWakeMarker=Prop(TEXT("uv_wake_mark"),TEXT(""),FVector::ZeroVector,FVector(1));
-    Setup(UVWakeMarker,TEXT("/Game/PrototypeAssets/T_UVFragment.T_UVFragment"),FVector(11,2.5f,100),FRotator::ZeroRotator);
+    Setup(UVWakeMarker,TEXT("/Game/PrototypeAssets/T_ClueHandprint.T_ClueHandprint"),FVector(11,2.5f,100),FRotator::ZeroRotator);
+    // The metal fragment contains only a narrow portion of the same palm,
+    // not a full hand squeezed onto an 11 x 2.5 cm surface.
+    if(auto* Palm=Cast<UMaterialInstanceDynamic>(UVWakeMarker->Mesh->GetMaterial(0))) {
+        Palm->SetVectorParameterValue(TEXT("UVScale"),FLinearColor(.42f,.07f,0,0));
+        Palm->SetVectorParameterValue(TEXT("UVOffset"),FLinearColor(.28f,.67f,0,0));
+    }
     // Evidence is present before E is pressed. Decorative parts never intercept
     // the interaction ray or add collision to the doorway.
     auto Metal=[this](FVector At,FVector Size,FLinearColor Color,FRotator Rotation=FRotator::ZeroRotator) {
@@ -206,11 +212,11 @@ void ANRGameMode::InvestigationTest()
     FirstCall=99999;IntroComplete=true;IntroCallPending=false;Page.Empty();Paused=false;StopVoice();SubtitleLines.Reset();Notice.Empty();
     Player->SetActorLocation(FVector(725,-153,410));Player->GetController()->SetControlRotation(FRotator(-18,90,0));Player->Camera->SetWorldRotation(FRotator(-18,90,0));
     Player->UVRemaining=45;Player->UV=false;Player->LightOn=true;
-    Check(UVClue().IsEmpty(),TEXT("ordinary flashlight cannot reveal or record UV markings"));
+    TickUV(); Check(UVClue().IsEmpty() && !UVMarker->Mesh->IsVisible(),TEXT("ordinary flashlight cannot reveal or record UV markings"));
     Player->UV=true;TickUV();Check(UVClue()==TEXT("uv") && UVMarker->Mesh->IsVisible(),TEXT("aiming UV at 202 reveals the actual world marking"));
     Player->Camera->SetWorldRotation(FRotator(0,-90,0));Check(!ReadUVClue(),TEXT("looking away cannot award the clue"));
-    Player->Camera->SetWorldRotation(FRotator(-18,90,0));Player->LightOn=false;Check(UVClue().IsEmpty(),TEXT("switched-off UV does not reveal evidence"));Player->LightOn=true;
-    Player->UVRemaining=0;Check(UVClue().IsEmpty(),TEXT("empty cartridge cannot reveal evidence"));Player->UVRemaining=45;
+    Player->Camera->SetWorldRotation(FRotator(-18,90,0));Player->LightOn=false;TickUV();Check(UVClue().IsEmpty() && !UVMarker->Mesh->IsVisible(),TEXT("switched-off UV does not reveal evidence"));Player->LightOn=true;
+    Player->UVRemaining=0;TickUV();Check(UVClue().IsEmpty() && !UVMarker->Mesh->IsVisible(),TEXT("empty cartridge cannot reveal evidence"));Player->UVRemaining=45;
     // Same wall, opposite side: angle/distance pass, visibility must still fail.
     Player->SetActorLocation(FVector(725,35,410));Player->Camera->SetWorldRotation(FRotator(-11,-90,0));Check(UVClue().IsEmpty(),TEXT("UV cannot reveal evidence through a wall"));
     Player->SetActorLocation(FVector(725,-153,410));Player->Camera->SetWorldRotation(FRotator(-18,90,0));
